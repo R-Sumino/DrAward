@@ -1,4 +1,4 @@
-﻿Log file open, 07/09/23 20:53:03
+﻿Log file open, 07/12/23 22:23:10
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DrAward
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1726815795) SRandInit(-1726815795).
+LogInit: Display: RandInit(1696316260) SRandInit(1696316260).
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.317354
+LogStats: Stats thread started at 0.338386
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -112,433 +112,641 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.07.09-11.53.04:085][  0]LogInit: Selected Device Profile: [Windows]
-[2023.07.09-11.53.04:085][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.07.09-11.53.04:105][  0]LogInit: Computer: DESKTOP-TGE5S74
-[2023.07.09-11.53.04:105][  0]LogInit: User: Sumino
-[2023.07.09-11.53.04:105][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.07.09-11.53.04:105][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.07.09-11.53.04:105][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2023.07.09-11.53.04:105][  0]LogMemory: Platform Memory Stats for Windows
-[2023.07.09-11.53.04:105][  0]LogMemory: Process Physical Memory: 280.64 MB used, 280.64 MB peak
-[2023.07.09-11.53.04:105][  0]LogMemory: Process Virtual Memory: 282.73 MB used, 282.73 MB peak
-[2023.07.09-11.53.04:105][  0]LogMemory: Physical Memory: 7547.23 MB used,  8757.14 MB free, 16304.36 MB total
-[2023.07.09-11.53.04:105][  0]LogMemory: Virtual Memory: 4799.64 MB used,  8757.14 MB free, 134217728.00 MB total
-[2023.07.09-11.53.04:410][  0]LogInit: Using OS detected language (ja-JP).
-[2023.07.09-11.53.04:410][  0]LogInit: Using OS detected locale (ja-JP).
-[2023.07.09-11.53.04:412][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2023.07.09-11.53.04:925][  0]LogD3D11RHI: D3D11 adapters:
-[2023.07.09-11.53.05:079][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
-[2023.07.09-11.53.05:079][  0]LogD3D11RHI:       11041/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.07.09-11.53.05:081][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.07.09-11.53.05:081][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.07.09-11.53.05:081][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.07.09-11.53.05:086][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.07.09-11.53.05:086][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
-[2023.07.09-11.53.05:086][  0]LogWindows: EnumDisplayDevices:
-[2023.07.09-11.53.05:087][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
-[2023.07.09-11.53.05:087][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
-[2023.07.09-11.53.05:087][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
-[2023.07.09-11.53.05:087][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
-[2023.07.09-11.53.05:087][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2023.07.09-11.53.05:087][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
-[2023.07.09-11.53.05:087][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2023.07.09-11.53.05:087][  0]LogD3D11RHI:      Driver Date: Unknown
-[2023.07.09-11.53.05:087][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2023.07.09-11.53.05:184][  0]LogD3D11RHI: Async texture creation enabled
-[2023.07.09-11.53.05:206][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.07.09-11.53.05:209][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (D:/Udemy/DrAward/DrAward/Intermediate/Shaders/WorkingDirectory/15684/).
-[2023.07.09-11.53.05:209][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sumino/AppData/Local/Temp/UnrealShaderWorkingDir/A3721FCC4CCB804E062AD9A7B233A60D/'.
-[2023.07.09-11.53.05:209][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.07.09-11.53.06:123][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.07.09-11.53.06:199][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.07.09-11.53.06:280][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.07.09-11.53.06:351][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.07.09-11.53.06:423][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.07.09-11.53.06:503][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.07.09-11.53.06:579][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.07.09-11.53.06:649][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.07.09-11.53.06:715][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.07.09-11.53.06:784][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.07.09-11.53.06:855][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2023.07.09-11.53.06:923][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2023.07.09-11.53.06:992][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2023.07.09-11.53.07:061][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2023.07.09-11.53.07:130][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2023.07.09-11.53.07:270][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2023.07.09-11.53.07:270][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2023.07.09-11.53.07:329][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.07.09-11.53.07:455][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.07.09-11.53.07:499][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.07.09-11.53.07:569][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.07.09-11.53.07:639][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.07.09-11.53.07:712][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.07.09-11.53.07:783][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.07.09-11.53.07:783][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.07.09-11.53.08:574][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.07.09-11.53.08:645][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.07.09-11.53.08:645][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2023.07.09-11.53.08:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Udemy/DrAward/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.07.09-11.53.08:645][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.07.09-11.53.08:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Udemy/DrAward/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.07.09-11.53.08:645][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.07.09-11.53.08:657][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.07.09-11.53.08:669][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sumino/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.07.09-11.53.08:677][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.07.09-11.53.08:678][  0]LogSlate: Using Freetype 2.6.0
-[2023.07.09-11.53.08:678][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.07.09-11.53.08:678][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.07.09-11.53.08:908][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
-[2023.07.09-11.53.09:024][  0]LogInit: Selected Device Profile: [Windows]
-[2023.07.09-11.53.09:518][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.07.09-11.53.09:580][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.07.09-11.53.09:580][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.07.09-11.53.09:580][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.07.09-11.53.09:580][  0]LogMeshReduction: No automatic mesh merging module available
-[2023.07.09-11.53.09:580][  0]LogMeshMerging: No automatic mesh merging module available
-[2023.07.09-11.53.09:581][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2023.07.09-11.53.10:007][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
-[2023.07.09-11.53.10:264][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046787 seconds
-[2023.07.09-11.53.10:269][  0]LogUObjectArray: 35628 objects as part of root set at end of initial load.
-[2023.07.09-11.53.10:269][  0]LogUObjectAllocator: 7494040 out of 0 bytes used by permanent object pool.
-[2023.07.09-11.53.10:269][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.07.09-11.53.10:380][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2023.07.09-11.53.13:474][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.07.09-11.53.13:529][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.07.09-11.53.14:437][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2023.07.09-11.53.14:980][  0]SourceControl: ソースコントロールは無効です
-[2023.07.09-11.53.14:980][  0]SourceControl: ソースコントロールは無効です
-[2023.07.09-11.53.15:048][  0]SourceControl: ソースコントロールは無効です
-[2023.07.09-11.53.15:115][  0]SourceControl: ソースコントロールは無効です
-[2023.07.09-11.53.15:994][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.07.09-11.53.16:360][  0]LogOcInput: OculusInput pre-init called
-[2023.07.09-11.53.16:676][  0]LogEngine: Initializing Engine...
-[2023.07.09-11.53.16:864][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.07.09-11.53.16:864][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.07.09-11.53.17:063][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.07.09-11.53.17:111][  0]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2023.07.09-11.53.17:135][  0]LogInit: FAudioDevice initialized.
-[2023.07.09-11.53.17:212][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.07.09-11.53.17:222][  0]LogInit: Texture streaming: Enabled
-[2023.07.09-11.53.17:423][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.07.09-11.53.17:767][  0]LogInit: Transaction tracking system initialized
-[2023.07.09-11.53.18:263][  0]BlueprintLog: New page: エディタの読み込み
-[2023.07.09-11.53.19:655][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2023.07.09-11.53.20:714][  0]LogConsoleResponse: Display: 
-[2023.07.09-11.53.20:924][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.07.09-11.53.20:924][  0]LogCook: Display: Mobile HDR setting 1
-[2023.07.09-11.53.20:924][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.07.09-11.53.21:741][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/' took 0.01s
-[2023.07.09-11.53.22:585][  0]SourceControl: ソースコントロールは無効です
-[2023.07.09-11.53.22:586][  0]Cmd: MAP LOAD FILE="D:/Udemy/DrAward/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.07.09-11.53.22:587][  0]LightingResults: New page: ライティングのビルド
-[2023.07.09-11.53.22:650][  0]MapCheck: New page: マップをチェック
-[2023.07.09-11.53.22:650][  0]LightingResults: New page: <何も選択されていません>
-[2023.07.09-11.53.22:849][  0]LogAIModule: Creating AISystem for world Main
-[2023.07.09-11.53.22:856][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.07.09-11.53.22:868][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.07.09-11.53.22:921][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 52.391ミリ秒かかりました。
-[2023.07.09-11.53.22:921][  0]LogFileHelpers: Loading map 'Main' took 0.335
-[2023.07.09-11.53.23:202][  0]LogCollectionManager: Loaded 0 collections in 0.001619 seconds
-[2023.07.09-11.53.23:329][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Saved/Collections/' took 0.01s
-[2023.07.09-11.53.23:330][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/Developers/Sumino/Collections/' took 0.01s
-[2023.07.09-11.53.23:330][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/Collections/' took 0.01s
-[2023.07.09-11.53.23:330][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2023.07.09-11.53.23:344][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2383 classes and 495 folders.
-[2023.07.09-11.53.23:457][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2023.07.09-11.53.23:862][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2023.07.09-11.53.23:934][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2023.07.09-11.53.24:318][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2023.07.09-11.53.24:319][  0]LogLoad: (Engine Initialization) Total time: 22.41 seconds
-[2023.07.09-11.53.24:319][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.07.09-11.53.24:319][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2023.07.09-11.53.24:407][  0]LogAssetRegistry: Asset discovery search completed in 15.5225 seconds
-[2023.07.09-11.53.24:409][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.07.09-11.53.24:409][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
-[2023.07.09-11.53.24:415][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.07.09-11.53.24:423][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.07.09-11.53.24:425][  0]LogSlate: Took 0.001814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2023.07.09-11.53.24:426][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.07.09-11.53.24:433][  0]LogSlate: Took 0.003215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.07.09-11.53.24:557][  0]LogSlate: Took 0.003331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.09-11.53.24:582][  1]LogRenderer: Reallocating scene render targets to support 720x360 Format 10 NumSamples 1 (Frame:1).
-[2023.07.09-11.54.04:036][ 83]LogRenderer: Reallocating scene render targets to support 1084x580 Format 10 NumSamples 1 (Frame:4068).
-[2023.07.09-11.54.24:638][810]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.09-11.54.24:705][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.09-11.54.24:706][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.09-11.54.24:717][810]PIE: New page: PIEセッション: Main (2023/07/10 5:54:24)
-[2023.07.09-11.54.24:717][810]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.09-11.54.24:725][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007072s)
-[2023.07.09-11.54.24:725][810]LogAIModule: Creating AISystem for world Main
-[2023.07.09-11.54.24:725][810]LogPlayLevel: PIE: World Init took: (0.000648s)
-[2023.07.09-11.54.24:726][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.009057s)
-[2023.07.09-11.54.25:109][810]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2023.07.09-11.54.25:145][810]LogInit: FAudioDevice initialized.
-[2023.07.09-11.54.25:390][810]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.09-11.54.25:402][810]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.09-20.54.25
-[2023.07.09-11.54.25:404][810]LogWorld: Bringing up level for play took: 0.003893
-[2023.07.09-11.54.25:479][810]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2023.07.09-11.54.25:501][810]PIE: /Game/Map/UEDPIE_0_Main 0.292のプレイ イン エディタの開始時間
-[2023.07.09-11.54.25:501][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.09-11.54.31:142][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.09-11.54.31:179][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.09-11.54.35:244][960]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.09-11.54.35:679][960]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
-[2023.07.09-11.54.36:191][960]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.07.09-11.54.36:283][960]LogSlate: Took 0.003324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.07.09-11.54.37:829][125]LogRenderer: Reallocating scene render targets to support 1144x720 Format 10 NumSamples 1 (Frame:1).
-[2023.07.09-11.55.00:006][597]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.09-11.55.00:019][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.09-11.55.00:020][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.09-11.55.00:020][597]PIE: New page: PIEセッション: Main (2023/07/10 5:55:00)
-[2023.07.09-11.55.00:020][597]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.09-11.55.00:024][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003983s)
-[2023.07.09-11.55.00:024][597]LogAIModule: Creating AISystem for world Main
-[2023.07.09-11.55.00:025][597]LogPlayLevel: PIE: World Init took: (0.000598s)
-[2023.07.09-11.55.00:025][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004757s)
-[2023.07.09-11.55.00:081][597]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2023.07.09-11.55.00:094][597]LogInit: FAudioDevice initialized.
-[2023.07.09-11.55.00:147][597]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.09-11.55.00:151][597]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.09-20.55.00
-[2023.07.09-11.55.00:151][597]LogWorld: Bringing up level for play took: 0.002667
-[2023.07.09-11.55.00:155][597]PIE: /Game/Map/UEDPIE_0_Main 0.946のプレイ イン エディタの開始時間
-[2023.07.09-11.55.00:155][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.09-11.55.00:173][597]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2023.07.09-11.55.06:491][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.09-11.55.06:539][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.09-11.55.23:115][336]LogSlate: Took 0.003728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2023.07.09-11.55.32:107][690]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/torch.fbx)
-[2023.07.09-11.55.32:131][690]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2023.07.09-11.55.32:131][690]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2023.07.09-11.55.32:131][690]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2023.07.09-11.55.32:131][690]LogFbx: ItemName: NodeAttribute, ItemCount : 1
-[2023.07.09-11.55.32:131][690]LogFbx: ItemName: Model, ItemCount : 5
-[2023.07.09-11.55.32:131][690]LogFbx: ItemName: Geometry, ItemCount : 4
-[2023.07.09-11.55.32:131][690]LogFbx: ItemName: Material, ItemCount : 1
-[2023.07.09-11.55.32:138][690]LogFbx: Loading FBX Scene from D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/torch.fbx
-[2023.07.09-11.55.32:153][690]LogFbx: FBX Scene Loaded Succesfully
-[2023.07.09-11.55.43:302][690]LogFbx: Loading FBX Scene from D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/torch.fbx
-[2023.07.09-11.55.43:308][690]LogFbx: FBX Scene Loaded Succesfully
-[2023.07.09-11.55.43:316][690]LogFbx: Warning: Triangulating static mesh stopper1
-[2023.07.09-11.55.43:326][690]LogStaticMesh: スタティックメッシュ torch_stopper1 をビルド中...
-[2023.07.09-11.55.43:332][690]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/torch_stopper1.torch_stopper1
-[2023.07.09-11.55.43:334][690]LogFbx: Warning: Triangulating static mesh torch
-[2023.07.09-11.55.43:339][690]LogStaticMesh: スタティックメッシュ torch_torch をビルド中...
-[2023.07.09-11.55.43:345][690]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/torch_torch.torch_torch
-[2023.07.09-11.55.43:346][690]LogFbx: Warning: Triangulating static mesh stopper
-[2023.07.09-11.55.43:353][690]LogStaticMesh: スタティックメッシュ torch_stopper をビルド中...
-[2023.07.09-11.55.43:358][690]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/torch_stopper.torch_stopper
-[2023.07.09-11.55.43:359][690]LogFbx: Warning: Triangulating static mesh base
-[2023.07.09-11.55.43:362][690]LogStaticMesh: スタティックメッシュ torch_base をビルド中...
-[2023.07.09-11.55.43:364][690]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/torch_base.torch_base
-[2023.07.09-11.55.43:373][690]FBXImport: Warning: 警告: インポートしたメッシュのサイズが小さすぎます。FBXへエクスポート時に、単位が問題になる可能性があります。 
-[2023.07.09-11.56.33:061][122]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/torch.fbx)
-[2023.07.09-11.56.33:065][122]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2023.07.09-11.56.33:065][122]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2023.07.09-11.56.33:065][122]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2023.07.09-11.56.33:065][122]LogFbx: ItemName: NodeAttribute, ItemCount : 1
-[2023.07.09-11.56.33:065][122]LogFbx: ItemName: Model, ItemCount : 5
-[2023.07.09-11.56.33:065][122]LogFbx: ItemName: Geometry, ItemCount : 4
-[2023.07.09-11.56.33:065][122]LogFbx: ItemName: Material, ItemCount : 1
-[2023.07.09-11.56.33:068][122]LogFbx: Loading FBX Scene from D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/torch.fbx
-[2023.07.09-11.56.33:074][122]LogFbx: FBX Scene Loaded Succesfully
-[2023.07.09-11.56.56:732][122]LogFbx: Loading FBX Scene from D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/torch.fbx
-[2023.07.09-11.56.56:738][122]LogFbx: FBX Scene Loaded Succesfully
-[2023.07.09-11.56.56:739][122]LogFbx: Warning: Triangulating static mesh stopper1
-[2023.07.09-11.56.56:741][122]LogFbx: Warning: Triangulating static mesh torch
-[2023.07.09-11.56.56:745][122]LogFbx: Warning: Triangulating static mesh stopper
-[2023.07.09-11.56.56:751][122]LogFbx: Warning: Triangulating static mesh base
-[2023.07.09-11.56.56:755][122]LogStaticMesh: スタティックメッシュ torch をビルド中...
-[2023.07.09-11.56.56:766][122]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/torch.torch
-[2023.07.09-11.57.04:439][859]LogRenderer: Reallocating scene render targets to support 1432x932 Format 10 NumSamples 1 (Frame:1).
-[2023.07.09-11.57.27:104][633]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Texture/torch/torch_bc.png)
-[2023.07.09-11.57.27:146][633]LogTexture: Display: Building textures: torch_bc (AutoDXT, 1024X1024)
-[2023.07.09-11.57.27:367][633]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Texture/torch/torch_n.png)
-[2023.07.09-11.57.27:411][633]LogTexture: Display: Building textures: torch_n (BC5, 1024X1024)
-[2023.07.09-11.57.27:472][633]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.09-11.57.27:483][633]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Texture/torch/torch_orm.png)
-[2023.07.09-11.57.27:521][633]LogTexture: Display: Building textures: torch_orm (AutoDXT, 1024X1024)
-[2023.07.09-11.57.32:045][133]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2023.07.09-11.57.34:082][354]LogTexture: Display: Building textures: torch_orm (AutoDXT, 1024X1024)
-[2023.07.09-11.57.53:957][659]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
-[2023.07.09-11.59.07:842][905]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Torch, compiling. 
-[2023.07.09-11.59.08:544][905]TextureStreamingBuild: Display: Compiling optional shaders took 0.708 seconds.
-[2023.07.09-11.59.11:408][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset" SILENT=true
-[2023.07.09-11.59.11:453][236]LogSavePackage: Save=26.74ms
-[2023.07.09-11.59.11:453][236]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_AwardD96DE23B45ED8F1EBF340495946EF619.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset'
-[2023.07.09-11.59.11:455][236]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset
-[2023.07.09-11.59.11:467][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/torch" FILE="D:/Udemy/DrAward/DrAward/Content/Mesh/torch.uasset" SILENT=true
-[2023.07.09-11.59.11:476][236]LogSavePackage: Save=8.15ms
-[2023.07.09-11.59.11:476][236]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/torch667DB630423024259B758899DDF7F9FE.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Mesh/torch.uasset'
-[2023.07.09-11.59.11:478][236]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Mesh/torch.uasset
-[2023.07.09-11.59.11:489][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/torch_bc" FILE="D:/Udemy/DrAward/DrAward/Content/Texture/torch_bc.uasset" SILENT=true
-[2023.07.09-11.59.11:589][236]LogSavePackage: Save=99.21ms
-[2023.07.09-11.59.11:589][236]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/torch_bc569258A64D1843571FD2D386C787E2D1.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Texture/torch_bc.uasset'
-[2023.07.09-11.59.11:591][236]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Texture/torch_bc.uasset
-[2023.07.09-11.59.11:599][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/torch_n" FILE="D:/Udemy/DrAward/DrAward/Content/Texture/torch_n.uasset" SILENT=true
-[2023.07.09-11.59.11:702][236]LogSavePackage: Save=101.36ms
-[2023.07.09-11.59.11:702][236]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/torch_n0AE0AED14DADA2C26C4E27ACE08A6442.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Texture/torch_n.uasset'
-[2023.07.09-11.59.11:703][236]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Texture/torch_n.uasset
-[2023.07.09-11.59.11:711][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/torch_orm" FILE="D:/Udemy/DrAward/DrAward/Content/Texture/torch_orm.uasset" SILENT=true
-[2023.07.09-11.59.11:813][236]LogSavePackage: Save=101.22ms
-[2023.07.09-11.59.11:813][236]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/torch_orm90937D074EA79B8F9B8F459F33C53D80.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Texture/torch_orm.uasset'
-[2023.07.09-11.59.11:815][236]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Texture/torch_orm.uasset
-[2023.07.09-11.59.11:828][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Torch" FILE="D:/Udemy/DrAward/DrAward/Content/Material/MI_Torch.uasset" SILENT=true
-[2023.07.09-11.59.11:839][236]LogSavePackage: Save=10.10ms
-[2023.07.09-11.59.11:839][236]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/MI_Torch952D3D00490C9D1755F77F9048A3F50D.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Material/MI_Torch.uasset'
-[2023.07.09-11.59.11:841][236]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Material/MI_Torch.uasset
-[2023.07.09-11.59.11:845][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Torch" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset" SILENT=true
-[2023.07.09-11.59.11:854][236]LogSavePackage: Save=7.44ms
-[2023.07.09-11.59.11:854][236]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_TorchC886E13446363B616FE608934017B1FB.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset'
-[2023.07.09-11.59.11:855][236]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset
-[2023.07.09-12.00.29:685][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane43)
-[2023.07.09-12.00.38:913][564]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0008 seconds. Added 2 classes and 2 folders.
-[2023.07.09-12.02.23:875][ 86]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.02.23:946][ 86]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.02.23:958][ 86]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.02.24:967][185]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.09-12.02.24:967][185]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.09-12.02.24:967][185]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.09-12.02.38:646][980]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Texture/fx/cloud.png)
-[2023.07.09-12.02.38:674][980]LogTexture: Display: Building textures: cloud (AutoDXT, 1024X1024)
-[2023.07.09-12.03.37:340][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.016
-[2023.07.09-12.03.37:342][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/BP_Torch] ([1] browsable assets)...
-[2023.07.09-12.03.37:351][992]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Torch.BP_Torch]
-[2023.07.09-12.03.37:351][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Torch]
-[2023.07.09-12.03.37:351][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Torch" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_Torch_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.07.09-12.03.37:367][992]LogSavePackage: Save=13.26ms
-[2023.07.09-12.03.37:367][992]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Torch_Auto1E6867E7F4742283063856BBB4C1522AE.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_Torch_Auto1.uasset'
-[2023.07.09-12.03.37:368][992]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_Torch_Auto1.uasset
-[2023.07.09-12.03.37:369][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FX/P_Fire] ([1] browsable assets)...
-[2023.07.09-12.03.37:373][992]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/FX/P_Fire.P_Fire]
-[2023.07.09-12.03.37:373][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/FX/P_Fire]
-[2023.07.09-12.03.37:374][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FX/P_Fire" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/FX/P_Fire_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.07.09-12.03.37:382][992]LogSavePackage: Save=7.55ms
-[2023.07.09-12.03.37:382][992]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/P_Fire_Auto18D5F4D38409928EA9B9A9C878BC10306.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/FX/P_Fire_Auto1.uasset'
-[2023.07.09-12.03.37:383][992]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/FX/P_Fire_Auto1.uasset
-[2023.07.09-12.03.37:384][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/M_Fire] ([1] browsable assets)...
-[2023.07.09-12.03.37:392][992]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material/M_Fire.M_Fire]
-[2023.07.09-12.03.37:392][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/M_Fire]
-[2023.07.09-12.03.37:392][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Fire" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Fire_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.07.09-12.03.37:402][992]LogSavePackage: Save=8.75ms
-[2023.07.09-12.03.37:402][992]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/M_Fire_Auto151D5F2A94C38B74983F12698AEDA3840.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Fire_Auto1.uasset'
-[2023.07.09-12.03.37:403][992]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Fire_Auto1.uasset
-[2023.07.09-12.03.37:404][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/cloud] ([1] browsable assets)...
-[2023.07.09-12.03.37:409][992]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/cloud.cloud]
-[2023.07.09-12.03.37:409][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/cloud]
-[2023.07.09-12.03.37:409][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/cloud" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Texture/cloud_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.07.09-12.03.37:416][992]LogSavePackage: Save=6.04ms
-[2023.07.09-12.03.37:416][992]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/cloud_Auto1653E5E234078036ED3A37EAA2AB0B6E0.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Texture/cloud_Auto1.uasset'
-[2023.07.09-12.03.37:417][992]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Texture/cloud_Auto1.uasset
-[2023.07.09-12.03.37:417][992]LogFileHelpers: Auto-saving content packages took 0.077
-[2023.07.09-12.03.43:582][729]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.03.43:591][729]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.03.44:098][783]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.03.44:098][783]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.09-12.03.44:098][783]MaterialEditorStats: Texture samplers: 0/16
-[2023.07.09-12.05.32:217][737]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.05.32:221][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.09-12.05.32:796][802]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.05.32:796][802]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.09-12.05.32:796][802]MaterialEditorStats: Texture samplers: 0/16
-[2023.07.09-12.05.36:964][301]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.05.36:971][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.09-12.05.37:199][323]MaterialEditorStats: Base pass shader without light map: 31 instructions
-[2023.07.09-12.05.37:199][323]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.09-12.05.37:199][323]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.09-12.05.37:199][323]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.05.58:895][924]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.05.58:906][924]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.06.00:031][ 52]MaterialEditorStats: Base pass shader without light map: 26 instructions
-[2023.07.09-12.06.00:031][ 52]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.06.00:031][ 52]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.06.00:031][ 52]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.07.03:522][669]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.07.03:531][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.09-12.07.04:455][774]MaterialEditorStats: Base pass shader without light map: 30 instructions
-[2023.07.09-12.07.04:455][774]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.07.04:455][774]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.07.04:455][774]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.07.42:739][298]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.07.42:745][298]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.07.43:671][404]MaterialEditorStats: Base pass shader without light map: 30 instructions
-[2023.07.09-12.07.43:671][404]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.07.43:671][404]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.07.43:671][404]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.07.54:858][734]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.07.54:869][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.07.55:348][785]MaterialEditorStats: Base pass shader without light map: 30 instructions
-[2023.07.09-12.07.55:348][785]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.07.55:348][785]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.07.55:348][785]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.07.56:124][878]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.07.56:135][878]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.07.56:607][926]MaterialEditorStats: Base pass shader without light map: 30 instructions
-[2023.07.09-12.07.56:607][926]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.07.56:607][926]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.07.56:607][926]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.07.56:942][966]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.07.56:958][966]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.07.57:460][ 19]MaterialEditorStats: Base pass shader without light map: 30 instructions
-[2023.07.09-12.07.57:460][ 19]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.07.57:460][ 19]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.07.57:461][ 19]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.07.58:584][153]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.07.58:592][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.07.59:052][205]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.07.59:052][205]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.07.59:052][205]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.07.59:052][205]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.08.06:637][109]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.08.06:648][109]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.08.07:133][159]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.08.07:133][159]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.08.07:133][159]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.08.07:133][159]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.08.07:560][210]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.08.07:572][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.08.08:059][260]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.08.08:059][260]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.08.08:059][260]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.08.08:059][260]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.08.10:220][515]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.08.10:230][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.08.10:693][565]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.08.10:693][565]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.08.10:693][565]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.08.10:693][565]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.08.11:770][694]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.08.11:782][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.08.12:266][744]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.08.12:266][744]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.08.12:266][744]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.08.12:266][744]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.08.14:876][ 57]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.08.14:887][ 57]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.08.15:376][107]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.08.15:376][107]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.08.15:376][107]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.08.15:376][107]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.08.15:877][167]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
-[2023.07.09-12.08.15:888][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.07.09-12.08.16:384][220]MaterialEditorStats: Base pass shader without light map: 29 instructions
-[2023.07.09-12.08.16:384][220]MaterialEditorStats: Vertex shader: 124 instructions
-[2023.07.09-12.08.16:384][220]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.09-12.08.16:384][220]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.09-12.09.25:460][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane39)
-[2023.07.09-12.09.49:253][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Torch" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset" SILENT=true
-[2023.07.09-12.09.49:263][716]LogSavePackage: Save=7.16ms
-[2023.07.09-12.09.49:263][716]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Torch9256E4EE4839948CB1509B9EE6202F5E.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset'
-[2023.07.09-12.09.49:265][716]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset
-[2023.07.09-12.09.49:275][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FX/P_Fire" FILE="D:/Udemy/DrAward/DrAward/Content/FX/P_Fire.uasset" SILENT=true
-[2023.07.09-12.09.49:283][716]LogSavePackage: Save=6.74ms
-[2023.07.09-12.09.49:283][716]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/P_Fire25AA9841416613B5E67A628754C32929.tmp' to 'D:/Udemy/DrAward/DrAward/Content/FX/P_Fire.uasset'
-[2023.07.09-12.09.49:284][716]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/FX/P_Fire.uasset
-[2023.07.09-12.09.49:295][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Fire" FILE="D:/Udemy/DrAward/DrAward/Content/Material/M_Fire.uasset" SILENT=true
-[2023.07.09-12.09.49:305][716]LogSavePackage: Save=8.46ms
-[2023.07.09-12.09.49:305][716]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/M_Fire4A77E6D14F6A8B6C28F8C58222B1282E.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Material/M_Fire.uasset'
-[2023.07.09-12.09.49:307][716]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Material/M_Fire.uasset
-[2023.07.09-12.09.49:315][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/cloud" FILE="D:/Udemy/DrAward/DrAward/Content/Texture/cloud.uasset" SILENT=true
-[2023.07.09-12.09.49:374][716]LogSavePackage: Save=57.82ms
-[2023.07.09-12.09.49:374][716]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/cloud9AD001734377AE84BE3317BF36F0A3C5.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Texture/cloud.uasset'
-[2023.07.09-12.09.49:377][716]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Texture/cloud.uasset
+[2023.07.12-13.23.11:326][  0]LogInit: Selected Device Profile: [Windows]
+[2023.07.12-13.23.11:326][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.07.12-13.23.11:339][  0]LogInit: Computer: DESKTOP-TGE5S74
+[2023.07.12-13.23.11:340][  0]LogInit: User: Sumino
+[2023.07.12-13.23.11:340][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.07.12-13.23.11:340][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.07.12-13.23.11:340][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.07.12-13.23.11:340][  0]LogMemory: Platform Memory Stats for Windows
+[2023.07.12-13.23.11:340][  0]LogMemory: Process Physical Memory: 280.82 MB used, 280.83 MB peak
+[2023.07.12-13.23.11:340][  0]LogMemory: Process Virtual Memory: 282.58 MB used, 282.58 MB peak
+[2023.07.12-13.23.11:340][  0]LogMemory: Physical Memory: 9742.09 MB used,  6562.27 MB free, 16304.36 MB total
+[2023.07.12-13.23.11:340][  0]LogMemory: Virtual Memory: 4799.64 MB used,  6562.27 MB free, 134217728.00 MB total
+[2023.07.12-13.23.11:647][  0]LogInit: Using OS detected language (ja-JP).
+[2023.07.12-13.23.11:647][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.07.12-13.23.11:650][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.07.12-13.23.12:212][  0]LogD3D11RHI: D3D11 adapters:
+[2023.07.12-13.23.12:378][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2023.07.12-13.23.12:378][  0]LogD3D11RHI:       11041/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.07.12-13.23.12:381][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.07.12-13.23.12:381][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.07.12-13.23.12:381][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.07.12-13.23.12:388][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.07.12-13.23.12:388][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2023.07.12-13.23.12:388][  0]LogWindows: EnumDisplayDevices:
+[2023.07.12-13.23.12:388][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2023.07.12-13.23.12:388][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2023.07.12-13.23.12:388][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2023.07.12-13.23.12:388][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2023.07.12-13.23.12:388][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.07.12-13.23.12:388][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2023.07.12-13.23.12:389][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.07.12-13.23.12:389][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.07.12-13.23.12:389][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.07.12-13.23.12:501][  0]LogD3D11RHI: Async texture creation enabled
+[2023.07.12-13.23.12:515][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.07.12-13.23.12:519][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (D:/Udemy/DrAward/DrAward/Intermediate/Shaders/WorkingDirectory/19940/).
+[2023.07.12-13.23.12:519][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sumino/AppData/Local/Temp/UnrealShaderWorkingDir/ABB40C4D4FAA05D6C5C4EF93B0CB2019/'.
+[2023.07.12-13.23.12:520][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.07.12-13.23.13:532][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.07.12-13.23.13:598][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.07.12-13.23.13:670][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.07.12-13.23.13:746][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.07.12-13.23.13:822][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.07.12-13.23.13:887][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.07.12-13.23.13:960][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.07.12-13.23.14:030][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.07.12-13.23.14:093][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.07.12-13.23.14:160][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.07.12-13.23.14:229][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.07.12-13.23.14:299][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.07.12-13.23.14:374][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.07.12-13.23.14:445][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.07.12-13.23.14:524][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.07.12-13.23.14:668][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.07.12-13.23.14:669][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.07.12-13.23.14:724][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.07.12-13.23.14:851][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.07.12-13.23.14:893][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.07.12-13.23.14:958][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.07.12-13.23.15:023][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.07.12-13.23.15:087][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.07.12-13.23.15:151][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.07.12-13.23.15:151][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.07.12-13.23.15:880][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.07.12-13.23.15:964][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.07.12-13.23.15:964][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.07.12-13.23.15:965][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Udemy/DrAward/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.07.12-13.23.15:965][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.07.12-13.23.15:965][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Udemy/DrAward/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.07.12-13.23.15:965][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.07.12-13.23.15:981][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.07.12-13.23.15:993][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sumino/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.07.12-13.23.16:008][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.07.12-13.23.16:009][  0]LogSlate: Using Freetype 2.6.0
+[2023.07.12-13.23.16:010][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.07.12-13.23.16:010][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.07.12-13.23.16:295][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2023.07.12-13.23.16:437][  0]LogInit: Selected Device Profile: [Windows]
+[2023.07.12-13.23.16:613][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.07.12-13.23.16:979][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.07.12-13.23.17:031][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.07.12-13.23.17:031][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.07.12-13.23.17:031][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.07.12-13.23.17:031][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.07.12-13.23.17:031][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.07.12-13.23.17:408][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
+[2023.07.12-13.23.17:675][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.053959 seconds
+[2023.07.12-13.23.17:680][  0]LogUObjectArray: 35628 objects as part of root set at end of initial load.
+[2023.07.12-13.23.17:680][  0]LogUObjectAllocator: 7494040 out of 0 bytes used by permanent object pool.
+[2023.07.12-13.23.17:680][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.07.12-13.23.17:775][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.07.12-13.23.21:135][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.07.12-13.23.21:192][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.07.12-13.23.22:281][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.07.12-13.23.22:875][  0]SourceControl: ソースコントロールは無効です
+[2023.07.12-13.23.22:875][  0]SourceControl: ソースコントロールは無効です
+[2023.07.12-13.23.22:954][  0]SourceControl: ソースコントロールは無効です
+[2023.07.12-13.23.23:022][  0]SourceControl: ソースコントロールは無効です
+[2023.07.12-13.23.23:924][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.07.12-13.23.24:274][  0]LogOcInput: OculusInput pre-init called
+[2023.07.12-13.23.24:536][  0]LogEngine: Initializing Engine...
+[2023.07.12-13.23.24:738][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.07.12-13.23.24:738][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.07.12-13.23.24:913][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.07.12-13.23.24:982][  0]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.07.12-13.23.25:047][  0]LogInit: FAudioDevice initialized.
+[2023.07.12-13.23.25:125][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.07.12-13.23.25:139][  0]LogInit: Texture streaming: Enabled
+[2023.07.12-13.23.25:308][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.07.12-13.23.25:605][  0]LogInit: Transaction tracking system initialized
+[2023.07.12-13.23.26:048][  0]BlueprintLog: New page: エディタの読み込み
+[2023.07.12-13.23.27:333][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.07.12-13.23.28:305][  0]LogConsoleResponse: Display: 
+[2023.07.12-13.23.28:504][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.07.12-13.23.28:504][  0]LogCook: Display: Mobile HDR setting 1
+[2023.07.12-13.23.28:504][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.07.12-13.23.29:452][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/' took 0.02s
+[2023.07.12-13.23.29:951][  0]SourceControl: ソースコントロールは無効です
+[2023.07.12-13.23.29:951][  0]Cmd: MAP LOAD FILE="D:/Udemy/DrAward/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.07.12-13.23.29:952][  0]LightingResults: New page: ライティングのビルド
+[2023.07.12-13.23.30:010][  0]MapCheck: New page: マップをチェック
+[2023.07.12-13.23.30:010][  0]LightingResults: New page: <何も選択されていません>
+[2023.07.12-13.23.30:640][  0]LogAIModule: Creating AISystem for world Main
+[2023.07.12-13.23.30:659][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.07.12-13.23.30:672][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.07.12-13.23.30:725][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 53.223ミリ秒かかりました。
+[2023.07.12-13.23.30:726][  0]LogFileHelpers: Loading map 'Main' took 0.774
+[2023.07.12-13.23.30:932][  0]LogCollectionManager: Loaded 0 collections in 0.001611 seconds
+[2023.07.12-13.23.31:044][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Saved/Collections/' took 0.01s
+[2023.07.12-13.23.31:044][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/Developers/Sumino/Collections/' took 0.01s
+[2023.07.12-13.23.31:044][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/Collections/' took 0.01s
+[2023.07.12-13.23.31:044][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2023.07.12-13.23.31:054][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2383 classes and 495 folders.
+[2023.07.12-13.23.31:159][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2023.07.12-13.23.31:527][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2023.07.12-13.23.31:589][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2023.07.12-13.23.32:941][  0]LogSlate: Took 0.000865 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.07.12-13.23.32:955][  0]LogSlate: Took 0.011335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.07.12-13.23.32:957][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.07.12-13.23.32:970][  0]LogSlate: Took 0.007757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.07.12-13.23.33:077][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrAward
+[2023.07.12-13.23.33:077][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.07.12-13.23.33:077][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2023.07.12-13.23.33:077][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.07.12-13.23.33:077][  0]LogTemp: BranchPath = DESKTOP-TGE5S74/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-TGE5S74/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2023.07.12-13.23.33:077][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sumino\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.07.12-13.23.33:077][  0]LogRenderer: Reallocating scene render targets to support 1084x580 Format 10 NumSamples 1 (Frame:1).
+[2023.07.12-13.23.33:292][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2023.07.12-13.23.33:293][  0]LogLoad: (Engine Initialization) Total time: 24.49 seconds
+[2023.07.12-13.23.33:293][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.07.12-13.23.33:293][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.07.12-13.23.33:329][  0]LogAssetRegistry: Asset discovery search completed in 17.0553 seconds
+[2023.07.12-13.23.33:330][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2023.07.12-13.23.33:330][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2023.07.12-13.23.33:332][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.07.12-13.23.33:396][  0]LogSlate: Took 0.002931 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.07.12-13.23.34:323][ 98]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.07.12-13.24.30:612][646]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.07.12-13.24.31:101][646]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2023.07.12-13.24.31:692][646]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.07.12-13.24.31:801][646]LogSlate: Took 0.003300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.07.12-13.24.33:790][808]LogSlate: Took 0.013222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.07.12-13.27.10:756][588]LogTemp: Repeating last play command: シミュレート
+[2023.07.12-13.27.10:897][588]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.10:897][588]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.07.12-13.27.10:900][588]LogPlayLevel: [PlayLevel] Compiling BP_Skeleton before play...
+[2023.07.12-13.27.11:151][588]LogPlayLevel: [PlayLevel] Compiling BP_Award before play...
+[2023.07.12-13.27.11:347][588]LogPlayLevel: PlayLevel: Blueprint regeneration took 450 ms (2 blueprints)
+[2023.07.12-13.27.11:358][588]PIE: New page: SIEセッション: Main (2023/07/13 7:27:11)
+[2023.07.12-13.27.11:359][588]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.12-13.27.11:368][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009434s)
+[2023.07.12-13.27.11:369][588]LogAIModule: Creating AISystem for world Main
+[2023.07.12-13.27.11:369][588]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2023.07.12-13.27.11:369][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.010754s)
+[2023.07.12-13.27.11:424][588]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.07.12-13.27.11:437][588]LogInit: FAudioDevice initialized.
+[2023.07.12-13.27.11:516][588]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.12-13.27.11:532][588]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.12-22.27.11
+[2023.07.12-13.27.11:551][588]LogWorld: Bringing up level for play took: 0.022380
+[2023.07.12-13.27.11:723][588]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2023.07.12-13.27.11:726][588]PIE: /Game/Map/UEDPIE_0_Main 0.494のプレイ イン エディタの開始時間
+[2023.07.12-13.27.11:746][588]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.11:750][588]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:750][588]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:750][588]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:002B
+[2023.07.12-13.27.11:750][588]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:810][589]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:810][589]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:810][589]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:002B
+[2023.07.12-13.27.11:810][589]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:817][590]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:817][590]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:817][590]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:002B
+[2023.07.12-13.27.11:817][590]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:825][591]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:825][591]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:825][591]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:002B
+[2023.07.12-13.27.11:825][591]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:834][592]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:834][592]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:834][592]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:002B
+[2023.07.12-13.27.11:834][592]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:842][593]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:842][593]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:842][593]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:002B
+[2023.07.12-13.27.11:842][593]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:850][594]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:850][594]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:850][594]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:002B
+[2023.07.12-13.27.11:850][594]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:858][595]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:859][595]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:859][595]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:002B
+[2023.07.12-13.27.11:859][595]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:867][596]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_AwardController_C /Game/Map/UEDPIE_0_Main.Main:PersistentLevel.BP_AwardController_C_0
+	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0083
+[2023.07.12-13.27.11:867][596]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:867][596]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:875][597]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:875][597]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:884][598]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:884][598]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:892][599]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:892][599]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:900][600]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:900][600]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:908][601]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:909][601]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:917][602]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:917][602]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:925][603]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:925][603]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:934][604]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:934][604]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:942][605]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:942][605]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:950][606]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:950][606]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:959][607]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:959][607]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:967][608]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:967][608]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:975][609]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:975][609]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:984][610]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:984][610]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:992][611]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.11:992][611]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:000][612]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:000][612]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:008][613]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:008][613]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:017][614]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:017][614]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:025][615]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:025][615]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:033][616]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:034][616]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:042][617]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:042][617]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:050][618]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:050][618]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:058][619]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:059][619]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:067][620]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:067][620]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:075][621]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:075][621]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:083][622]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:083][622]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:092][623]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:092][623]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:100][624]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:100][624]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:109][625]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:110][625]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:117][626]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:117][626]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:125][627]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:125][627]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:134][628]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:134][628]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:142][629]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:142][629]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:150][630]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:150][630]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:159][631]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:159][631]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:167][632]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:167][632]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:175][633]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:175][633]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:183][634]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:184][634]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:192][635]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:192][635]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:200][636]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:200][636]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:208][637]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:209][637]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:217][638]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:217][638]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:225][639]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:225][639]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:234][640]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:234][640]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:242][641]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:242][641]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:250][642]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:250][642]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:259][643]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:259][643]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:267][644]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:267][644]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:275][645]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:275][645]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:284][646]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:284][646]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:292][647]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:292][647]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:300][648]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:300][648]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:309][649]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:309][649]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:317][650]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:317][650]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:325][651]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:325][651]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:334][652]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:334][652]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:342][653]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:342][653]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:350][654]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:351][654]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:358][655]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:359][655]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:367][656]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:367][656]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:375][657]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:375][657]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:384][658]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:384][658]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:392][659]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:392][659]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:400][660]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:400][660]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:409][661]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:409][661]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:417][662]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:417][662]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:425][663]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:426][663]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:436][664]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:437][664]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:444][665]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:444][665]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:452][666]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:452][666]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:460][667]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:460][667]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:468][668]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:468][668]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:477][669]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:477][669]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:486][670]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:486][670]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:493][671]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:493][671]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:502][672]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:502][672]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:510][673]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:510][673]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:518][674]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:518][674]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:527][675]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:527][675]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:535][676]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:535][676]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:543][677]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:543][677]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:552][678]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:552][678]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:560][679]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:560][679]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:569][680]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:569][680]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:577][681]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:577][681]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:585][682]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:585][682]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:593][683]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:593][683]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:602][684]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:602][684]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:610][685]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:611][685]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:618][686]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:619][686]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:627][687]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:627][687]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:635][688]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:635][688]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:643][689]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:643][689]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:652][690]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:652][690]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:660][691]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:660][691]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:668][692]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:669][692]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:678][693]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:678][693]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:685][694]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:685][694]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:693][695]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:693][695]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:702][696]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:702][696]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:710][697]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:710][697]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:718][698]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:718][698]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:727][699]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:727][699]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:735][700]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:735][700]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:745][701]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:745][701]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:752][702]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:753][702]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:760][703]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:760][703]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:769][704]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:769][704]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:777][705]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:777][705]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:785][706]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:785][706]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:793][707]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:793][707]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:802][708]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:802][708]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:810][709]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:810][709]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:818][710]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:818][710]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:827][711]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:827][711]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:836][712]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:836][712]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:843][713]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:844][713]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:852][714]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:852][714]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:860][715]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:860][715]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:868][716]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:868][716]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:876][717]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:877][717]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:885][718]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:885][718]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:893][719]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:893][719]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:902][720]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:902][720]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:910][721]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:910][721]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:918][722]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:918][722]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:927][723]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:927][723]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:935][724]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.12:935][724]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.13:027][735]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.13:027][735]PIE: Error: ブループリントランタイムエラー: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_AwardController' from node: Add Movement Input in graph: EventGraph in object: BP_AwardController with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2023.07.12-13.27.13:033][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.13:068][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.15:042][963]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.15:042][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-13.27.15:042][963]PIE: New page: PIEセッション: Main (2023/07/13 7:27:15)
+[2023.07.12-13.27.15:042][963]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.12-13.27.15:047][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004762s)
+[2023.07.12-13.27.15:047][963]LogAIModule: Creating AISystem for world Main
+[2023.07.12-13.27.15:047][963]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2023.07.12-13.27.15:047][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005514s)
+[2023.07.12-13.27.15:100][963]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.07.12-13.27.15:111][963]LogInit: FAudioDevice initialized.
+[2023.07.12-13.27.15:168][963]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.12-13.27.15:171][963]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.12-22.27.15
+[2023.07.12-13.27.15:172][963]LogWorld: Bringing up level for play took: 0.002913
+[2023.07.12-13.27.15:175][963]PIE: /Game/Map/UEDPIE_0_Main -0.058のプレイ イン エディタの開始時間
+[2023.07.12-13.27.15:175][963]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.15:187][963]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2023.07.12-13.27.17:724][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.17:782][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.22:733][733]LogTemp: Repeating last play command: 選択ビューポート
+[2023.07.12-13.27.22:744][733]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.22:745][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-13.27.22:745][733]PIE: New page: PIEセッション: Main (2023/07/13 7:27:22)
+[2023.07.12-13.27.22:745][733]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.12-13.27.22:749][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004717s)
+[2023.07.12-13.27.22:750][733]LogAIModule: Creating AISystem for world Main
+[2023.07.12-13.27.22:750][733]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2023.07.12-13.27.22:750][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005469s)
+[2023.07.12-13.27.22:804][733]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.07.12-13.27.22:816][733]LogInit: FAudioDevice initialized.
+[2023.07.12-13.27.22:869][733]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.12-13.27.22:873][733]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.12-22.27.22
+[2023.07.12-13.27.22:874][733]LogWorld: Bringing up level for play took: 0.003528
+[2023.07.12-13.27.22:877][733]PIE: /Game/Map/UEDPIE_0_Main -0.356のプレイ イン エディタの開始時間
+[2023.07.12-13.27.22:877][733]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.25:303][ 19]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.27.26:610][176]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.27.26:943][216]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.27.27:393][270]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.27.27:401][271]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.27.27:901][331]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.27.29:335][503]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.27.30:768][675]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.27.30:786][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.27.30:834][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.28.13:177][564]LogTemp: Repeating last play command: 選択ビューポート
+[2023.07.12-13.28.13:189][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.28.13:189][564]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.07.12-13.28.13:192][564]LogPlayLevel: [PlayLevel] Compiling BP_Skeleton before play...
+[2023.07.12-13.28.13:488][564]LogPlayLevel: PlayLevel: Blueprint regeneration took 298 ms (1 blueprints)
+[2023.07.12-13.28.13:488][564]PIE: New page: PIEセッション: Main (2023/07/13 7:28:13)
+[2023.07.12-13.28.13:488][564]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.12-13.28.13:493][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004883s)
+[2023.07.12-13.28.13:494][564]LogAIModule: Creating AISystem for world Main
+[2023.07.12-13.28.13:494][564]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2023.07.12-13.28.13:494][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005607s)
+[2023.07.12-13.28.13:546][564]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.07.12-13.28.13:558][564]LogInit: FAudioDevice initialized.
+[2023.07.12-13.28.13:611][564]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.12-13.28.13:614][564]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.12-22.28.13
+[2023.07.12-13.28.13:615][564]LogWorld: Bringing up level for play took: 0.003482
+[2023.07.12-13.28.13:618][564]PIE: /Game/Map/UEDPIE_0_Main 0.385のプレイ イン エディタの開始時間
+[2023.07.12-13.28.13:618][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.28.16:045][848]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.28.16:045][848]LogBlueprintUserMessages: [BP_Skeleton_5] Hello
+[2023.07.12-13.28.16:487][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.28.16:533][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.28.18:539][137]LogTemp: Repeating last play command: 選択ビューポート
+[2023.07.12-13.28.18:559][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.28.18:559][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-13.28.18:559][137]PIE: New page: PIEセッション: Main (2023/07/13 7:28:18)
+[2023.07.12-13.28.18:559][137]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.12-13.28.18:564][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004755s)
+[2023.07.12-13.28.18:564][137]LogAIModule: Creating AISystem for world Main
+[2023.07.12-13.28.18:565][137]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2023.07.12-13.28.18:565][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005455s)
+[2023.07.12-13.28.18:617][137]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.07.12-13.28.18:629][137]LogInit: FAudioDevice initialized.
+[2023.07.12-13.28.18:679][137]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.12-13.28.18:682][137]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.12-22.28.18
+[2023.07.12-13.28.18:683][137]LogWorld: Bringing up level for play took: 0.003149
+[2023.07.12-13.28.18:685][137]PIE: /Game/Map/UEDPIE_0_Main -0.547のプレイ イン エディタの開始時間
+[2023.07.12-13.28.18:686][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.28.21:169][425]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.28.21:169][425]LogBlueprintUserMessages: [BP_Skeleton_5] Hello
+[2023.07.12-13.28.21:545][470]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.28.21:604][470]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.30.29:246][678]LogEditorTransaction: Undo ノードを移動
+[2023.07.12-13.30.43:289][337]LogTemp: Repeating last play command: 選択ビューポート
+[2023.07.12-13.30.43:302][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.30.43:302][337]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.07.12-13.30.43:305][337]LogPlayLevel: [PlayLevel] Compiling BP_Skeleton before play...
+[2023.07.12-13.30.43:663][337]LogPlayLevel: PlayLevel: Blueprint regeneration took 361 ms (1 blueprints)
+[2023.07.12-13.30.43:663][337]PIE: New page: PIEセッション: Main (2023/07/13 7:30:43)
+[2023.07.12-13.30.43:663][337]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.12-13.30.43:668][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004937s)
+[2023.07.12-13.30.43:669][337]LogAIModule: Creating AISystem for world Main
+[2023.07.12-13.30.43:669][337]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2023.07.12-13.30.43:669][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005818s)
+[2023.07.12-13.30.43:724][337]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.07.12-13.30.43:743][337]LogInit: FAudioDevice initialized.
+[2023.07.12-13.30.43:793][337]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.12-13.30.43:797][337]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.12-22.30.43
+[2023.07.12-13.30.43:797][337]LogWorld: Bringing up level for play took: 0.003301
+[2023.07.12-13.30.43:800][337]PIE: /Game/Map/UEDPIE_0_Main 0.568のプレイ イン エディタの開始時間
+[2023.07.12-13.30.43:800][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.30.47:249][742]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.07.12-13.30.47:249][742]LogBlueprintUserMessages: [BP_Skeleton_5] Hello
+[2023.07.12-13.30.48:075][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.30.48:123][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.12-13.31.01:605][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Skeleton" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset" SILENT=true
+[2023.07.12-13.31.01:703][426]LogSavePackage: Save=37.82ms
+[2023.07.12-13.31.01:703][426]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Skeleton0AB5034C4682C7DFB59C039197EE7387.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset'
+[2023.07.12-13.31.01:707][426]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset
+[2023.07.12-13.31.32:010][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset" SILENT=true
+[2023.07.12-13.31.32:044][ 11]LogSavePackage: Save=29.74ms
+[2023.07.12-13.31.32:044][ 11]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Award6634500C4429AEF174FD9E83C43E09F2.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset'
+[2023.07.12-13.31.32:046][ 11]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset
+[2023.07.12-13.33.11:780][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Skeleton" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset" SILENT=true
+[2023.07.12-13.33.11:814][873]LogSavePackage: Save=30.90ms
+[2023.07.12-13.33.11:814][873]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Skeleton7D47F9B64E531A749C283D95C0CDBFAB.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset'
+[2023.07.12-13.33.11:816][873]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset
+[2023.07.12-13.33.19:400][762]BlueprintLog: New page: BP_Award をコンパイル
+[2023.07.12-13.33.41:423][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.12-13.33.41:568][509]LogSavePackage: Save=118.46ms
+[2023.07.12-13.33.41:568][509]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Main571449AF481DBF4FDEDF90A7FA62E887.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Main.umap'
+[2023.07.12-13.33.41:570][509]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Main.umap
+[2023.07.12-13.33.41:587][509]LogFileHelpers: Saving map 'Main' took 0.249
