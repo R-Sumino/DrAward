@@ -1,0 +1,1365 @@
+﻿Log file open, 08/02/23 22:21:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DrAward
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1679334811) SRandInit(1679334811).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.394283
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2023.08.02-13.21.54:179][  0]LogInit: Selected Device Profile: [Windows]
+[2023.08.02-13.21.54:179][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.08.02-13.21.54:194][  0]LogInit: Computer: DESKTOP-TGE5S74
+[2023.08.02-13.21.54:194][  0]LogInit: User: Sumino
+[2023.08.02-13.21.54:194][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.08.02-13.21.54:194][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.08.02-13.21.54:195][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.08.02-13.21.54:195][  0]LogMemory: Platform Memory Stats for Windows
+[2023.08.02-13.21.54:195][  0]LogMemory: Process Physical Memory: 281.08 MB used, 281.08 MB peak
+[2023.08.02-13.21.54:195][  0]LogMemory: Process Virtual Memory: 283.05 MB used, 283.05 MB peak
+[2023.08.02-13.21.54:195][  0]LogMemory: Physical Memory: 9833.76 MB used,  6470.61 MB free, 16304.36 MB total
+[2023.08.02-13.21.54:195][  0]LogMemory: Virtual Memory: 4799.73 MB used,  6470.61 MB free, 134217728.00 MB total
+[2023.08.02-13.21.54:570][  0]LogInit: Using OS detected language (ja-JP).
+[2023.08.02-13.21.54:570][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.08.02-13.21.54:574][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.08.02-13.21.55:168][  0]LogD3D11RHI: D3D11 adapters:
+[2023.08.02-13.21.55:333][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2023.08.02-13.21.55:333][  0]LogD3D11RHI:       11041/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.08.02-13.21.55:337][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.08.02-13.21.55:337][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.08.02-13.21.55:337][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.08.02-13.21.55:343][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.08.02-13.21.55:343][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2023.08.02-13.21.55:343][  0]LogWindows: EnumDisplayDevices:
+[2023.08.02-13.21.55:344][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2023.08.02-13.21.55:344][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2023.08.02-13.21.55:344][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2023.08.02-13.21.55:344][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2023.08.02-13.21.55:344][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.08.02-13.21.55:344][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2023.08.02-13.21.55:344][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.08.02-13.21.55:344][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.08.02-13.21.55:344][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.08.02-13.21.55:455][  0]LogD3D11RHI: Async texture creation enabled
+[2023.08.02-13.21.55:480][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.08.02-13.21.55:484][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (D:/Udemy/DrAward/DrAward/Intermediate/Shaders/WorkingDirectory/19264/).
+[2023.08.02-13.21.55:484][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sumino/AppData/Local/Temp/UnrealShaderWorkingDir/2AB785044CF33B9E1B9B47948A88E043/'.
+[2023.08.02-13.21.55:484][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.08.02-13.21.56:595][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.08.02-13.21.56:675][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.08.02-13.21.56:786][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.08.02-13.21.56:868][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.08.02-13.21.56:959][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.08.02-13.21.57:042][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.08.02-13.21.57:123][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.08.02-13.21.57:201][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.08.02-13.21.57:272][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.08.02-13.21.57:351][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.08.02-13.21.57:426][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.08.02-13.21.57:500][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.08.02-13.21.57:581][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.08.02-13.21.57:654][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.08.02-13.21.57:728][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.08.02-13.21.57:867][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.08.02-13.21.57:867][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.08.02-13.21.57:936][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.08.02-13.21.58:072][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.08.02-13.21.58:129][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.08.02-13.21.58:207][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.08.02-13.21.58:285][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.08.02-13.21.58:372][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.08.02-13.21.58:448][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.08.02-13.21.58:448][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.08.02-13.21.59:223][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.08.02-13.21.59:350][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.08.02-13.21.59:350][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.08.02-13.21.59:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Udemy/DrAward/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.08.02-13.21.59:350][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.08.02-13.21.59:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Udemy/DrAward/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.08.02-13.21.59:351][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.08.02-13.21.59:371][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.08.02-13.21.59:382][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sumino/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.08.02-13.21.59:390][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.08.02-13.21.59:390][  0]LogSlate: Using Freetype 2.6.0
+[2023.08.02-13.21.59:391][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.08.02-13.21.59:391][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.08.02-13.21.59:628][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2023.08.02-13.21.59:757][  0]LogInit: Selected Device Profile: [Windows]
+[2023.08.02-13.22.00:271][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.08.02-13.22.00:345][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.08.02-13.22.00:345][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.08.02-13.22.00:345][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.08.02-13.22.00:346][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.08.02-13.22.00:346][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.08.02-13.22.00:347][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.08.02-13.22.00:783][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
+[2023.08.02-13.22.01:058][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.060713 seconds
+[2023.08.02-13.22.01:064][  0]LogUObjectArray: 35628 objects as part of root set at end of initial load.
+[2023.08.02-13.22.01:064][  0]LogUObjectAllocator: 7494032 out of 0 bytes used by permanent object pool.
+[2023.08.02-13.22.01:064][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.08.02-13.22.01:173][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.08.02-13.22.04:571][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.08.02-13.22.04:630][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.08.02-13.22.05:613][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.08.02-13.22.06:174][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.22.06:174][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.22.06:249][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.22.06:327][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.22.07:376][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.08.02-13.22.07:745][  0]LogOcInput: OculusInput pre-init called
+[2023.08.02-13.22.08:048][  0]LogEngine: Initializing Engine...
+[2023.08.02-13.22.08:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.08.02-13.22.08:296][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.08.02-13.22.08:527][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.08.02-13.22.08:578][  0]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.22.08:604][  0]LogInit: FAudioDevice initialized.
+[2023.08.02-13.22.08:680][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Sumino/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.08.02-13.22.08:691][  0]LogInit: Texture streaming: Enabled
+[2023.08.02-13.22.08:918][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.08.02-13.22.09:268][  0]LogInit: Transaction tracking system initialized
+[2023.08.02-13.22.09:757][  0]BlueprintLog: New page: エディタの読み込み
+[2023.08.02-13.22.11:269][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.08.02-13.22.12:344][  0]LogConsoleResponse: Display: 
+[2023.08.02-13.22.12:568][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.08.02-13.22.12:569][  0]LogCook: Display: Mobile HDR setting 1
+[2023.08.02-13.22.12:569][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.08.02-13.22.13:116][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/' took 0.02s
+[2023.08.02-13.22.14:254][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.22.14:254][  0]Cmd: MAP LOAD FILE="D:/Udemy/DrAward/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.08.02-13.22.14:255][  0]LightingResults: New page: ライティングのビルド
+[2023.08.02-13.22.14:338][  0]MapCheck: New page: マップをチェック
+[2023.08.02-13.22.14:338][  0]LightingResults: New page: <何も選択されていません>
+[2023.08.02-13.22.15:248][  0]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.22.15:303][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.08.02-13.22.15:320][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.08.02-13.22.15:379][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 59.111ミリ秒かかりました。
+[2023.08.02-13.22.15:379][  0]LogFileHelpers: Loading map 'Main' took 1.125
+[2023.08.02-13.22.15:636][  0]LogCollectionManager: Loaded 0 collections in 0.001713 seconds
+[2023.08.02-13.22.15:764][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Saved/Collections/' took 0.01s
+[2023.08.02-13.22.15:764][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/Developers/Sumino/Collections/' took 0.01s
+[2023.08.02-13.22.15:764][  0]LogFileCache: Scanning file cache for directory 'D:/Udemy/DrAward/DrAward/Content/Collections/' took 0.01s
+[2023.08.02-13.22.15:764][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2023.08.02-13.22.15:776][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2383 classes and 495 folders.
+[2023.08.02-13.22.15:923][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2023.08.02-13.22.16:444][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2023.08.02-13.22.16:515][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2023.08.02-13.22.16:746][  0]LogSlate: Took 0.000672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.08.02-13.22.16:751][  0]LogSlate: Took 0.003055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.08.02-13.22.16:752][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.08.02-13.22.16:761][  0]LogSlate: Took 0.003995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.08.02-13.22.16:871][  0]LogRenderer: Reallocating scene render targets to support 1084x580 Format 10 NumSamples 1 (Frame:1).
+[2023.08.02-13.22.17:091][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2023.08.02-13.22.17:091][  0]LogLoad: (Engine Initialization) Total time: 25.53 seconds
+[2023.08.02-13.22.17:091][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.08.02-13.22.17:091][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.08.02-13.22.17:120][  0]LogAssetRegistry: Asset discovery search completed in 17.5157 seconds
+[2023.08.02-13.22.17:122][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2023.08.02-13.22.17:122][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2023.08.02-13.22.17:125][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.08.02-13.22.17:185][  0]LogSlate: Took 0.003525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.08.02-13.22.18:124][100]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.08.02-13.22.22:326][592]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.08.02-13.22.22:826][592]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2023.08.02-13.32.15:050][433]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/rock.fbx)
+[2023.08.02-13.32.15:086][433]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2023.08.02-13.32.15:086][433]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2023.08.02-13.32.15:086][433]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2023.08.02-13.32.15:086][433]LogFbx: ItemName: Geometry, ItemCount : 1
+[2023.08.02-13.32.15:086][433]LogFbx: ItemName: Material, ItemCount : 1
+[2023.08.02-13.32.15:086][433]LogFbx: ItemName: Model, ItemCount : 1
+[2023.08.02-13.32.15:100][433]LogFbx: Loading FBX Scene from D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/rock.fbx
+[2023.08.02-13.32.15:112][433]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.32.21:944][514]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/hole_wall.fbx)
+[2023.08.02-13.32.21:955][514]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2023.08.02-13.32.21:955][514]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2023.08.02-13.32.21:955][514]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2023.08.02-13.32.21:955][514]LogFbx: ItemName: Geometry, ItemCount : 1
+[2023.08.02-13.32.21:955][514]LogFbx: ItemName: Material, ItemCount : 1
+[2023.08.02-13.32.21:955][514]LogFbx: ItemName: Model, ItemCount : 1
+[2023.08.02-13.32.21:958][514]LogFbx: Loading FBX Scene from D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/hole_wall.fbx
+[2023.08.02-13.32.21:963][514]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.32.32:258][514]LogFbx: Loading FBX Scene from D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/hole_wall.fbx
+[2023.08.02-13.32.32:262][514]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.32.32:266][514]LogFbx: Warning: Triangulating static mesh HoleWall
+[2023.08.02-13.32.32:272][514]LogStaticMesh: スタティックメッシュ hole_wall をビルド中...
+[2023.08.02-13.32.32:276][514]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/hole_wall.hole_wall
+[2023.08.02-13.32.32:288][514]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/rock.fbx)
+[2023.08.02-13.32.32:297][514]LogFbx: Loading FBX Scene from D:/Udemy/DrAward/DrAward_Pack/sozai/Mesh/rock.fbx
+[2023.08.02-13.32.32:302][514]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.32.32:303][514]LogFbx: Warning: Triangulating static mesh Rock
+[2023.08.02-13.32.32:346][514]LogStaticMesh: スタティックメッシュ rock をビルド中...
+[2023.08.02-13.32.32:351][514]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/rock.rock
+[2023.08.02-13.32.35:425][873]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.017
+[2023.08.02-13.32.35:429][873]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh/rock] ([1] browsable assets)...
+[2023.08.02-13.32.35:437][873]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Mesh/rock.rock]
+[2023.08.02-13.32.35:437][873]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh/rock]
+[2023.08.02-13.32.35:437][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/rock" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/rock_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.32.35:453][873]LogSavePackage: Save=13.35ms
+[2023.08.02-13.32.35:453][873]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/rock_Auto1C5F3EABA46AE11B293C1B69BB9454956.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/rock_Auto1.uasset'
+[2023.08.02-13.32.35:460][873]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/rock_Auto1.uasset
+[2023.08.02-13.32.35:461][873]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh/hole_wall] ([1] browsable assets)...
+[2023.08.02-13.32.35:469][873]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Mesh/hole_wall.hole_wall]
+[2023.08.02-13.32.35:469][873]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh/hole_wall]
+[2023.08.02-13.32.35:469][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/hole_wall" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.32.35:490][873]LogSavePackage: Save=8.30ms
+[2023.08.02-13.32.35:490][873]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/hole_wall_Auto125FF8A0B47F6F5A6AB58FFBB59FCC16A.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto1.uasset'
+[2023.08.02-13.32.35:491][873]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto1.uasset
+[2023.08.02-13.32.35:491][873]LogFileHelpers: Auto-saving content packages took 0.064
+[2023.08.02-13.32.44:433][ 97]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Texture/rock/rock_bc.png)
+[2023.08.02-13.32.44:483][ 97]LogTexture: Display: Building textures: rock_bc (AutoDXT, 1024X1024)
+[2023.08.02-13.32.44:796][ 97]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Texture/rock/rock_n.png)
+[2023.08.02-13.32.44:856][ 97]LogTexture: Display: Building textures: rock_n (BC5, 1024X1024)
+[2023.08.02-13.32.44:941][ 97]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Udemy/DrAward/DrAward_Pack/sozai/Texture/rock/rock_orm.png)
+[2023.08.02-13.32.44:987][ 97]LogTexture: Display: Building textures: rock_orm (AutoDXT, 1024X1024)
+[2023.08.02-13.32.49:408][583]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2023.08.02-13.32.50:673][721]LogTexture: Display: Building textures: rock_orm (AutoDXT, 1024X1024)
+[2023.08.02-13.33.14:116][471]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2023.08.02-13.33.14:218][471]LogRenderer: Reallocating scene render targets to support 1392x932 Format 10 NumSamples 1 (Frame:1).
+[2023.08.02-13.33.45:425][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Rock" FILE="D:/Udemy/DrAward/DrAward/Content/Material/MI_Rock.uasset" SILENT=true
+[2023.08.02-13.33.45:446][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Rock, compiling. 
+[2023.08.02-13.33.46:174][194]TextureStreamingBuild: Display: Compiling optional shaders took 0.733 seconds.
+[2023.08.02-13.33.46:208][194]LogSavePackage: Save=9.04ms
+[2023.08.02-13.33.46:208][194]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/MI_Rock235CE75442E8E945F704C0A125C72010.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Material/MI_Rock.uasset'
+[2023.08.02-13.33.46:210][194]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Material/MI_Rock.uasset
+[2023.08.02-13.33.50:678][546]LogRenderer: Reallocating scene render targets to support 1432x932 Format 10 NumSamples 1 (Frame:1).
+[2023.08.02-13.34.09:426][234]LogEditorTransaction: Undo Staticmesh editor: Material changed
+[2023.08.02-13.34.30:390][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/rock" FILE="D:/Udemy/DrAward/DrAward/Content/Mesh/rock.uasset" SILENT=true
+[2023.08.02-13.34.30:401][887]LogSavePackage: Save=9.82ms
+[2023.08.02-13.34.30:401][887]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/rockC230C1484BF1188152D7C9B8ACB72947.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Mesh/rock.uasset'
+[2023.08.02-13.34.30:403][887]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Mesh/rock.uasset
+[2023.08.02-13.34.30:414][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/hole_wall" FILE="D:/Udemy/DrAward/DrAward/Content/Mesh/hole_wall.uasset" SILENT=true
+[2023.08.02-13.34.30:423][887]LogSavePackage: Save=8.64ms
+[2023.08.02-13.34.30:423][887]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/hole_wallD9B19CC34AE7F0FC22FE789EA7EAAF50.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Mesh/hole_wall.uasset'
+[2023.08.02-13.34.30:425][887]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Mesh/hole_wall.uasset
+[2023.08.02-13.34.30:436][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/rock_bc" FILE="D:/Udemy/DrAward/DrAward/Content/Texture/rock_bc.uasset" SILENT=true
+[2023.08.02-13.34.30:580][887]LogSavePackage: Save=143.17ms
+[2023.08.02-13.34.30:580][887]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/rock_bc48F99F7D44F84D4AF5256C9775226E58.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Texture/rock_bc.uasset'
+[2023.08.02-13.34.30:582][887]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Texture/rock_bc.uasset
+[2023.08.02-13.34.30:592][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/rock_n" FILE="D:/Udemy/DrAward/DrAward/Content/Texture/rock_n.uasset" SILENT=true
+[2023.08.02-13.34.30:764][887]LogSavePackage: Save=170.43ms
+[2023.08.02-13.34.30:764][887]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/rock_n74AF62DC41B9AB99CA34E2A5E75163AC.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Texture/rock_n.uasset'
+[2023.08.02-13.34.30:765][887]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Texture/rock_n.uasset
+[2023.08.02-13.34.30:774][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/rock_orm" FILE="D:/Udemy/DrAward/DrAward/Content/Texture/rock_orm.uasset" SILENT=true
+[2023.08.02-13.34.30:894][887]LogSavePackage: Save=119.18ms
+[2023.08.02-13.34.30:894][887]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/rock_orm8C1E56C14D7CE4BF6548E79EF130D7BB.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Texture/rock_orm.uasset'
+[2023.08.02-13.34.30:896][887]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Texture/rock_orm.uasset
+[2023.08.02-13.34.30:898][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Rock" FILE="D:/Udemy/DrAward/DrAward/Content/Material/MI_Rock.uasset" SILENT=true
+[2023.08.02-13.34.30:956][887]LogSavePackage: Save=3.11ms
+[2023.08.02-13.34.30:956][887]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/MI_Rock005511E445EB22E718EA439810D5E320.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Material/MI_Rock.uasset'
+[2023.08.02-13.34.30:958][887]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Material/MI_Rock.uasset
+[2023.08.02-13.34.44:556][331]LogSlate: Took 0.004029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.08.02-13.35.42:612][475]BlueprintLog: New page: BP_Rock をコンパイル
+[2023.08.02-13.36.06:845][559]LogSlate: Took 0.003698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.08.02-13.37.01:608][309]BlueprintLog: New page: BP_Rock をコンパイル
+[2023.08.02-13.37.13:691][696]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.37.13:753][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.37.13:754][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.37.13:760][696]PIE: New page: PIEセッション: Main (2023/08/03 7:37:13)
+[2023.08.02-13.37.13:760][696]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.37.13:768][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007230s)
+[2023.08.02-13.37.13:768][696]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.37.13:768][696]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2023.08.02-13.37.13:769][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.008623s)
+[2023.08.02-13.37.13:827][696]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.37.13:841][696]LogInit: FAudioDevice initialized.
+[2023.08.02-13.37.13:909][696]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.37.13:923][696]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.37.13
+[2023.08.02-13.37.13:936][696]LogWorld: Bringing up level for play took: 0.017046
+[2023.08.02-13.37.14:006][696]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2023.08.02-13.37.14:010][696]PIE: /Game/Map/UEDPIE_0_Main -0.55のプレイ イン エディタの開始時間
+[2023.08.02-13.37.14:011][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.37.15:150][826]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.37.16:900][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.37.17:064][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.37.18:841][233]LogEditorViewport: Clicking on Actor (LMB): BP_Rock_C (BP_Rock)
+[2023.08.02-13.37.18:849][233]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (RockMesh)
+[2023.08.02-13.37.23:012][707]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (RockMesh)
+[2023.08.02-13.37.31:039][664]LogEditorActor: Deleted Actor: BP_Rock_C
+[2023.08.02-13.37.31:056][664]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.08.02-13.39.39:811][941]BlueprintLog: New page: BP_Rock をコンパイル
+[2023.08.02-13.39.40:010][941]BlueprintLog: New page: BP_Rock をコンパイル
+[2023.08.02-13.40.07:250][  8]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.40.07:262][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.07:262][  8]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.02-13.40.07:265][  8]LogPlayLevel: [PlayLevel] Compiling BP_Rock before play...
+[2023.08.02-13.40.07:459][  8]LogPlayLevel: PlayLevel: Blueprint regeneration took 196 ms (1 blueprints)
+[2023.08.02-13.40.07:459][  8]PIE: New page: PIEセッション: Main (2023/08/03 7:40:07)
+[2023.08.02-13.40.07:459][  8]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.40.07:464][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004940s)
+[2023.08.02-13.40.07:464][  8]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.40.07:464][  8]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2023.08.02-13.40.07:464][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005623s)
+[2023.08.02-13.40.07:520][  8]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.40.07:534][  8]LogInit: FAudioDevice initialized.
+[2023.08.02-13.40.07:590][  8]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.40.07:595][  8]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.40.07
+[2023.08.02-13.40.07:595][  8]LogWorld: Bringing up level for play took: 0.004383
+[2023.08.02-13.40.07:599][  8]PIE: /Game/Map/UEDPIE_0_Main 1.038のプレイ イン エディタの開始時間
+[2023.08.02-13.40.07:600][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.12:157][535]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.12:203][535]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.13:198][636]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.40.13:209][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.13:209][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.40.13:209][636]PIE: New page: PIEセッション: Main (2023/08/03 7:40:13)
+[2023.08.02-13.40.13:209][636]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.40.13:214][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005084s)
+[2023.08.02-13.40.13:215][636]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.40.13:215][636]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2023.08.02-13.40.13:215][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005764s)
+[2023.08.02-13.40.13:269][636]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.40.13:282][636]LogInit: FAudioDevice initialized.
+[2023.08.02-13.40.13:328][636]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.40.13:332][636]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.40.13
+[2023.08.02-13.40.13:333][636]LogWorld: Bringing up level for play took: 0.003937
+[2023.08.02-13.40.13:336][636]PIE: /Game/Map/UEDPIE_0_Main 0.775のプレイ イン エディタの開始時間
+[2023.08.02-13.40.13:336][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.14:256][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.14:303][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.22:352][677]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.40.22:367][677]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.22:367][677]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.02-13.40.22:370][677]LogPlayLevel: [PlayLevel] Compiling BP_Rock before play...
+[2023.08.02-13.40.22:612][677]LogPlayLevel: PlayLevel: Blueprint regeneration took 245 ms (1 blueprints)
+[2023.08.02-13.40.22:613][677]PIE: New page: PIEセッション: Main (2023/08/03 7:40:22)
+[2023.08.02-13.40.22:613][677]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.40.22:618][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005105s)
+[2023.08.02-13.40.22:618][677]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.40.22:618][677]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2023.08.02-13.40.22:619][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005924s)
+[2023.08.02-13.40.22:674][677]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.40.22:688][677]LogInit: FAudioDevice initialized.
+[2023.08.02-13.40.22:738][677]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.40.22:742][677]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.40.22
+[2023.08.02-13.40.22:742][677]LogWorld: Bringing up level for play took: 0.003266
+[2023.08.02-13.40.22:745][677]PIE: /Game/Map/UEDPIE_0_Main 0.184のプレイ イン エディタの開始時間
+[2023.08.02-13.40.22:746][677]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.27:139][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.27:182][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.37:861][320]BlueprintLog: New page: BP_Rock をコンパイル
+[2023.08.02-13.40.38:161][320]BlueprintLog: New page: BP_Rock をコンパイル
+[2023.08.02-13.40.52:653][473]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.40.52:667][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.52:668][473]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.02-13.40.52:670][473]LogPlayLevel: [PlayLevel] Compiling BP_Rock before play...
+[2023.08.02-13.40.52:860][473]LogPlayLevel: PlayLevel: Blueprint regeneration took 192 ms (1 blueprints)
+[2023.08.02-13.40.52:860][473]PIE: New page: PIEセッション: Main (2023/08/03 7:40:52)
+[2023.08.02-13.40.52:860][473]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.40.52:865][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005031s)
+[2023.08.02-13.40.52:866][473]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.40.52:866][473]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2023.08.02-13.40.52:866][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005815s)
+[2023.08.02-13.40.52:922][473]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.40.52:936][473]LogInit: FAudioDevice initialized.
+[2023.08.02-13.40.52:994][473]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.40.52:998][473]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.40.52
+[2023.08.02-13.40.52:998][473]LogWorld: Bringing up level for play took: 0.004304
+[2023.08.02-13.40.53:002][473]PIE: /Game/Map/UEDPIE_0_Main 0.442のプレイ イン エディタの開始時間
+[2023.08.02-13.40.53:002][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.54:544][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.54:596][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.56:892][894]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.40.56:904][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.56:904][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.40.56:904][894]PIE: New page: PIEセッション: Main (2023/08/03 7:40:56)
+[2023.08.02-13.40.56:904][894]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.40.56:910][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005871s)
+[2023.08.02-13.40.56:911][894]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.40.56:911][894]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2023.08.02-13.40.56:911][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.006571s)
+[2023.08.02-13.40.56:966][894]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.40.56:980][894]LogInit: FAudioDevice initialized.
+[2023.08.02-13.40.57:031][894]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.40.57:036][894]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.40.57
+[2023.08.02-13.40.57:037][894]LogWorld: Bringing up level for play took: 0.005578
+[2023.08.02-13.40.57:042][894]PIE: /Game/Map/UEDPIE_0_Main 0.481のプレイ イン エディタの開始時間
+[2023.08.02-13.40.57:042][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.59:647][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.59:692][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.41.03:925][662]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.41.03:943][662]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.41.03:944][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.41.03:944][662]PIE: New page: PIEセッション: Main (2023/08/03 7:41:03)
+[2023.08.02-13.41.03:944][662]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.41.03:949][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004932s)
+[2023.08.02-13.41.03:949][662]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.41.03:949][662]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2023.08.02-13.41.03:949][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005615s)
+[2023.08.02-13.41.04:007][662]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.41.04:020][662]LogInit: FAudioDevice initialized.
+[2023.08.02-13.41.04:071][662]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.41.04:075][662]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.41.04
+[2023.08.02-13.41.04:075][662]LogWorld: Bringing up level for play took: 0.003278
+[2023.08.02-13.41.04:077][662]LogBlueprintUserMessages: [BP_Rock_103] Hello
+[2023.08.02-13.41.04:078][662]PIE: /Game/Map/UEDPIE_0_Main -0.483のプレイ イン エディタの開始時間
+[2023.08.02-13.41.04:078][662]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.41.04:882][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.41.05:000][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.43.07:415][289]BlueprintLog: New page: 関数に折りたたむ
+[2023.08.02-13.43.54:826][867]LogSlate: Took 0.003340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.08.02-13.44.23:360][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.02-13.44.23:494][274]LogSavePackage: Save=129.77ms
+[2023.08.02-13.44.23:494][274]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Main_Auto2B5CAB2384E75A8CC0C79828F46DDC663.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_Auto2.umap'
+[2023.08.02-13.44.23:495][274]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_Auto2.umap
+[2023.08.02-13.44.23:497][274]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.165
+[2023.08.02-13.44.23:497][274]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.165
+[2023.08.02-13.44.23:499][274]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/BP_Rock] ([1] browsable assets)...
+[2023.08.02-13.44.23:507][274]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Rock.BP_Rock]
+[2023.08.02-13.44.23:507][274]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Rock]
+[2023.08.02-13.44.23:507][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Rock" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_Rock_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.44.23:532][274]LogSavePackage: Save=23.43ms
+[2023.08.02-13.44.23:532][274]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Rock_Auto2E9EBC97C470204B5FBDFE2A2ED3A036E.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_Rock_Auto2.uasset'
+[2023.08.02-13.44.23:541][274]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_Rock_Auto2.uasset
+[2023.08.02-13.44.23:541][274]LogFileHelpers: Auto-saving content packages took 0.042
+[2023.08.02-13.45.52:933][761]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.45.52:944][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.45.52:944][761]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.02-13.45.52:947][761]LogPlayLevel: [PlayLevel] Compiling BP_Rock before play...
+[2023.08.02-13.45.53:413][761]LogPlayLevel: PlayLevel: Blueprint regeneration took 469 ms (1 blueprints)
+[2023.08.02-13.45.53:413][761]PIE: New page: PIEセッション: Main (2023/08/03 7:45:53)
+[2023.08.02-13.45.53:413][761]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.45.53:419][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005699s)
+[2023.08.02-13.45.53:419][761]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.45.53:420][761]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2023.08.02-13.45.53:420][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.006576s)
+[2023.08.02-13.45.53:475][761]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.45.53:489][761]LogInit: FAudioDevice initialized.
+[2023.08.02-13.45.53:543][761]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.45.53:548][761]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.45.53
+[2023.08.02-13.45.53:549][761]LogWorld: Bringing up level for play took: 0.004337
+[2023.08.02-13.45.53:552][761]PIE: /Game/Map/UEDPIE_0_Main 0.992のプレイ イン エディタの開始時間
+[2023.08.02-13.45.53:552][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.45.56:048][ 43]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.45.56:049][ 43]LogBlueprintUserMessages: [BP_Rock_103] BP_Award
+[2023.08.02-13.46.01:190][660]LogBlueprintUserMessages: [BP_Award_C_1] damage
+[2023.08.02-13.46.01:190][660]LogBlueprintUserMessages: [BP_Rock_103] BP_Award1
+[2023.08.02-13.46.02:533][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.46.02:727][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.46.08:577][502]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.46.08:596][502]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.46.08:596][502]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.02-13.46.08:598][502]LogPlayLevel: [PlayLevel] Compiling BP_Rock before play...
+[2023.08.02-13.46.09:040][502]LogPlayLevel: PlayLevel: Blueprint regeneration took 444 ms (1 blueprints)
+[2023.08.02-13.46.09:040][502]PIE: New page: PIEセッション: Main (2023/08/03 7:46:09)
+[2023.08.02-13.46.09:040][502]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.46.09:045][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005054s)
+[2023.08.02-13.46.09:046][502]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.46.09:046][502]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2023.08.02-13.46.09:046][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005822s)
+[2023.08.02-13.46.09:104][502]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.46.09:117][502]LogInit: FAudioDevice initialized.
+[2023.08.02-13.46.09:166][502]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.46.09:170][502]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.46.09
+[2023.08.02-13.46.09:170][502]LogWorld: Bringing up level for play took: 0.003855
+[2023.08.02-13.46.09:173][502]PIE: /Game/Map/UEDPIE_0_Main 0.612のプレイ イン エディタの開始時間
+[2023.08.02-13.46.09:173][502]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.46.09:954][574]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.46.10:772][672]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.46.10:981][672]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.50.23:183][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyFunctionLibrary" FILE="D:/Udemy/DrAward/DrAward/Content/BP/MyFunctionLibrary.uasset" SILENT=true
+[2023.08.02-13.50.23:187][902]LogSavePackage: Save=2.28ms
+[2023.08.02-13.50.23:187][902]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/MyFunctionLibrary64C58B1C4FEBF0D52C1304A033E7171B.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/MyFunctionLibrary.uasset'
+[2023.08.02-13.50.23:189][902]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/MyFunctionLibrary.uasset
+[2023.08.02-13.52.30:097][745]BlueprintLog: New page: MyFunctionLibrary をコンパイル
+[2023.08.02-13.53.02:789][423]BlueprintLog: New page: BP_Skeleton をコンパイル
+[2023.08.02-13.53.24:266][786]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.53.24:280][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.24:280][786]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.02-13.53.24:282][786]LogPlayLevel: [PlayLevel] Compiling BP_TrapArrow before play...
+[2023.08.02-13.53.24:525][786]LogPlayLevel: [PlayLevel] Compiling BP_Rock before play...
+[2023.08.02-13.53.25:051][786]LogPlayLevel: [PlayLevel] Compiling Main before play...
+[2023.08.02-13.53.25:070][786]LogPlayLevel: PlayLevel: Blueprint regeneration took 790 ms (3 blueprints)
+[2023.08.02-13.53.25:070][786]PIE: New page: PIEセッション: Main (2023/08/03 7:53:25)
+[2023.08.02-13.53.25:070][786]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.53.25:076][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005672s)
+[2023.08.02-13.53.25:077][786]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.53.25:077][786]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2023.08.02-13.53.25:078][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.007033s)
+[2023.08.02-13.53.25:136][786]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.53.25:151][786]LogInit: FAudioDevice initialized.
+[2023.08.02-13.53.25:206][786]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.53.25:210][786]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.53.25
+[2023.08.02-13.53.25:211][786]LogWorld: Bringing up level for play took: 0.004230
+[2023.08.02-13.53.25:214][786]PIE: /Game/Map/UEDPIE_0_Main 0.653のプレイ イン エディタの開始時間
+[2023.08.02-13.53.25:214][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.26:288][906]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.53.27:831][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.27:996][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.30:723][413]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.53.30:749][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.30:749][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.53.30:749][413]PIE: New page: PIEセッション: Main (2023/08/03 7:53:30)
+[2023.08.02-13.53.30:749][413]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.53.30:754][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004897s)
+[2023.08.02-13.53.30:754][413]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.53.30:754][413]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2023.08.02-13.53.30:754][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005582s)
+[2023.08.02-13.53.30:810][413]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.53.30:824][413]LogInit: FAudioDevice initialized.
+[2023.08.02-13.53.30:870][413]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.53.30:874][413]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.53.30
+[2023.08.02-13.53.30:875][413]LogWorld: Bringing up level for play took: 0.004277
+[2023.08.02-13.53.30:878][413]PIE: /Game/Map/UEDPIE_0_Main 0.318のプレイ イン エディタの開始時間
+[2023.08.02-13.53.30:878][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.32:160][555]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.53.33:529][719]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.33:659][719]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.42:175][931]LogEditorViewport: Clicking on Actor (LMB): BP_Rock_C (BP_Rock)
+[2023.08.02-13.53.42:984][ 26]Cmd: DELETE
+[2023.08.02-13.53.42:984][ 26]Cmd: ACTOR DELETE
+[2023.08.02-13.53.42:992][ 26]LogEditorActor: Deleted Actor: BP_Rock_C
+[2023.08.02-13.53.43:010][ 26]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.08.02-13.53.44:618][219]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.53.44:631][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.44:631][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.53.44:631][219]PIE: New page: PIEセッション: Main (2023/08/03 7:53:44)
+[2023.08.02-13.53.44:631][219]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.53.44:637][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005190s)
+[2023.08.02-13.53.44:637][219]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.53.44:637][219]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2023.08.02-13.53.44:637][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005867s)
+[2023.08.02-13.53.44:695][219]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.53.44:708][219]LogInit: FAudioDevice initialized.
+[2023.08.02-13.53.44:743][219]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.53.44:750][219]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.53.44
+[2023.08.02-13.53.44:751][219]LogWorld: Bringing up level for play took: 0.005728
+[2023.08.02-13.53.44:753][219]PIE: /Game/Map/UEDPIE_0_Main 0.193のプレイ イン エディタの開始時間
+[2023.08.02-13.53.44:754][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.46:901][470]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.53.54:823][420]LogBlueprintUserMessages: [BP_Award_C_1] damage
+[2023.08.02-13.53.56:040][566]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.53.56:080][566]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.54.02:936][638]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.54.02:953][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.54.02:953][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.54.02:954][638]PIE: New page: PIEセッション: Main (2023/08/03 7:54:02)
+[2023.08.02-13.54.02:954][638]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.54.02:959][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005021s)
+[2023.08.02-13.54.02:959][638]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.54.02:959][638]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2023.08.02-13.54.02:959][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005797s)
+[2023.08.02-13.54.03:015][638]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.02-13.54.03:031][638]LogInit: FAudioDevice initialized.
+[2023.08.02-13.54.03:066][638]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.54.03:070][638]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.54.03
+[2023.08.02-13.54.03:071][638]LogWorld: Bringing up level for play took: 0.003442
+[2023.08.02-13.54.03:072][638]PIE: /Game/Map/UEDPIE_0_Main 0.512のプレイ イン エディタの開始時間
+[2023.08.02-13.54.03:073][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.54.06:838][ 84]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.54.08:156][242]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.54.08:192][242]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.54.12:051][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.02-13.54.12:221][667]LogSavePackage: Save=148.95ms
+[2023.08.02-13.54.12:221][667]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Main16A9F0EB4A3AEE2FDED134A8E786A6DA.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Main.umap'
+[2023.08.02-13.54.12:223][667]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Main.umap
+[2023.08.02-13.54.12:241][667]LogFileHelpers: Saving map 'Main' took 0.256
+[2023.08.02-13.54.12:252][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Skeleton" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset" SILENT=true
+[2023.08.02-13.54.12:284][667]LogSavePackage: Save=28.60ms
+[2023.08.02-13.54.12:284][667]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Skeleton9EA5492F4EFB26C9E4195A8071745168.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset'
+[2023.08.02-13.54.12:286][667]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset
+[2023.08.02-13.54.12:298][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_TrapArrow" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_TrapArrow.uasset" SILENT=true
+[2023.08.02-13.54.12:325][667]LogSavePackage: Save=23.57ms
+[2023.08.02-13.54.12:325][667]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_TrapArrowAC80364B4BA51FF0F1DA15A12E4B76D1.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_TrapArrow.uasset'
+[2023.08.02-13.54.12:327][667]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_TrapArrow.uasset
+[2023.08.02-13.54.12:338][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Rock" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Rock.uasset" SILENT=true
+[2023.08.02-13.54.12:361][667]LogSavePackage: Save=21.74ms
+[2023.08.02-13.54.12:361][667]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_RockD78521274626F84CE410BE890B61B378.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Rock.uasset'
+[2023.08.02-13.54.12:363][667]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Rock.uasset
+[2023.08.02-13.54.12:365][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyFunctionLibrary" FILE="D:/Udemy/DrAward/DrAward/Content/BP/MyFunctionLibrary.uasset" SILENT=true
+[2023.08.02-13.54.12:376][667]LogSavePackage: Save=6.50ms
+[2023.08.02-13.54.12:376][667]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/MyFunctionLibrary61D0AA0846E43E66FDAE748EE4BAF9B5.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/MyFunctionLibrary.uasset'
+[2023.08.02-13.54.12:378][667]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/MyFunctionLibrary.uasset
+[2023.08.02-13.57.03:179][ 20]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.03:307][ 20]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.03:318][ 20]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.04:344][ 74]MaterialEditorStats: Base pass shader: 78 instructions
+[2023.08.02-13.57.04:344][ 74]MaterialEditorStats: Vertex shader: 29 instructions
+[2023.08.02-13.57.04:344][ 74]MaterialEditorStats: Texture samplers: 1/16
+[2023.08.02-13.57.27:846][  1]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.27:855][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2023.08.02-13.57.27:889][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2023.08.02-13.57.27:908][  1]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.27:922][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-13.57.27:957][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2023.08.02-13.57.27:960][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-13.57.27:974][  1]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.27:984][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2023.08.02-13.57.28:011][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2023.08.02-13.57.28:015][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-13.57.28:018][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2023.08.02-13.57.29:105][ 66]MaterialEditorStats: Base pass shader: 78 instructions
+[2023.08.02-13.57.29:105][ 66]MaterialEditorStats: Vertex shader: 29 instructions
+[2023.08.02-13.57.29:105][ 66]MaterialEditorStats: Texture samplers: 1/16
+[2023.08.02-13.57.41:086][444]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.41:099][444]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2023.08.02-13.57.41:628][492]MaterialEditorStats: Base pass shader: 81 instructions
+[2023.08.02-13.57.41:629][492]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.57.41:629][492]MaterialEditorStats: Texture samplers: 2/16
+[2023.08.02-13.57.41:629][492]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.57.42:567][604]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.42:584][604]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2023.08.02-13.57.43:124][651]MaterialEditorStats: Base pass shader: 87 instructions
+[2023.08.02-13.57.43:124][651]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.57.43:124][651]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.02-13.57.43:124][651]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.57.44:872][860]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.44:887][860]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-13.57.45:445][911]MaterialEditorStats: Base pass shader: 87 instructions
+[2023.08.02-13.57.45:445][911]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.57.45:445][911]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.57.45:445][911]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.57.46:686][ 59]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.46:699][ 59]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-13.57.47:223][106]MaterialEditorStats: Base pass shader: 89 instructions
+[2023.08.02-13.57.47:223][106]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.57.47:223][106]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.57.47:223][106]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.57.48:278][232]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.48:293][232]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-13.57.48:818][278]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.57.48:818][278]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.57.48:818][278]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.57.48:818][278]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.57.53:607][851]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.53:704][861]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.53:726][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-13.57.54:351][920]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.57.54:351][920]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.57.54:351][920]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.57.54:351][920]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.57.54:557][944]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.55:022][964]MaterialEditorStats: Base pass shader: 89 instructions
+[2023.08.02-13.57.55:022][964]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.57.55:022][964]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.57.55:022][964]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.57.57:156][216]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.57.57:167][216]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-13.57.57:706][264]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.57.57:706][264]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.57.57:706][264]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.57.57:706][264]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.58.26:546][437]LogMaterialEditor: Applying material M_HoleWall
+[2023.08.02-13.58.27:057][437]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.58.27:093][437]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.58.27:114][437]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.58.27:164][437]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_HoleWall, compiling. 
+[2023.08.02-13.58.27:886][437]TextureStreamingBuild: Display: Compiling optional shaders took 0.729 seconds.
+[2023.08.02-13.58.29:122][578]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.58.29:122][578]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.58.29:122][578]MaterialEditorStats: Texture samplers: 5/16
+[2023.08.02-13.58.29:122][578]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.58.37:420][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.02-13.58.38:602][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.02-13.58.51:461][ 47]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.58.51:517][ 48]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2023.08.02-13.58.52:424][148]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.58.52:424][148]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.58.52:424][148]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.58.52:424][148]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.59.14:714][811]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.59.15:645][912]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.59.15:645][912]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.59.15:645][912]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.59.15:645][912]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.59.17:818][172]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.59.18:351][229]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.59.18:351][229]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.59.18:351][229]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.59.18:351][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.59.21:436][591]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2023.08.02-13.59.21:441][591]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.02-13.59.21:445][591]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2023.08.02-13.59.21:451][591]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.02-13.59.21:455][591]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2023.08.02-13.59.21:493][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_7, compiling. 
+[2023.08.02-13.59.21:498][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_21, compiling. 
+[2023.08.02-13.59.21:500][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_22, compiling. 
+[2023.08.02-13.59.21:504][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_23, compiling. 
+[2023.08.02-13.59.21:506][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_32, compiling. 
+[2023.08.02-13.59.21:511][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_7, compiling. 
+[2023.08.02-13.59.40:526][528]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-13.59.40:530][528]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.59.41:069][583]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.59.41:069][583]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.59.41:069][583]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.59.41:069][583]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-13.59.48:149][430]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.59.48:649][483]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-13.59.50:729][523]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-13.59.50:729][523]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-13.59.50:729][523]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-13.59.50:729][523]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.00.04:863][164]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.00.05:388][220]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.00.05:388][220]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.00.05:388][220]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.00.05:388][220]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.00.19:501][910]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.00.19:506][910]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.00.20:066][970]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.00.20:066][970]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.00.20:066][970]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.00.20:066][970]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.00.22:851][304]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.00.22:856][304]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.00.23:413][362]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.00.23:413][362]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.00.23:413][362]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.00.23:413][362]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.00.25:562][619]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.00.25:567][619]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.00.26:113][678]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.00.26:113][678]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.00.26:113][678]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.00.26:113][678]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.01.09:496][867]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.01.09:501][867]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.01.10:489][975]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.01.10:489][975]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.01.10:489][975]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.01.10:489][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.01.14:585][465]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.01.14:590][465]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.01.15:147][517]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.01.15:147][517]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.01.15:147][517]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.01.15:147][517]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.01.15:737][587]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.01.15:741][587]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.01.16:298][638]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.01.16:298][638]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.01.16:298][638]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.01.16:298][638]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.01.34:301][795]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.01.34:306][795]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.01.34:893][855]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.01.34:893][855]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.01.34:893][855]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.01.34:893][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.01.37:945][219]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.01.37:950][219]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.01.38:510][271]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.01.38:510][271]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.01.38:511][271]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.01.38:511][271]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.07.14:298][778]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.025
+[2023.08.02-14.07.14:300][778]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh/hole_wall] ([1] browsable assets)...
+[2023.08.02-14.07.14:310][778]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Mesh/hole_wall.hole_wall]
+[2023.08.02-14.07.14:310][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh/hole_wall]
+[2023.08.02-14.07.14:310][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/hole_wall" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-14.07.14:324][778]LogSavePackage: Save=9.66ms
+[2023.08.02-14.07.14:324][778]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/hole_wall_Auto3AB4FC7604B029C1C448B01B962696BD0.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto3.uasset'
+[2023.08.02-14.07.14:325][778]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto3.uasset
+[2023.08.02-14.07.14:326][778]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/M_HoleWall] ([1] browsable assets)...
+[2023.08.02-14.07.14:335][778]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material/M_HoleWall.M_HoleWall]
+[2023.08.02-14.07.14:335][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/M_HoleWall]
+[2023.08.02-14.07.14:335][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_HoleWall" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_HoleWall_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-14.07.14:347][778]LogSavePackage: Save=11.51ms
+[2023.08.02-14.07.14:347][778]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/M_HoleWall_Auto37BEDDA6A4028FBE69A0F0485444ECB2F.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_HoleWall_Auto3.uasset'
+[2023.08.02-14.07.14:348][778]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_HoleWall_Auto3.uasset
+[2023.08.02-14.07.14:348][778]LogFileHelpers: Auto-saving content packages took 0.049
+[2023.08.02-14.08.38:091][206]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.08.38:096][206]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.08.39:094][311]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.08.39:094][311]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.08.39:094][311]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.08.39:094][311]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.08.43:164][797]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.08.43:169][797]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.08.43:721][850]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.08.43:721][850]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.08.43:721][850]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.08.43:721][850]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.12.48:854][647]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.12.48:859][647]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.12.49:834][746]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.12.49:834][746]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.12.49:834][746]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.12.49:834][746]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.12.56:705][567]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.12.56:709][567]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.12.56:721][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2023.08.02-14.12.57:324][620]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.12.57:324][620]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.12.57:324][620]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.12.57:324][620]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.12.59:827][919]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.12.59:832][919]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.13.00:394][971]MaterialEditorStats: Base pass shader: 94 instructions
+[2023.08.02-14.13.00:394][971]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.13.00:394][971]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.13.00:394][971]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.13.02:517][225]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.13.02:521][225]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.13.03:113][282]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.13.03:113][282]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.13.03:113][282]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.13.03:113][282]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.13.34:479][ 31]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2023.08.02-14.13.34:484][ 31]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.13.35:472][131]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.13.35:472][131]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.13.35:472][131]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.13.35:472][131]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.13.47:769][604]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.13.48:312][659]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.13.48:312][659]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.13.48:312][659]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.13.48:312][659]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.23.52:524][197]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.23.52:533][197]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2023.08.02-14.23.53:534][300]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.23.53:534][300]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.23.53:534][300]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.23.53:534][300]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.23.55:537][538]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.23.55:550][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2023.08.02-14.23.56:126][594]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.23.56:126][594]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.23.56:126][594]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.23.56:126][594]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.23.59:462][977]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.23.59:991][ 23]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.23.59:991][ 23]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.23.59:991][ 23]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.23.59:991][ 23]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.24.15:200][838]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.24.15:214][838]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2023.08.02-14.24.15:779][888]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.24.15:779][888]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.24.15:779][888]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.24.15:779][888]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.24.17:219][ 60]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.24.17:756][112]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.24.17:756][112]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.24.17:756][112]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.24.17:756][112]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.24.26:883][186]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.24.26:893][186]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.24.27:407][231]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.24.27:407][231]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.24.27:407][231]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.24.27:407][231]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.24.34:998][139]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.24.35:529][181]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.24.35:529][181]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.24.35:529][181]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.24.35:529][181]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.24.42:715][ 40]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.24.43:252][ 86]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.24.43:252][ 86]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.24.43:252][ 86]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.24.43:252][ 86]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.25.00:256][121]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.25.00:270][121]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2023.08.02-14.25.00:846][171]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.25.00:846][171]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.25.00:846][171]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.25.00:846][171]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.25.05:160][685]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.25.05:707][740]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.25.05:707][740]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.25.05:707][740]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.25.05:707][740]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.28.01:102][751]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.28.02:107][850]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.28.02:107][850]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.28.02:107][850]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.28.02:107][850]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.28.10:373][839]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.28.10:387][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2023.08.02-14.28.10:964][889]MaterialEditorStats: Base pass shader: 108 instructions
+[2023.08.02-14.28.10:964][889]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.28.10:964][889]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.28.10:964][889]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.28.11:928][  4]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.28.12:473][ 57]MaterialEditorStats: Base pass shader: 110 instructions
+[2023.08.02-14.28.12:473][ 57]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.28.12:473][ 57]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.28.12:473][ 57]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.28.14:941][351]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.28.15:488][403]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.28.15:488][403]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.28.15:488][403]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.28.15:488][403]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.28.19:898][931]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.28.20:432][984]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.28.20:432][984]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.28.20:432][984]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.28.20:433][984]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.29.16:869][906]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.29.16:879][906]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.29.17:859][  3]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.29.17:859][  3]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.29.17:859][  3]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.29.17:859][  3]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.29.19:849][238]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.29.20:414][284]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.29.20:414][284]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.29.20:414][284]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.29.20:414][284]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.29.23:065][601]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.29.23:625][652]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.29.23:625][652]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.29.23:625][652]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.29.23:625][652]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.29.53:603][241]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.29.54:553][337]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.29.54:553][337]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.29.54:553][337]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.29.54:553][337]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.30.02:878][335]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.30.02:890][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-14.30.03:462][385]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.30.03:462][385]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.30.03:462][385]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.30.03:462][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.30.06:564][755]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.30.07:184][813]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.30.07:184][813]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.30.07:184][813]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.30.07:184][813]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.30.08:650][988]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.30.09:233][ 42]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.30.09:233][ 42]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.30.09:233][ 42]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.30.09:233][ 42]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.30.47:973][684]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.30.48:911][776]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.30.48:911][776]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.30.48:911][776]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.30.48:911][776]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.31.01:952][332]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.31.01:969][332]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-14.31.02:557][381]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.31.02:557][381]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.31.02:557][381]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.31.02:557][381]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.31.05:683][755]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.31.06:226][807]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.31.06:227][807]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.31.06:227][807]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.31.06:227][807]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.31.07:785][992]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.31.08:336][ 40]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.31.08:336][ 40]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.31.08:336][ 40]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.31.08:336][ 40]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.31.20:292][470]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2023.08.02-14.31.20:297][470]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.31.20:941][524]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.31.20:941][524]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.31.20:941][524]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.31.20:941][524]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.31.26:579][198]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.31.27:122][244]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.31.27:122][244]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.31.27:122][244]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.31.27:122][244]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.31.32:934][925]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.31.32:946][925]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.31.33:467][968]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.31.33:467][968]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.31.33:467][968]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.31.33:467][968]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.31.37:036][393]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.31.37:592][441]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.31.37:592][441]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.31.37:592][441]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.31.37:592][441]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.32.14:289][829]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.32.14:299][829]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.32.14:335][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-14.32.15:316][919]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.32.15:316][919]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.32.15:316][919]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.32.15:316][919]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.32.24:916][ 44]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.32.24:926][ 44]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.32.25:460][ 91]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.32.25:460][ 91]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.32.25:460][ 91]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.32.25:460][ 91]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.32.39:784][803]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.32.40:301][846]MaterialEditorStats: Base pass shader: 106 instructions
+[2023.08.02-14.32.40:301][846]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.32.40:301][846]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.32.40:301][846]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.32.44:997][408]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.32.45:014][408]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-14.32.45:586][451]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.32.45:586][451]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.32.45:586][451]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.32.45:586][451]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.32.54:708][544]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.32.54:718][544]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.32.54:757][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-14.32.55:290][587]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.32.55:290][587]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.32.55:290][587]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.32.55:290][587]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.33.04:603][701]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.33.04:612][701]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.33.05:171][751]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.33.05:171][751]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.33.05:171][751]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.33.05:171][751]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.33.45:361][ 94]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.33.45:371][ 94]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.33.46:268][185]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.33.46:268][185]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.33.46:268][185]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.33.46:268][185]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.33.56:783][433]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.33.57:281][473]MaterialEditorStats: Base pass shader: 106 instructions
+[2023.08.02-14.33.57:281][473]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.33.57:281][473]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.33.57:281][473]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.34.01:037][919]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.01:562][961]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.34.01:562][961]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.34.01:562][961]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.34.01:562][961]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.34.02:648][ 90]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.02:658][ 90]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.03:164][129]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.34.03:164][129]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.34.03:164][129]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.34.03:164][129]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.34.28:655][176]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.28:664][176]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.29:584][269]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.34.29:584][269]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.34.29:584][269]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.34.29:584][269]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.34.38:716][340]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.38:726][340]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.39:264][387]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.34.39:264][387]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.34.39:264][387]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.34.39:264][387]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.34.47:492][371]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.47:501][371]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.48:019][415]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.34.48:019][415]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.34.48:019][415]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.34.48:019][415]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.34.55:571][318]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.55:580][318]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.34.56:092][356]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.34.56:092][356]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.34.56:092][356]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.34.56:092][356]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.35.04:855][402]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.35.04:864][402]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.35.05:391][446]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.35.05:391][446]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.35.05:391][446]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.35.05:391][446]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.35.10:508][ 57]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.35.10:518][ 57]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.35.11:029][100]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.35.11:029][100]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.35.11:030][100]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.35.11:030][100]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.35.29:946][363]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.35.29:955][363]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.35.30:452][404]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.35.30:452][404]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.35.30:452][404]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.35.30:452][404]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.35.37:061][194]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.35.37:071][194]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.35.37:569][235]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.35.37:569][235]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.35.37:569][235]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.35.37:569][235]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.36.03:802][363]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.36.03:812][363]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.36.04:704][450]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.36.04:704][450]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.36.04:704][450]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.36.04:704][450]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.36.29:279][392]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.36.29:290][392]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.36.30:190][478]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.36.30:190][478]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.36.30:190][478]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.36.30:190][478]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.36.33:483][871]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.36.33:975][908]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.36.33:975][908]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.36.33:975][908]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.36.33:975][908]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.36.37:120][284]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.36.37:630][331]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.36.37:631][331]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.36.37:631][331]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.36.37:631][331]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.37.12:193][ 13]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.37.13:107][ 95]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.37.13:107][ 95]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.37.13:107][ 95]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.37.13:107][ 95]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.37.15:729][407]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.37.16:224][445]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.37.16:224][445]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.37.16:225][445]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.37.16:225][445]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.37.19:348][818]LogEditorTransaction: Undo ノードを移動
+[2023.08.02-14.37.25:211][818]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.37.25:723][818]LogEditorTransaction: Undo マテリアルエディタ：削除
+[2023.08.02-14.37.25:725][818]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.37.36:273][818]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.37.37:626][818]LogEditorTransaction: Undo マテリアルエディタ：削除
+[2023.08.02-14.37.37:629][818]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.37.51:970][818]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.37.53:580][818]LogEditorTransaction: Undo PIEリンクを作成
+[2023.08.02-14.38.11:504][818]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.38.13:556][818]LogEditorTransaction: Undo ノードを移動
+[2023.08.02-14.38.35:886][818]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.38.39:861][819]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.38.39:861][819]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.38.39:861][819]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.38.39:861][819]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.38.45:238][ 24]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.38.46:695][ 26]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.38.46:695][ 26]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.38.46:695][ 26]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.38.46:695][ 26]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.38.50:517][451]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.38.51:011][497]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.38.51:011][497]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.38.51:011][497]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.38.51:011][497]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.40.21:411][902]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.40.22:889][904]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.40.22:889][904]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.40.22:889][904]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.40.22:889][904]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.40.24:542][ 91]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.40.25:872][ 93]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.40.25:872][ 93]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.40.25:872][ 93]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.40.25:872][ 93]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.40.26:904][206]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.40.28:228][208]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.40.28:228][208]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.40.28:228][208]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.40.28:228][208]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.40.32:891][752]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.40.33:395][801]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.40.33:395][801]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.40.33:395][801]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.40.33:395][801]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.40.42:845][918]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.40.42:855][918]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.40.44:329][920]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.40.44:329][920]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.40.44:329][920]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.40.44:329][920]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.41.27:853][881]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.41.29:176][883]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.41.29:176][883]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.41.29:176][883]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.41.29:176][883]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.41.32:579][276]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.41.33:823][278]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.41.33:823][278]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.41.33:823][278]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.41.33:823][278]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.41.36:142][555]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.41.36:636][601]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.41.36:636][601]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.41.36:636][601]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.41.36:636][601]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.42.03:109][642]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.42.03:119][642]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.42.04:649][644]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.42.04:649][644]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.42.04:649][644]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.42.04:649][644]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.42.18:915][343]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.42.18:926][343]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.42.20:461][345]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.42.20:461][345]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.42.20:461][345]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.42.20:461][345]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.42.45:983][392]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.42.47:342][394]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.42.47:342][394]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.42.47:342][394]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.42.47:342][394]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.42.57:778][466]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.42.58:287][516]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.42.58:287][516]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.42.58:288][516]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.42.58:288][516]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.42.59:746][681]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.42.59:755][681]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.43.01:292][683]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.43.01:292][683]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.43.01:292][683]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.43.01:292][683]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.43.16:332][441]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.43.17:640][443]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.43.17:640][443]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.43.17:640][443]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.43.17:640][443]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.43.20:224][752]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.43.20:725][796]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.43.20:725][796]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.43.20:725][796]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.43.20:725][796]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.43.59:678][251]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.44.01:009][253]MaterialEditorStats: Base pass shader: 111 instructions
+[2023.08.02-14.44.01:009][253]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.44.01:009][253]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.44.01:009][253]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.44.03:109][504]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.44.03:616][552]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.44.03:616][552]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.44.03:616][552]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.44.03:616][552]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.44.12:805][600]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.44.12:814][600]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.44.12:848][600]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-14.44.14:232][602]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.44.14:232][602]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.44.14:232][602]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.44.14:232][602]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.44.27:698][ 42]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.44.28:912][ 44]MaterialEditorStats: Base pass shader: 106 instructions
+[2023.08.02-14.44.28:912][ 44]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.44.28:912][ 44]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.44.28:912][ 44]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.44.30:844][275]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.44.30:856][275]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2023.08.02-14.44.31:380][323]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.44.31:380][323]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.44.31:380][323]MaterialEditorStats: Texture samplers: 4/16
+[2023.08.02-14.44.31:380][323]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.45.25:937][547]LogMaterialEditor: Applying material M_HoleWall
+[2023.08.02-14.45.26:691][547]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.45.26:726][547]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.45.26:747][547]LogMaterial: Missing cached shader map for material M_HoleWall, compiling. 
+[2023.08.02-14.45.26:790][547]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_HoleWall, compiling. 
+[2023.08.02-14.45.27:559][547]TextureStreamingBuild: Display: Compiling optional shaders took 0.775 seconds.
+[2023.08.02-14.45.28:830][694]LogMaterialEditor: Saving and Compiling material M_HoleWall
+[2023.08.02-14.45.28:947][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_HoleWall" FILE="D:/Udemy/DrAward/DrAward/Content/Material/M_HoleWall.uasset" SILENT=true
+[2023.08.02-14.45.28:962][694]LogSavePackage: Save=14.19ms
+[2023.08.02-14.45.28:962][694]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/M_HoleWall17A144794D83C38919C11297A4FA3A8A.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Material/M_HoleWall.uasset'
+[2023.08.02-14.45.28:964][694]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Material/M_HoleWall.uasset
+[2023.08.02-14.45.28:970][694]MaterialEditorStats: Base pass shader: 112 instructions
+[2023.08.02-14.45.28:970][694]MaterialEditorStats: Vertex shader: 31 instructions
+[2023.08.02-14.45.28:970][694]MaterialEditorStats: Texture samplers: 5/16
+[2023.08.02-14.45.28:970][694]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.02-14.46.13:572][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/hole_wall" FILE="D:/Udemy/DrAward/DrAward/Content/Mesh/hole_wall.uasset" SILENT=true
+[2023.08.02-14.46.13:605][777]LogSavePackage: Save=7.39ms
+[2023.08.02-14.46.13:605][777]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/hole_wall0AA1D3F94EF609F32C0BE28EFB47BCEC.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Mesh/hole_wall.uasset'
+[2023.08.02-14.46.13:610][777]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Mesh/hole_wall.uasset
