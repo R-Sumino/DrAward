@@ -934,3 +934,677 @@ LogInit: Object subsystem initialized
 [2023.08.20-05.36.24:225][760]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Torch_Auto17E54E7324D397093BA4967953FB86F7E.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_Torch_Auto1.uasset'
 [2023.08.20-05.36.24:238][760]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_Torch_Auto1.uasset
 [2023.08.20-05.36.24:238][760]LogFileHelpers: Auto-saving content packages took 0.131
+[2023.08.20-05.37.03:836][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage1" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-05.37.03:973][321]LogSavePackage: Save=116.27ms
+[2023.08.20-05.37.03:973][321]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage14A28B977414C767D8F75D2BE4A7A8DD0.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap'
+[2023.08.20-05.37.03:975][321]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap
+[2023.08.20-05.37.03:975][321]LogFileHelpers: Saving map 'Stage1' took 0.204
+[2023.08.20-05.37.04:040][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage2" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-05.37.04:101][321]LogSavePackage: Save=40.04ms
+[2023.08.20-05.37.04:101][321]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage2DEBBBDC04B8CA03CF9B6C0B3EFB9FE4F.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap'
+[2023.08.20-05.37.04:103][321]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap
+[2023.08.20-05.37.04:104][321]LogFileHelpers: Saving map 'Stage2' took 0.127
+[2023.08.20-05.37.04:106][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset" SILENT=true
+[2023.08.20-05.37.04:144][321]LogSavePackage: Save=34.09ms
+[2023.08.20-05.37.04:144][321]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_AwardA7335A1442F13805D52D7EB4AD34E985.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset'
+[2023.08.20-05.37.04:146][321]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Award.uasset
+[2023.08.20-05.37.04:148][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Torch" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset" SILENT=true
+[2023.08.20-05.37.04:174][321]LogSavePackage: Save=22.08ms
+[2023.08.20-05.37.04:174][321]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_Torch2D42E2C2460A2DD0A28C6D9B27115406.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset'
+[2023.08.20-05.37.04:176][321]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Torch.uasset
+[2023.08.20-05.37.14:581][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.20-05.37.37:990][273]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2023.08.20-05.37.52:341][982]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.37.53:680][110]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2023.08.20-05.37.53:683][110]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.37.53:776][110]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.37.53:792][110]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.37.54:727][194]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2023.08.20-05.37.54:727][194]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.37.54:727][194]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.20-05.37.54:727][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.38.03:927][282]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.38.03:995][283]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2023.08.20-05.38.04:410][329]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2023.08.20-05.38.04:410][329]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.38.04:410][329]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.20-05.38.04:410][329]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.38.22:630][512]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.20-05.38.22:635][512]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.38.23:179][570]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2023.08.20-05.38.23:179][570]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.38.23:179][570]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.20-05.38.23:179][570]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.38.24:975][785]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.38.25:413][834]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2023.08.20-05.38.25:413][834]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.38.25:413][834]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.20-05.38.25:413][834]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.38.45:791][275]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.20-05.38.45:795][275]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.38.46:753][385]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2023.08.20-05.38.46:754][385]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.38.46:754][385]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.20-05.38.46:754][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.38.48:687][616]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.20-05.38.48:692][616]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.38.49:254][678]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2023.08.20-05.38.49:254][678]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.38.49:254][678]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.20-05.38.49:254][678]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.38.58:429][777]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2023.08.20-05.38.59:009][845]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.20-05.38.59:013][845]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.38.59:013][845]LogMaterial: Warning: Failed to compile Material /Engine/Transient.M_Confetti for platform PCD3D_SM5, Default Material will be used in game.
+[2023.08.20-05.38.59:014][845]LogMaterial: Warning: 	Function MF_Paticle: Missing function input 'In'
+[2023.08.20-05.38.59:014][845]MaterialEditorStats: Error: [SM5] Function MF_Paticle: Missing function input 'In'
+[2023.08.20-05.39.01:062][ 85]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.20-05.39.01:066][ 85]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.39.01:628][147]MaterialEditorStats: Base pass shader without light map: 34 instructions
+[2023.08.20-05.39.01:628][147]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.39.01:628][147]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.20-05.39.01:628][147]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.39.23:028][231]LogMaterialEditor: Applying material M_Confetti
+[2023.08.20-05.39.23:575][231]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.20-05.39.23:582][231]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.39.23:616][231]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.39.23:643][231]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.39.23:692][231]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Confetti, compiling. 
+[2023.08.20-05.39.24:250][231]TextureStreamingBuild: Display: Compiling optional shaders took 0.562 seconds.
+[2023.08.20-05.39.25:962][410]MaterialEditorStats: Base pass shader without light map: 34 instructions
+[2023.08.20-05.39.25:963][410]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.39.25:963][410]MaterialEditorStats: Texture samplers: 7/16
+[2023.08.20-05.39.25:963][410]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.39.41:971][935]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2023.08.20-05.47.26:327][543]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.017
+[2023.08.20-05.47.26:328][543]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/M_Confetti] ([1] browsable assets)...
+[2023.08.20-05.47.26:337][543]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material/M_Confetti.M_Confetti]
+[2023.08.20-05.47.26:337][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/M_Confetti]
+[2023.08.20-05.47.26:337][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Confetti" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Confetti_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-05.47.26:347][543]LogSavePackage: Save=8.99ms
+[2023.08.20-05.47.26:347][543]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/M_Confetti_Auto2C6B46CED43C26EAB52A723A188F9B0F2.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Confetti_Auto2.uasset'
+[2023.08.20-05.47.26:348][543]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Confetti_Auto2.uasset
+[2023.08.20-05.47.26:349][543]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FX/P_Confitti] ([1] browsable assets)...
+[2023.08.20-05.47.26:353][543]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/FX/P_Confitti.P_Confitti]
+[2023.08.20-05.47.26:353][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/FX/P_Confitti]
+[2023.08.20-05.47.26:353][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FX/P_Confitti" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/FX/P_Confitti_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-05.47.26:363][543]LogSavePackage: Save=8.53ms
+[2023.08.20-05.47.26:363][543]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/P_Confitti_Auto2A3A1B81640008C71B669B78CBBB56558.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/FX/P_Confitti_Auto2.uasset'
+[2023.08.20-05.47.26:363][543]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/FX/P_Confitti_Auto2.uasset
+[2023.08.20-05.47.26:364][543]LogFileHelpers: Auto-saving content packages took 0.036
+[2023.08.20-05.47.46:206][921]LogTexture: Display: Building textures: ThumbnailTexture (BGRA8, 512X512)
+[2023.08.20-05.47.51:319][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Confetti" FILE="D:/Udemy/DrAward/DrAward/Content/Material/M_Confetti.uasset" SILENT=true
+[2023.08.20-05.47.51:349][526]LogSavePackage: Save=13.96ms
+[2023.08.20-05.47.51:349][526]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/M_ConfettiD3CC9DED46E08DCD111F9A86A40F32F0.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Material/M_Confetti.uasset'
+[2023.08.20-05.47.51:352][526]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Material/M_Confetti.uasset
+[2023.08.20-05.47.51:362][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FX/P_Confitti" FILE="D:/Udemy/DrAward/DrAward/Content/FX/P_Confitti.uasset" SILENT=true
+[2023.08.20-05.47.51:364][526]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2023.08.20-05.47.51:399][526]LogSavePackage: Save=35.86ms
+[2023.08.20-05.47.51:399][526]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/P_ConfittiE12A5B364826431845291EA27F99651F.tmp' to 'D:/Udemy/DrAward/DrAward/Content/FX/P_Confitti.uasset'
+[2023.08.20-05.47.51:400][526]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/FX/P_Confitti.uasset
+[2023.08.20-05.48.11:340][867]LogAIModule: Creating AISystem for world End
+[2023.08.20-05.48.11:342][867]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BPAnim_Award_C /Game/Map/End.End:PersistentLevel.BP_Award_1562.CharacterMesh0.BPAnim_Award_C_0
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:00B1
+[2023.08.20-05.48.11:342][867]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BPAnim_Award_C /Game/Map/End.End:PersistentLevel.BP_Award_1562.CharacterMesh0.BPAnim_Award_C_0
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0110
+[2023.08.20-05.48.11:367][867]Cmd: MAP LOAD FILE="D:/Udemy/DrAward/DrAward/Content/Map/End.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.08.20-05.48.11:367][867]LightingResults: New page: ライティングのビルド
+[2023.08.20-05.48.11:369][867]LoadErrors: New page: マップをロード中: End.umap
+[2023.08.20-05.48.11:375][867]MapCheck: New page: マップをチェック
+[2023.08.20-05.48.11:375][867]LightingResults: New page: <何も選択されていません>
+[2023.08.20-05.48.11:394][867]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BPAnim_Award_C /Game/Map/End.End:PersistentLevel.BP_Award_1562.CharacterMesh0.BPAnim_Award_C_0
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:00B1
+[2023.08.20-05.48.11:394][867]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BPAnim_Award_C /Game/Map/End.End:PersistentLevel.BP_Award_1562.CharacterMesh0.BPAnim_Award_C_0
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0110
+[2023.08.20-05.48.11:835][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.08.20-05.48.11:875][867]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.08.20-05.48.11:941][867]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 66.012ミリ秒かかりました。
+[2023.08.20-05.48.11:941][867]LogFileHelpers: Loading map 'End' took 0.576
+[2023.08.20-05.48.23:835][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane20)
+[2023.08.20-05.49.05:666][148]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-05.49.05:678][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2023.08.20-05.49.05:678][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.20-05.49.05:678][148]PIE: New page: PIEセッション: End (2023/08/20 23:49:05)
+[2023.08.20-05.49.05:679][148]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_End
+[2023.08.20-05.49.05:683][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004117s)
+[2023.08.20-05.49.05:683][148]LogAIModule: Creating AISystem for world End
+[2023.08.20-05.49.05:684][148]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2023.08.20-05.49.05:684][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/End.End to /Game/Map/UEDPIE_0_End.End (0.004885s)
+[2023.08.20-05.49.05:743][148]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-05.49.05:756][148]LogInit: FAudioDevice initialized.
+[2023.08.20-05.49.05:789][148]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.08.20-05.49.05:794][148]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 0) at 2023.08.20-14.49.05
+[2023.08.20-05.49.05:795][148]LogWorld: Bringing up level for play took: 0.004422
+[2023.08.20-05.49.05:796][148]LogBlueprintUserMessages: [End_C_1] false
+[2023.08.20-05.49.05:796][148]PIE: /Game/Map/UEDPIE_0_End 0.587のプレイ イン エディタの開始時間
+[2023.08.20-05.49.05:796][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2023.08.20-05.49.12:484][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2023.08.20-05.49.12:624][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2023.08.20-05.51.00:144][443]BlueprintLog: New page: End をコンパイル
+[2023.08.20-05.51.02:135][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/End" FILE="D:/Udemy/DrAward/DrAward/Content/Map/End.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-05.51.02:263][666]LogSavePackage: Save=107.40ms
+[2023.08.20-05.51.02:263][666]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/End516F0A0E4AEB5434931B00AF8EFAE34A.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/End.umap'
+[2023.08.20-05.51.02:266][666]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/End.umap
+[2023.08.20-05.51.02:283][666]LogFileHelpers: Saving map 'End' took 0.217
+[2023.08.20-05.51.05:748][ 60]LogAIModule: Creating AISystem for world Main
+[2023.08.20-05.51.05:769][ 60]Cmd: MAP LOAD FILE="D:/Udemy/DrAward/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.08.20-05.51.05:769][ 60]LightingResults: New page: ライティングのビルド
+[2023.08.20-05.51.05:770][ 60]LoadErrors: New page: マップをロード中: Main.umap
+[2023.08.20-05.51.05:809][ 60]MapCheck: New page: マップをチェック
+[2023.08.20-05.51.05:809][ 60]LightingResults: New page: <何も選択されていません>
+[2023.08.20-05.51.05:828][ 60]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Stage1) is flushing async loading
+[2023.08.20-05.51.06:076][ 60]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Stage2) is flushing async loading
+[2023.08.20-05.51.06:715][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.08.20-05.51.06:755][ 60]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.08.20-05.51.06:820][ 60]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 64.86ミリ秒かかりました。
+[2023.08.20-05.51.06:820][ 60]LogFileHelpers: Loading map 'Main' took 1.053
+[2023.08.20-05.51.10:006][430]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-05.51.10:017][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.51.10:017][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.20-05.51.10:017][430]PIE: New page: PIEセッション: Main (2023/08/20 23:51:10)
+[2023.08.20-05.51.10:018][430]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.20-05.51.10:019][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001386s)
+[2023.08.20-05.51.10:020][430]LogAIModule: Creating AISystem for world Main
+[2023.08.20-05.51.10:020][430]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2023.08.20-05.51.10:020][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002091s)
+[2023.08.20-05.51.10:071][430]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-05.51.10:084][430]LogInit: FAudioDevice initialized.
+[2023.08.20-05.51.10:116][430]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.20-05.51.10:118][430]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.20-14.51.10
+[2023.08.20-05.51.10:118][430]LogWorld: Bringing up level for play took: 0.000755
+[2023.08.20-05.51.10:119][430]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-05.51.10:120][430]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2023.08.20-05.51.10:120][430]PIE: /Game/Map/UEDPIE_0_Main 0.91のプレイ イン エディタの開始時間
+[2023.08.20-05.51.10:120][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.51.12:153][664]LogNet: Browse: /Game/Map/End
+[2023.08.20-05.51.12:154][664]LogLoad: LoadMap: /Game/Map/End
+[2023.08.20-05.51.12:172][664]Cmd: MEM
+[2023.08.20-05.51.12:187][664]LogMemory: Platform Memory Stats for Windows
+[2023.08.20-05.51.12:187][664]LogMemory: Process Physical Memory: 1586.07 MB used, 1967.84 MB peak
+[2023.08.20-05.51.12:187][664]LogMemory: Process Virtual Memory: 3879.09 MB used, 3903.84 MB peak
+[2023.08.20-05.51.12:187][664]LogMemory: Physical Memory: 10657.87 MB used,  5646.50 MB free, 16304.36 MB total
+[2023.08.20-05.51.12:187][664]LogMemory: Virtual Memory: 9481.01 MB used,  5646.50 MB free, 134217728.00 MB total
+[2023.08.20-05.51.12:187][664]LogMemory: 
+[2023.08.20-05.51.12:187][664]Allocator Stats for TBB: (not implemented)
+[2023.08.20-05.51.12:285][664]LogAIModule: Creating AISystem for world End
+[2023.08.20-05.51.12:286][664]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.08.20-05.51.12:292][664]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 0) at 2023.08.20-14.51.12
+[2023.08.20-05.51.12:293][664]LogWorld: Bringing up level for play took: 0.006667
+[2023.08.20-05.51.12:293][664]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-05.51.12:294][664]LogLoad: Took 0.140147 seconds to LoadMap(/Game/Map/End)
+[2023.08.20-05.51.14:680][941]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.51.14:714][941]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.51.16:129][ 99]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-05.51.16:140][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.51.16:140][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.20-05.51.16:140][ 99]PIE: New page: PIEセッション: Main (2023/08/20 23:51:16)
+[2023.08.20-05.51.16:141][ 99]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.20-05.51.16:143][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001379s)
+[2023.08.20-05.51.16:143][ 99]LogAIModule: Creating AISystem for world Main
+[2023.08.20-05.51.16:143][ 99]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2023.08.20-05.51.16:144][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002093s)
+[2023.08.20-05.51.16:196][ 99]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-05.51.16:209][ 99]LogInit: FAudioDevice initialized.
+[2023.08.20-05.51.16:237][ 99]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.20-05.51.16:239][ 99]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.20-14.51.16
+[2023.08.20-05.51.16:239][ 99]LogWorld: Bringing up level for play took: 0.000682
+[2023.08.20-05.51.16:239][ 99]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-05.51.16:240][ 99]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2023.08.20-05.51.16:240][ 99]PIE: /Game/Map/UEDPIE_0_Main 1.031のプレイ イン エディタの開始時間
+[2023.08.20-05.51.16:241][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.51.23:329][938]LogBlueprintUserMessages: [BP_StairGoal_246] Goal
+[2023.08.20-05.51.23:337][939]LogNet: Browse: /Game/Map/End
+[2023.08.20-05.51.23:338][939]LogLoad: LoadMap: /Game/Map/End
+[2023.08.20-05.51.23:357][939]Cmd: MEM
+[2023.08.20-05.51.23:371][939]LogMemory: Platform Memory Stats for Windows
+[2023.08.20-05.51.23:372][939]LogMemory: Process Physical Memory: 1610.47 MB used, 1967.84 MB peak
+[2023.08.20-05.51.23:372][939]LogMemory: Process Virtual Memory: 3896.89 MB used, 3970.41 MB peak
+[2023.08.20-05.51.23:372][939]LogMemory: Physical Memory: 10660.34 MB used,  5644.02 MB free, 16304.36 MB total
+[2023.08.20-05.51.23:372][939]LogMemory: Virtual Memory: 9486.39 MB used,  5644.02 MB free, 134217728.00 MB total
+[2023.08.20-05.51.23:372][939]LogMemory: 
+[2023.08.20-05.51.23:372][939]Allocator Stats for TBB: (not implemented)
+[2023.08.20-05.51.23:469][939]LogAIModule: Creating AISystem for world End
+[2023.08.20-05.51.23:469][939]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.08.20-05.51.23:477][939]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 0) at 2023.08.20-14.51.23
+[2023.08.20-05.51.23:477][939]LogWorld: Bringing up level for play took: 0.006967
+[2023.08.20-05.51.23:477][939]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-05.51.23:478][939]LogLoad: Took 0.140264 seconds to LoadMap(/Game/Map/End)
+[2023.08.20-05.51.35:535][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.51.35:574][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.54.56:264][951]LogEditorTransaction: Undo 選択対象を削除
+[2023.08.20-05.54.56:508][951]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.20-05.54.56:512][951]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.54.57:477][ 21]MaterialEditorStats: Base pass shader without light map: 34 instructions
+[2023.08.20-05.54.57:477][ 21]MaterialEditorStats: Vertex shader: 124 instructions
+[2023.08.20-05.54.57:477][ 21]MaterialEditorStats: Texture samplers: 3/16
+[2023.08.20-05.54.57:477][ 21]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.08.20-05.55.29:368][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage1" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-05.55.29:517][278]LogSavePackage: Save=127.26ms
+[2023.08.20-05.55.29:517][278]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage1108C5E6D477FBACCF9C90D9319129178.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap'
+[2023.08.20-05.55.29:519][278]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap
+[2023.08.20-05.55.29:520][278]LogFileHelpers: Saving map 'Stage1' took 0.220
+[2023.08.20-05.55.29:590][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage2" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-05.55.29:655][278]LogSavePackage: Save=43.11ms
+[2023.08.20-05.55.29:655][278]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage24DDB7E0D4A58A46018EBCAB9846018AA.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap'
+[2023.08.20-05.55.29:657][278]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap
+[2023.08.20-05.55.29:657][278]LogFileHelpers: Saving map 'Stage2' took 0.136
+[2023.08.20-05.55.29:669][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_StairGoal" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_StairGoal.uasset" SILENT=true
+[2023.08.20-05.55.29:700][278]LogSavePackage: Save=26.13ms
+[2023.08.20-05.55.29:701][278]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_StairGoal4FCC4C8641D88D05A741388B467C40F8.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_StairGoal.uasset'
+[2023.08.20-05.55.29:703][278]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_StairGoal.uasset
+[2023.08.20-05.55.30:123][328]LogCascade: Quitting Cascade. FXSystem=0x00000180B9C85D00
+[2023.08.20-05.55.33:351][361]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2023.08.20-05.55.33:358][361]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.55.33:395][361]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.55.33:421][361]LogMaterial: Missing cached shader map for material M_Confetti, compiling. 
+[2023.08.20-05.55.33:471][361]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Confetti, compiling. 
+[2023.08.20-05.55.34:061][361]TextureStreamingBuild: Display: Compiling optional shaders took 0.594 seconds.
+[2023.08.20-05.56.13:994][653]BlueprintLog: New page: BP_StairGoal をコンパイル
+[2023.08.20-05.56.33:246][576]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-05.56.33:267][576]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.56.33:267][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.20-05.56.33:267][576]PIE: New page: PIEセッション: Main (2023/08/20 23:56:33)
+[2023.08.20-05.56.33:269][576]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.20-05.56.33:270][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001379s)
+[2023.08.20-05.56.33:271][576]LogAIModule: Creating AISystem for world Main
+[2023.08.20-05.56.33:271][576]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2023.08.20-05.56.33:271][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002266s)
+[2023.08.20-05.56.33:326][576]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-05.56.33:337][576]LogInit: FAudioDevice initialized.
+[2023.08.20-05.56.33:369][576]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.20-05.56.33:371][576]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.20-14.56.33
+[2023.08.20-05.56.33:371][576]LogWorld: Bringing up level for play took: 0.001082
+[2023.08.20-05.56.33:372][576]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-05.56.33:374][576]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2023.08.20-05.56.33:374][576]PIE: /Game/Map/UEDPIE_0_Main 0.165のプレイ イン エディタの開始時間
+[2023.08.20-05.56.33:374][576]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.56.40:552][434]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 0 0 1
+[2023.08.20-05.56.40:576][435]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage2 1 1 1
+[2023.08.20-05.56.45:100][974]LogNet: Browse: /Game/Map/End
+[2023.08.20-05.56.45:100][974]LogLoad: LoadMap: /Game/Map/End
+[2023.08.20-05.56.45:119][974]Cmd: MEM
+[2023.08.20-05.56.45:134][974]LogMemory: Platform Memory Stats for Windows
+[2023.08.20-05.56.45:134][974]LogMemory: Process Physical Memory: 1601.95 MB used, 1967.84 MB peak
+[2023.08.20-05.56.45:134][974]LogMemory: Process Virtual Memory: 3836.74 MB used, 3970.41 MB peak
+[2023.08.20-05.56.45:134][974]LogMemory: Physical Memory: 10143.02 MB used,  6161.35 MB free, 16304.36 MB total
+[2023.08.20-05.56.45:134][974]LogMemory: Virtual Memory: 9504.82 MB used,  6161.35 MB free, 134217728.00 MB total
+[2023.08.20-05.56.45:134][974]LogMemory: 
+[2023.08.20-05.56.45:134][974]Allocator Stats for TBB: (not implemented)
+[2023.08.20-05.56.45:234][974]LogAIModule: Creating AISystem for world End
+[2023.08.20-05.56.45:235][974]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.08.20-05.56.45:242][974]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 0) at 2023.08.20-14.56.45
+[2023.08.20-05.56.45:242][974]LogWorld: Bringing up level for play took: 0.006629
+[2023.08.20-05.56.45:242][974]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-05.56.45:243][974]LogLoad: Took 0.142724 seconds to LoadMap(/Game/Map/End)
+[2023.08.20-05.57.15:551][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.57.15:610][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-05.57.31:899][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage3" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-05.57.31:920][841]LogSavePackage: Save=3.94ms
+[2023.08.20-05.57.31:920][841]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage3BEFD31EB476C4F6695429DB871C4F0C8.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage3.umap'
+[2023.08.20-05.57.31:921][841]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage3.umap
+[2023.08.20-05.57.31:928][841]LogFileHelpers: Saving map 'Stage3' took 0.125
+[2023.08.20-05.57.59:278][ 26]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.20-05.57.59:647][ 68]Cmd: TRANSACTION UNDO
+[2023.08.20-05.57.59:647][ 68]LogEditorTransaction: Undo アクタ を移動
+[2023.08.20-05.57.59:661][ 68]LogActorComponent: ~FComponentReregisterContext: (/Game/Map/Stage2.Stage2:PersistentLevel.plane81.StaticMeshComponent0) Component already registered.
+[2023.08.20-05.57.59:662][ 68]LogActorComponent: ~FComponentReregisterContext: (/Game/Map/Stage2.Stage2:PersistentLevel.plane70.StaticMeshComponent0) Component already registered.
+[2023.08.20-05.57.59:665][ 68]LogActorComponent: ~FComponentReregisterContext: (/Game/Map/Stage2.Stage2:PersistentLevel.plane92.StaticMeshComponent0) Component already registered.
+[2023.08.20-05.57.59:670][ 68]LogActorComponent: ~FComponentReregisterContext: (/Game/Map/Stage2.Stage2:PersistentLevel.plane85.StaticMeshComponent0) Component already registered.
+[2023.08.20-05.58.02:268][366]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.20-05.58.02:615][405]Cmd: TRANSACTION UNDO
+[2023.08.20-05.58.02:615][405]LogEditorTransaction: Undo アクタ を移動
+[2023.08.20-05.58.02:622][405]LogActorComponent: ~FComponentReregisterContext: (/Game/Map/Stage2.Stage2:PersistentLevel.plane81.StaticMeshComponent0) Component already registered.
+[2023.08.20-05.58.02:622][405]LogActorComponent: ~FComponentReregisterContext: (/Game/Map/Stage2.Stage2:PersistentLevel.plane70.StaticMeshComponent0) Component already registered.
+[2023.08.20-05.58.02:623][405]LogActorComponent: ~FComponentReregisterContext: (/Game/Map/Stage2.Stage2:PersistentLevel.plane92.StaticMeshComponent0) Component already registered.
+[2023.08.20-05.58.02:625][405]LogActorComponent: ~FComponentReregisterContext: (/Game/Map/Stage2.Stage2:PersistentLevel.plane85.StaticMeshComponent0) Component already registered.
+[2023.08.20-05.58.05:720][766]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.20-05.58.09:100][156]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.20-05.59.39:732][873]LogEditorViewport: Clicking on Actor (LMB): BP_Diamond_C (BP_Diamond)
+[2023.08.20-05.59.39:768][873]LogEditorViewport: Clicking on Component (LMB): PointLightComponent (PointLight)
+[2023.08.20-05.59.40:843][974]Cmd: EDIT COPY
+[2023.08.20-05.59.44:731][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane103)
+[2023.08.20-05.59.52:454][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane96)
+[2023.08.20-05.59.59:460][ 64]LogEditorViewport: Clicking on Actor (LMB): BP_Diamond_C (BP_Diamond)
+[2023.08.20-06.00.01:371][282]LogUObjectHash: Warning: Ambiguous search, could be BP_Diamond_C /Game/Map/Stage1.Stage1:PersistentLevel.BP_Diamond_305 or BP_Diamond_C /Game/Map/Stage2.Stage2:PersistentLevel.BP_Diamond_305
+[2023.08.20-06.00.01:371][282]LogUObjectHash: Warning: Ambiguous search, could be BP_Diamond_C /Game/Map/Stage1.Stage1:PersistentLevel.BP_Diamond_305 or BP_Diamond_C /Game/Map/Stage2.Stage2:PersistentLevel.BP_Diamond_305
+[2023.08.20-06.00.09:585][206]Cmd: DELETE
+[2023.08.20-06.00.09:585][206]Cmd: ACTOR DELETE
+[2023.08.20-06.00.09:587][206]LogEditorActor: Deleted Actor: BP_Diamond_C
+[2023.08.20-06.00.09:606][206]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2023.08.20-06.00.12:877][594]LogEditorViewport: Clicking on Actor (LMB): BP_Diamond_C (BP_Diamond)
+[2023.08.20-06.00.16:118][972]Cmd: TRANSACTION UNDO
+[2023.08.20-06.00.16:118][972]LogEditorTransaction: Undo アクタ を移動
+[2023.08.20-06.00.18:139][201]LogUObjectHash: Warning: Ambiguous search, could be BP_Diamond_C /Game/Map/Stage1.Stage1:PersistentLevel.BP_Diamond_305 or BP_Diamond_C /Game/Map/Stage3.Stage3:PersistentLevel.BP_Diamond_305
+[2023.08.20-06.00.18:139][201]LogUObjectHash: Warning: Ambiguous search, could be BP_Diamond_C /Game/Map/Stage1.Stage1:PersistentLevel.BP_Diamond_305 or BP_Diamond_C /Game/Map/Stage3.Stage3:PersistentLevel.BP_Diamond_305
+[2023.08.20-06.00.40:921][621]LogEditorViewport: Clicking on Actor (LMB): BP_Diamond_C (BP_Diamond)
+[2023.08.20-06.00.59:499][748]LogEditorViewport: Clicking on Actor (LMB): BP_Diamond_C (BP_Diamond2)
+[2023.08.20-06.02.35:464][520]MapCheck: New page: マップをチェック
+[2023.08.20-06.02.35:485][520]Cmd: MAP REBUILD ALLVISIBLE
+[2023.08.20-06.02.35:486][520]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.08.20-06.02.36:153][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2023.08.20-06.02.36:159][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Brick, compiling. 
+[2023.08.20-06.02.36:163][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Roof, compiling. 
+[2023.08.20-06.02.36:170][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal, compiling. 
+[2023.08.20-06.02.36:175][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_HoleWall, compiling. 
+[2023.08.20-06.02.36:181][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cloud, compiling. 
+[2023.08.20-06.02.36:186][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Enber, compiling. 
+[2023.08.20-06.02.36:192][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Diamond, compiling. 
+[2023.08.20-06.02.36:196][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glitter, compiling. 
+[2023.08.20-06.02.36:819][520]TextureStreamingBuild: Display: Compiling optional shaders took 0.693 seconds.
+[2023.08.20-06.02.36:843][520]LogLevel: Display: Export Material TexCoord Scales took 0.024 seconds.
+[2023.08.20-06.02.36:866][520]TextureStreamingBuild: Display: Build Texture Streaming took 0.023 seconds.
+[2023.08.20-06.02.36:886][520]LightingResults: New page: ライティングのビルド - 2023/08/21 0:02:36
+[2023.08.20-06.02.37:111][520]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.08.20-06.02.37:163][520]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.08.20-06.02.37:193][520]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.08.20-06.02.38:784][520]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.08.20-06.02.38:784][520]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18312
+[2023.08.20-06.02.46:316][520]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.08.20-06.02.46:316][520]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.08.20-06.02.46:316][520]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.08.20-06.02.46:316][520]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.08.20-06.02.46:316][520]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.08.20-06.02.46:528][520]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.08.20-06.02.46:528][520]MapCheck: New page: Main - 2023/08/21 0:02:46
+[2023.08.20-06.02.46:671][520]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 142.578ミリ秒かかりました。
+[2023.08.20-06.02.46:695][520]LogEditorBuildUtils: Build time 0:11
+[2023.08.20-06.02.50:106][531]Job is a success!
+[2023.08.20-06.02.50:831][532]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2023.08.20-06.02.50:831][532]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2023.08.20-06.02.50:831][532]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2023.08.20-06.02.50:831][532]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2023.08.20-06.02.50:831][532]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2023.08.20-06.02.50:831][532]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2023.08.20-06.02.50:882][532]Lightmass on DESKTOP-TGE5S74: 2.93 sec total, 93 ms importing, 11 ms setup, 789 ms photons, 1.97 sec processing, 0 ms extra exporting [128/128 mappings]. Threads: 20.9 sec total, 6.11 sec processing.
+[2023.08.20-06.02.50:908][532]LogStaticLightingSystem: Illumination: 13.6 sec (253 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.08.20-06.02.50:908][532]LogStaticLightingSystem: Lightmap texture memory:  3.0 MB (3.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2023.08.20-06.02.50:909][532]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.08.20-06.02.51:312][532]DumpUnbuiltLightIteractions
+[2023.08.20-06.02.51:312][532]Lights with unbuilt interactions: 0
+[2023.08.20-06.02.51:312][532]
+[2023.08.20-06.02.51:312][532]Primitives with unbuilt interactions: 0
+[2023.08.20-06.02.51:318][533]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.08.20-06.02.51:318][533]MapCheck: New page: Main - 2023/08/21 0:02:51
+[2023.08.20-06.02.51:388][533]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 70.603ミリ秒かかりました。
+[2023.08.20-06.04.12:668][514]Cmd: TRANSACTION UNDO
+[2023.08.20-06.04.12:668][514]LogEditorTransaction: Undo 変数の名前を変更
+[2023.08.20-06.04.13:047][558]Cmd: TRANSACTION UNDO
+[2023.08.20-06.04.13:047][558]LogEditorTransaction: Undo PIEリンクを作成
+[2023.08.20-06.04.13:680][634]LogEditorTransaction: Undo ノードを移動
+[2023.08.20-06.04.14:036][640]LogEditorTransaction: Undo 変数へ昇格
+[2023.08.20-06.04.28:248][643]BlueprintLog: New page: BP_AwardGameMode をコンパイル
+[2023.08.20-06.05.29:149][732]BlueprintLog: New page: BP_AwardGameMode をコンパイル
+[2023.08.20-06.07.27:041][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.20-06.07.27:067][792]LogSavePackage: Save=20.72ms
+[2023.08.20-06.07.27:067][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Main_Auto375F1A1AA43AD0921499A07A749CF54AC.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap'
+[2023.08.20-06.07.27:081][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap
+[2023.08.20-06.07.27:084][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage1" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.20-06.07.27:213][792]LogSavePackage: Save=122.51ms
+[2023.08.20-06.07.27:213][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage1_Auto365BD2F8147E6D80921F7FDB24D3EB04F.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_Auto3.umap'
+[2023.08.20-06.07.27:214][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_Auto3.umap
+[2023.08.20-06.07.27:215][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage2" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.20-06.07.27:262][792]LogSavePackage: Save=41.84ms
+[2023.08.20-06.07.27:263][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage2_Auto3D9FA02AF4FDD7B5E9D3AEF9D5A13F532.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_Auto3.umap'
+[2023.08.20-06.07.27:263][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_Auto3.umap
+[2023.08.20-06.07.27:265][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage3" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.20-06.07.27:316][792]LogSavePackage: Save=44.94ms
+[2023.08.20-06.07.27:316][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage3_Auto34265B7BA4C061DD009BBE1AB11188947.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_Auto3.umap'
+[2023.08.20-06.07.27:317][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_Auto3.umap
+[2023.08.20-06.07.27:317][792]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.307
+[2023.08.20-06.07.27:317][792]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.307
+[2023.08.20-06.07.27:319][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_AwardGameMode] ([1] browsable assets)...
+[2023.08.20-06.07.27:319][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_AwardGameMode]
+[2023.08.20-06.07.27:319][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AwardGameMode" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_AwardGameMode_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-06.07.27:356][792]LogSavePackage: Save=31.66ms
+[2023.08.20-06.07.27:356][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_AwardGameMode_Auto34133584A454493EE2C5BA6891EA552B5.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_AwardGameMode_Auto3.uasset'
+[2023.08.20-06.07.27:357][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_AwardGameMode_Auto3.uasset
+[2023.08.20-06.07.27:358][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Map/Main_BuiltData] ([1] browsable assets)...
+[2023.08.20-06.07.27:358][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Map/Main_BuiltData]
+[2023.08.20-06.07.27:358][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_BuiltData_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-06.07.27:364][792]LogSavePackage: Save=0.96ms
+[2023.08.20-06.07.27:365][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Main_BuiltData_Auto3CF3332214B913AA1481DF5A7AE389421.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_BuiltData_Auto3.uasset'
+[2023.08.20-06.07.27:365][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Main_BuiltData_Auto3.uasset
+[2023.08.20-06.07.27:366][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Map/Stage1_BuiltData] ([1] browsable assets)...
+[2023.08.20-06.07.27:366][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Map/Stage1_BuiltData]
+[2023.08.20-06.07.27:366][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage1_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_BuiltData_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-06.07.27:386][792]LogSavePackage: Save=13.34ms
+[2023.08.20-06.07.27:386][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage1_BuiltData_Auto3F5DD61AC406B96E4AF7B2AA443642119.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_BuiltData_Auto3.uasset'
+[2023.08.20-06.07.27:387][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_BuiltData_Auto3.uasset
+[2023.08.20-06.07.27:388][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Map/Stage2_BuiltData] ([1] browsable assets)...
+[2023.08.20-06.07.27:388][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Map/Stage2_BuiltData]
+[2023.08.20-06.07.27:388][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage2_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_BuiltData_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-06.07.27:398][792]LogSavePackage: Save=4.13ms
+[2023.08.20-06.07.27:398][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage2_BuiltData_Auto343E8837C45AD0A9B907C91A48AA5EC85.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_BuiltData_Auto3.uasset'
+[2023.08.20-06.07.27:399][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_BuiltData_Auto3.uasset
+[2023.08.20-06.07.27:400][792]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/M_Confetti] ([1] browsable assets)...
+[2023.08.20-06.07.27:409][792]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material/M_Confetti.M_Confetti]
+[2023.08.20-06.07.27:409][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/M_Confetti]
+[2023.08.20-06.07.27:409][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Confetti" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Confetti_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-06.07.27:425][792]LogSavePackage: Save=10.02ms
+[2023.08.20-06.07.27:425][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/M_Confetti_Auto397DF3E35429BCF0E819E1FB882FB0794.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Confetti_Auto3.uasset'
+[2023.08.20-06.07.27:426][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Material/M_Confetti_Auto3.uasset
+[2023.08.20-06.07.27:427][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Map/Stage3_BuiltData] ([1] browsable assets)...
+[2023.08.20-06.07.27:427][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Map/Stage3_BuiltData]
+[2023.08.20-06.07.27:427][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage3_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_BuiltData_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-06.07.27:432][792]LogSavePackage: Save=3.93ms
+[2023.08.20-06.07.27:432][792]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage3_BuiltData_Auto31755087143914BB3095B50AA515637BB.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_BuiltData_Auto3.uasset'
+[2023.08.20-06.07.27:433][792]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_BuiltData_Auto3.uasset
+[2023.08.20-06.07.27:433][792]LogFileHelpers: Auto-saving content packages took 0.114
+[2023.08.20-06.17.05:258][225]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-06.17.05:273][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.17.05:273][225]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.20-06.17.05:279][225]LogPlayLevel: [PlayLevel] Compiling BP_StairGoal before play...
+[2023.08.20-06.17.05:283][225]LogPlayLevel: [PlayLevel]   Compiling BP_AwardGameMode as a dependent...
+[2023.08.20-06.17.05:667][225]LogPlayLevel: PlayLevel: Blueprint regeneration took 393 ms (2 blueprints)
+[2023.08.20-06.17.05:667][225]PIE: New page: PIEセッション: Main (2023/08/21 0:17:05)
+[2023.08.20-06.17.05:669][225]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.20-06.17.05:671][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001707s)
+[2023.08.20-06.17.05:671][225]LogAIModule: Creating AISystem for world Main
+[2023.08.20-06.17.05:671][225]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2023.08.20-06.17.05:672][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002656s)
+[2023.08.20-06.17.05:728][225]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-06.17.05:741][225]LogInit: FAudioDevice initialized.
+[2023.08.20-06.17.05:797][225]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.20-06.17.05:798][225]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.20-15.17.05
+[2023.08.20-06.17.05:798][225]LogWorld: Bringing up level for play took: 0.000799
+[2023.08.20-06.17.05:799][225]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-06.17.05:800][225]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2023.08.20-06.17.05:801][225]LogBlueprintUserMessages: [BP_AwardGameMode_C_0] 
+[2023.08.20-06.17.05:804][225]PIE: /Game/Map/UEDPIE_0_Main 1.011のプレイ イン エディタの開始時間
+[2023.08.20-06.17.05:804][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.17.07:960][469]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.17.08:198][469]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.17.11:825][889]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-06.17.11:838][889]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.17.11:838][889]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.20-06.17.11:844][889]LogPlayLevel: [PlayLevel] Compiling BP_StairGoal before play...
+[2023.08.20-06.17.11:848][889]LogPlayLevel: [PlayLevel]   Compiling BP_AwardGameMode as a dependent...
+[2023.08.20-06.17.12:226][889]LogPlayLevel: PlayLevel: Blueprint regeneration took 387 ms (2 blueprints)
+[2023.08.20-06.17.12:226][889]PIE: New page: PIEセッション: Main (2023/08/21 0:17:12)
+[2023.08.20-06.17.12:227][889]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.20-06.17.12:228][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001327s)
+[2023.08.20-06.17.12:229][889]LogAIModule: Creating AISystem for world Main
+[2023.08.20-06.17.12:229][889]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2023.08.20-06.17.12:229][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002010s)
+[2023.08.20-06.17.12:284][889]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-06.17.12:297][889]LogInit: FAudioDevice initialized.
+[2023.08.20-06.17.12:351][889]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.20-06.17.12:352][889]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.20-15.17.12
+[2023.08.20-06.17.12:353][889]LogWorld: Bringing up level for play took: 0.001050
+[2023.08.20-06.17.12:353][889]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-06.17.12:354][889]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2023.08.20-06.17.12:354][889]LogBlueprintUserMessages: [BP_AwardGameMode_C_0] Stage
+[2023.08.20-06.17.12:356][889]PIE: /Game/Map/UEDPIE_0_Main -0.437のプレイ イン エディタの開始時間
+[2023.08.20-06.17.12:357][889]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.17.13:582][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.17.13:809][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.18.37:545][424]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-06.18.37:558][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.18.37:558][424]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.20-06.18.37:564][424]LogPlayLevel: [PlayLevel] Compiling BP_StairGoal before play...
+[2023.08.20-06.18.37:568][424]LogPlayLevel: [PlayLevel]   Compiling BP_AwardGameMode as a dependent...
+[2023.08.20-06.18.37:949][424]LogPlayLevel: PlayLevel: Blueprint regeneration took 391 ms (2 blueprints)
+[2023.08.20-06.18.37:949][424]PIE: New page: PIEセッション: Main (2023/08/21 0:18:37)
+[2023.08.20-06.18.37:950][424]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.20-06.18.37:952][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001419s)
+[2023.08.20-06.18.37:952][424]LogAIModule: Creating AISystem for world Main
+[2023.08.20-06.18.37:952][424]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2023.08.20-06.18.37:952][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002196s)
+[2023.08.20-06.18.38:008][424]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-06.18.38:021][424]LogInit: FAudioDevice initialized.
+[2023.08.20-06.18.38:075][424]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.20-06.18.38:077][424]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.20-15.18.38
+[2023.08.20-06.18.38:077][424]LogWorld: Bringing up level for play took: 0.000835
+[2023.08.20-06.18.38:077][424]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-06.18.38:079][424]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2023.08.20-06.18.38:079][424]LogBlueprintUserMessages: [BP_AwardGameMode_C_0] Stage2
+[2023.08.20-06.18.38:081][424]PIE: /Game/Map/UEDPIE_0_Main 1.288のプレイ イン エディタの開始時間
+[2023.08.20-06.18.38:082][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.18.38:819][497]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.18.39:106][497]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.19.13:814][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage1" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.20-06.19.13:937][596]LogSavePackage: Save=117.72ms
+[2023.08.20-06.19.13:937][596]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage1_Auto4036525774C51EC8C2B7D8BA67234F311.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_Auto4.umap'
+[2023.08.20-06.19.13:938][596]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage1_Auto4.umap
+[2023.08.20-06.19.13:944][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage2" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.20-06.19.13:990][596]LogSavePackage: Save=40.32ms
+[2023.08.20-06.19.13:990][596]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage2_Auto41B4BA0F34226EF9EC31F91B4818EEAEC.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_Auto4.umap'
+[2023.08.20-06.19.13:991][596]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage2_Auto4.umap
+[2023.08.20-06.19.13:992][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage3" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.20-06.19.14:041][596]LogSavePackage: Save=43.13ms
+[2023.08.20-06.19.14:041][596]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage3_Auto4E42DB40F48ED3BF244E228A3EF4B3498.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_Auto4.umap'
+[2023.08.20-06.19.14:042][596]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Stage3_Auto4.umap
+[2023.08.20-06.19.14:042][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.245
+[2023.08.20-06.19.14:042][596]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.245
+[2023.08.20-06.19.14:044][596]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_AwardGameMode] ([1] browsable assets)...
+[2023.08.20-06.19.14:044][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_AwardGameMode]
+[2023.08.20-06.19.14:044][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AwardGameMode" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_AwardGameMode_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.08.20-06.19.14:090][596]LogSavePackage: Save=40.57ms
+[2023.08.20-06.19.14:090][596]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_AwardGameMode_Auto4BB47D9B345E2FF4EEDEF1BBB2CC596C3.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_AwardGameMode_Auto4.uasset'
+[2023.08.20-06.19.14:092][596]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/BP/BP_AwardGameMode_Auto4.uasset
+[2023.08.20-06.19.14:092][596]LogFileHelpers: Auto-saving content packages took 0.048
+[2023.08.20-06.22.25:227][831]BlueprintLog: New page: BP_AwardGameMode をコンパイル
+[2023.08.20-06.23.18:440][ 31]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-06.23.18:461][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.23.18:461][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.20-06.23.18:461][ 31]PIE: New page: PIEセッション: Main (2023/08/21 0:23:18)
+[2023.08.20-06.23.18:462][ 31]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.20-06.23.18:463][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001397s)
+[2023.08.20-06.23.18:464][ 31]LogAIModule: Creating AISystem for world Main
+[2023.08.20-06.23.18:464][ 31]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2023.08.20-06.23.18:464][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002243s)
+[2023.08.20-06.23.18:520][ 31]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-06.23.18:532][ 31]LogInit: FAudioDevice initialized.
+[2023.08.20-06.23.18:591][ 31]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.20-06.23.18:592][ 31]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.20-15.23.18
+[2023.08.20-06.23.18:592][ 31]LogWorld: Bringing up level for play took: 0.000786
+[2023.08.20-06.23.18:593][ 31]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-06.23.18:594][ 31]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2023.08.20-06.23.18:596][ 31]PIE: /Game/Map/UEDPIE_0_Main -0.197のプレイ イン エディタの開始時間
+[2023.08.20-06.23.18:597][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.23.22:216][451]LogNet: Browse: /Game/Map/End
+[2023.08.20-06.23.22:216][451]LogLoad: LoadMap: /Game/Map/End
+[2023.08.20-06.23.22:235][451]Cmd: MEM
+[2023.08.20-06.23.22:250][451]LogMemory: Platform Memory Stats for Windows
+[2023.08.20-06.23.22:250][451]LogMemory: Process Physical Memory: 1262.47 MB used, 1967.84 MB peak
+[2023.08.20-06.23.22:250][451]LogMemory: Process Virtual Memory: 4165.78 MB used, 4176.63 MB peak
+[2023.08.20-06.23.22:250][451]LogMemory: Physical Memory: 10743.88 MB used,  5560.49 MB free, 16304.36 MB total
+[2023.08.20-06.23.22:250][451]LogMemory: Virtual Memory: 10219.46 MB used,  5560.49 MB free, 134217728.00 MB total
+[2023.08.20-06.23.22:250][451]LogMemory: 
+[2023.08.20-06.23.22:250][451]Allocator Stats for TBB: (not implemented)
+[2023.08.20-06.23.22:647][451]LogAIModule: Creating AISystem for world End
+[2023.08.20-06.23.22:647][451]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.08.20-06.23.22:655][451]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 0) at 2023.08.20-15.23.22
+[2023.08.20-06.23.22:655][451]LogWorld: Bringing up level for play took: 0.007071
+[2023.08.20-06.23.22:656][451]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-06.23.22:656][451]LogLoad: Took 0.439272 seconds to LoadMap(/Game/Map/End)
+[2023.08.20-06.23.23:486][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.23.23:735][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.23.24:811][667]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.20-06.23.24:824][667]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.23.24:824][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.20-06.23.24:824][667]PIE: New page: PIEセッション: Main (2023/08/21 0:23:24)
+[2023.08.20-06.23.24:826][667]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.20-06.23.24:828][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001494s)
+[2023.08.20-06.23.24:828][667]LogAIModule: Creating AISystem for world Main
+[2023.08.20-06.23.24:828][667]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2023.08.20-06.23.24:828][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002207s)
+[2023.08.20-06.23.24:883][667]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.08.20-06.23.24:895][667]LogInit: FAudioDevice initialized.
+[2023.08.20-06.23.24:952][667]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.20-06.23.24:953][667]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.20-15.23.24
+[2023.08.20-06.23.24:953][667]LogWorld: Bringing up level for play took: 0.000760
+[2023.08.20-06.23.24:954][667]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-06.23.24:955][667]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2023.08.20-06.23.24:957][667]PIE: /Game/Map/UEDPIE_0_Main 0.164のプレイ イン エディタの開始時間
+[2023.08.20-06.23.24:958][667]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.23.31:922][495]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 0 0 1
+[2023.08.20-06.23.31:930][496]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage2 1 1 1
+[2023.08.20-06.23.36:358][ 25]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage2 0 0 1
+[2023.08.20-06.23.36:366][ 26]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage3 1 1 1
+[2023.08.20-06.23.40:353][502]LogNet: Browse: /Game/Map/End
+[2023.08.20-06.23.40:354][502]LogLoad: LoadMap: /Game/Map/End
+[2023.08.20-06.23.40:372][502]Cmd: MEM
+[2023.08.20-06.23.40:387][502]LogMemory: Platform Memory Stats for Windows
+[2023.08.20-06.23.40:387][502]LogMemory: Process Physical Memory: 1281.21 MB used, 1967.84 MB peak
+[2023.08.20-06.23.40:387][502]LogMemory: Process Virtual Memory: 4175.08 MB used, 4321.58 MB peak
+[2023.08.20-06.23.40:387][502]LogMemory: Physical Memory: 10782.19 MB used,  5522.17 MB free, 16304.36 MB total
+[2023.08.20-06.23.40:387][502]LogMemory: Virtual Memory: 10251.52 MB used,  5522.17 MB free, 134217728.00 MB total
+[2023.08.20-06.23.40:387][502]LogMemory: 
+[2023.08.20-06.23.40:387][502]Allocator Stats for TBB: (not implemented)
+[2023.08.20-06.23.40:484][502]LogAIModule: Creating AISystem for world End
+[2023.08.20-06.23.40:484][502]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.08.20-06.23.40:491][502]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 0) at 2023.08.20-15.23.40
+[2023.08.20-06.23.40:491][502]LogWorld: Bringing up level for play took: 0.006522
+[2023.08.20-06.23.40:491][502]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.08.20-06.23.40:491][502]LogLoad: Took 0.137939 seconds to LoadMap(/Game/Map/End)
+[2023.08.20-06.23.41:956][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.23.42:220][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.20-06.24.45:414][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-06.24.45:454][136]LogSavePackage: Save=19.10ms
+[2023.08.20-06.24.45:454][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Main8562EFCF48706862C170FAB65761EF8A.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Main.umap'
+[2023.08.20-06.24.45:456][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Main.umap
+[2023.08.20-06.24.45:472][136]LogFileHelpers: Saving map 'Main' took 0.130
+[2023.08.20-06.24.45:474][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Main_BuiltData.uasset" SILENT=true
+[2023.08.20-06.24.45:480][136]LogSavePackage: Save=0.97ms
+[2023.08.20-06.24.45:480][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Main_BuiltData44A385074EEEB434D4114396062ABF0F.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Main_BuiltData.uasset'
+[2023.08.20-06.24.45:482][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Main_BuiltData.uasset
+[2023.08.20-06.24.45:552][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage1" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-06.24.45:692][136]LogSavePackage: Save=119.58ms
+[2023.08.20-06.24.45:692][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage17DD283494C7984BB5FEFDDB2F497BF13.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap'
+[2023.08.20-06.24.45:693][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage1.umap
+[2023.08.20-06.24.45:694][136]LogFileHelpers: Saving map 'Stage1' took 0.210
+[2023.08.20-06.24.45:696][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage1_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage1_BuiltData.uasset" SILENT=true
+[2023.08.20-06.24.45:776][136]LogSavePackage: Save=74.19ms
+[2023.08.20-06.24.45:776][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage1_BuiltData4A3F659549F3C8371A4436BE8ECB33FA.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage1_BuiltData.uasset'
+[2023.08.20-06.24.45:778][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage1_BuiltData.uasset
+[2023.08.20-06.24.45:846][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage3" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-06.24.45:910][136]LogSavePackage: Save=44.40ms
+[2023.08.20-06.24.45:910][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage35F8B177D46A7D24BBCF74CB92AF5E61E.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage3.umap'
+[2023.08.20-06.24.45:912][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage3.umap
+[2023.08.20-06.24.45:913][136]LogFileHelpers: Saving map 'Stage3' took 0.129
+[2023.08.20-06.24.45:915][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage3_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage3_BuiltData.uasset" SILENT=true
+[2023.08.20-06.24.45:943][136]LogSavePackage: Save=27.47ms
+[2023.08.20-06.24.45:943][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage3_BuiltDataD26B635649A6E6AFA5B58A823E0A5372.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage3_BuiltData.uasset'
+[2023.08.20-06.24.45:945][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage3_BuiltData.uasset
+[2023.08.20-06.24.46:014][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage2" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.20-06.24.46:074][136]LogSavePackage: Save=40.01ms
+[2023.08.20-06.24.46:074][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage2B46B2E04413BB7332A5CC1BF044F5937.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap'
+[2023.08.20-06.24.46:076][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage2.umap
+[2023.08.20-06.24.46:076][136]LogFileHelpers: Saving map 'Stage2' took 0.129
+[2023.08.20-06.24.46:078][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Stage2_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Stage2_BuiltData.uasset" SILENT=true
+[2023.08.20-06.24.46:110][136]LogSavePackage: Save=25.82ms
+[2023.08.20-06.24.46:110][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Stage2_BuiltData34BC433A476FBDFD55AC498CBA32F851.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Stage2_BuiltData.uasset'
+[2023.08.20-06.24.46:112][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Stage2_BuiltData.uasset
+[2023.08.20-06.24.46:114][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AwardGameMode" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_AwardGameMode.uasset" SILENT=true
+[2023.08.20-06.24.46:158][136]LogSavePackage: Save=38.87ms
+[2023.08.20-06.24.46:158][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_AwardGameMode6897E6A145C1AA332DF2A7BB3AB002AB.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_AwardGameMode.uasset'
+[2023.08.20-06.24.46:160][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_AwardGameMode.uasset
+[2023.08.20-06.24.46:164][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Confetti" FILE="D:/Udemy/DrAward/DrAward/Content/Material/M_Confetti.uasset" SILENT=true
+[2023.08.20-06.24.46:171][136]LogSavePackage: Save=3.02ms
+[2023.08.20-06.24.46:172][136]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/M_ConfettiBA7D2FDC4D8EC4DFC1496FADF2C77E61.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Material/M_Confetti.uasset'
+[2023.08.20-06.24.46:173][136]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Material/M_Confetti.uasset
