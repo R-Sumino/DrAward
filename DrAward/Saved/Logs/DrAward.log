@@ -534,3 +534,705 @@ LogInit: Object subsystem initialized
 [2023.09.30-07.02.21:548][410]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/UEDPCStart085CD4684E60DF610B94A4A890B64CE9.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/UEDPCStart.umap'
 [2023.09.30-07.02.21:549][410]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/UEDPCStart.umap
 [2023.09.30-07.02.21:555][410]LogEditorTransaction: Undo Spawn Play From Here Start
+[2023.09.30-07.05.32:733][319]LogEditorViewport: Clicking Background
+[2023.09.30-07.05.40:192][831]LightingResults: New page: ライティングのビルド
+[2023.09.30-07.05.40:193][831]MapCheck: New page: マップをチェック
+[2023.09.30-07.05.40:193][831]LightingResults: New page: <何も選択されていません>
+[2023.09.30-07.05.40:211][831]LogAIModule: Creating AISystem for world Untitled
+[2023.09.30-07.05.40:214][831]LoadErrors: New page: 新規のマップ
+[2023.09.30-07.05.59:762][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-07.05.59:782][320]LogSavePackage: Save=4.25ms
+[2023.09.30-07.05.59:782][320]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Studio4901B9A14A85B021D637D08FD8E28D0A.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap'
+[2023.09.30-07.05.59:783][320]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap
+[2023.09.30-07.05.59:807][320]LogFileHelpers: Saving map 'Studio' took 0.674
+[2023.09.30-07.06.09:814][965]LogActorFactory: Actor Factory created Plane
+[2023.09.30-07.06.10:225][ 13]LogActorFactory: Actor Factory created Plane
+[2023.09.30-07.06.20:686][239]LogEditorViewport: Clicking Background
+[2023.09.30-07.06.21:433][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.06.28:790][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.06.28:826][202]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2023.09.30-07.06.47:567][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2023.09.30-07.08.20:248][656]Cmd: EDIT CUT
+[2023.09.30-07.08.20:257][656]LogEditorActor: Deleted Actor: DirectionalLight
+[2023.09.30-07.08.20:274][656]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.09.30-07.08.24:824][200]Cmd: TRANSACTION UNDO
+[2023.09.30-07.08.24:824][200]LogEditorTransaction: Undo 切り取り
+[2023.09.30-07.09.03:468][724]LogEditorViewport: Clicking Background
+[2023.09.30-07.09.09:753][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.09.10:677][265]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2023.09.30-07.09.21:973][ 93]LogEditorViewport: Clicking Background
+[2023.09.30-07.09.48:452][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2023.09.30-07.10.20:633][265]LogEditorViewport: Clicking Background
+[2023.09.30-07.12.32:490][219]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.14.41:732][485]MapCheck: New page: マップをチェック
+[2023.09.30-07.14.41:754][485]Cmd: MAP REBUILD ALLVISIBLE
+[2023.09.30-07.14.41:754][485]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.09.30-07.14.41:850][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2023.09.30-07.14.41:861][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Award, compiling. 
+[2023.09.30-07.14.42:936][485]TextureStreamingBuild: Display: Compiling optional shaders took 1.093 seconds.
+[2023.09.30-07.14.42:947][485]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
+[2023.09.30-07.14.42:953][485]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2023.09.30-07.14.42:969][485]LightingResults: New page: ライティングのビルド - 2023/10/01 1:14:42
+[2023.09.30-07.14.43:046][485]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.09.30-07.14.43:116][485]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.09.30-07.14.43:130][485]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.09.30-07.14.44:712][485]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.09.30-07.14.44:712][485]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5264
+[2023.09.30-07.14.52:152][485]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.09.30-07.14.52:152][485]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.09.30-07.14.52:152][485]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.09.30-07.14.52:152][485]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.09.30-07.14.52:152][485]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.09.30-07.14.52:331][485]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.09.30-07.14.52:331][485]MapCheck: New page: Studio - 2023/10/01 1:14:52
+[2023.09.30-07.14.52:333][485]MapCheck: Error: WorldSettings マップはライティングの再ビルドが必要です 
+[2023.09.30-07.14.52:410][485]MapCheck: マップチェックが完了: 1 エラー、 0 警告、完了に 78.773ミリ秒かかりました。
+[2023.09.30-07.14.52:433][485]LogEditorBuildUtils: Build time 0:10
+[2023.09.30-07.14.55:012][492]Job is a success!
+[2023.09.30-07.14.55:429][493]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2023.09.30-07.14.55:429][493]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2023.09.30-07.14.55:429][493]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X64)
+[2023.09.30-07.14.55:482][493]Lightmass on DESKTOP-TGE5S74: 1.82 sec total, 81 ms importing, 16 ms setup, 724 ms photons, 928 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 9.53 sec total, 130 ms processing.
+[2023.09.30-07.14.55:511][493]LogStaticLightingSystem: Illumination: 12.2 sec (17 ms encoding lightmaps, 3 ms encoding shadowmaps)
+[2023.09.30-07.14.55:511][493]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2023.09.30-07.14.55:511][493]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2023.09.30-07.14.56:145][493]DumpUnbuiltLightIteractions
+[2023.09.30-07.14.56:145][493]Lights with unbuilt interactions: 0
+[2023.09.30-07.14.56:145][493]
+[2023.09.30-07.14.56:145][493]Primitives with unbuilt interactions: 0
+[2023.09.30-07.14.56:155][494]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.09.30-07.14.56:155][494]MapCheck: New page: Studio - 2023/10/01 1:14:56
+[2023.09.30-07.14.56:231][494]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 76.178ミリ秒かかりました。
+[2023.09.30-07.14.59:238][503]LogContentStreaming: Texture: "LightMapTexture2D /Game/Map/Studio_BuiltData.Studio_BuiltData:HQ_Lightmap0_1", ResidentMips: 7/8, RequestedMips: 8, WantedMips: 8, StreamingStatus: 101, Boost: 0.2 (updated)
+[2023.09.30-07.15.04:581][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.15.10:104][205]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.15.10:609][260]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.15.12:792][506]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.16.03:166][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-07.16.03:223][473]LogSavePackage: Save=34.35ms
+[2023.09.30-07.16.03:223][473]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/StudioD76922744314A313DAFC469F3239C9B3.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap'
+[2023.09.30-07.16.03:224][473]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap
+[2023.09.30-07.16.03:244][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio_BuiltData.uasset" SILENT=true
+[2023.09.30-07.16.03:255][473]LogSavePackage: Save=9.90ms
+[2023.09.30-07.16.03:255][473]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Studio_BuiltDataE6D608F54CE19A8F431F64876A203295.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio_BuiltData.uasset'
+[2023.09.30-07.16.03:257][473]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio_BuiltData.uasset
+[2023.09.30-07.16.03:819][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-07.16.03:875][538]LogSavePackage: Save=34.01ms
+[2023.09.30-07.16.03:875][538]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Studio4C227ABF4983019D09C44D9C3E9796EC.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap'
+[2023.09.30-07.16.03:876][538]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap
+[2023.09.30-07.16.03:894][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio_BuiltData" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio_BuiltData.uasset" SILENT=true
+[2023.09.30-07.16.03:917][538]LogSavePackage: Save=9.48ms
+[2023.09.30-07.16.03:917][538]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Studio_BuiltData027FA1B24DF3DC8F5C32B09EFB162537.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio_BuiltData.uasset'
+[2023.09.30-07.16.03:918][538]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio_BuiltData.uasset
+[2023.09.30-07.20.00:891][808]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (award)
+[2023.09.30-07.20.07:597][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.20.11:979][ 75]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.11:979][ 75]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2023.09.30-07.20.12:512][120]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.12:512][120]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2023.09.30-07.20.12:931][166]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.12:931][166]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2023.09.30-07.20.13:537][235]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.13:537][235]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2023.09.30-07.20.14:042][291]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.14:042][291]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.20.14:648][360]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.14:648][360]LogEditorTransaction: Undo 選択なし
+[2023.09.30-07.20.15:302][424]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.15:302][424]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2023.09.30-07.20.15:779][477]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.15:779][477]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2023.09.30-07.20.16:191][518]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.16:191][518]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2023.09.30-07.20.16:608][551]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.16:608][551]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.20.17:511][551]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.17:511][551]LogEditorTransaction: Undo アクタ/コンポーネントを選択
+[2023.09.30-07.20.17:513][551]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.17:513][551]LogEditorTransaction: Undo 選択なし
+[2023.09.30-07.20.19:244][551]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.19:244][551]LogEditorTransaction: Undo ここにカメラを作成
+[2023.09.30-07.20.22:223][864]Cmd: TRANSACTION REDO
+[2023.09.30-07.20.22:223][864]LogEditorTransaction: Redo ここにカメラを作成
+[2023.09.30-07.20.51:881][ 30]Cmd: TRANSACTION UNDO
+[2023.09.30-07.20.51:881][ 30]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2023.09.30-07.23.40:924][193]LogEditorActor: Deleted Actor: CineCameraActor
+[2023.09.30-07.23.40:941][193]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.09.30-07.23.45:788][540]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor)
+[2023.09.30-07.23.53:530][143]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor)
+[2023.09.30-07.24.05:278][424]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.05:278][424]LogEditorTransaction: Undo アクタの可視性を設定
+[2023.09.30-07.24.05:461][442]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.05:461][442]LogEditorTransaction: Undo アクタの可視性を設定
+[2023.09.30-07.24.05:623][454]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.05:623][454]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.05:765][466]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.05:765][466]LogEditorTransaction: Undo ノードを削除
+[2023.09.30-07.24.05:924][482]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.05:924][482]LogEditorTransaction: Undo ノードを削除
+[2023.09.30-07.24.06:076][493]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.06:076][493]LogEditorTransaction: Undo アクタ/コンポーネントを選択
+[2023.09.30-07.24.06:232][505]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.06:232][505]LogEditorTransaction: Undo ノードを削除
+[2023.09.30-07.24.06:384][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.06:384][508]LogEditorTransaction: Undo 選択なし
+[2023.09.30-07.24.07:988][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.07:988][508]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.08:162][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.08:163][508]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.10:410][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.10:410][508]LogEditorTransaction: Undo 選択対象を削除
+[2023.09.30-07.24.10:411][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.10:411][508]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.10:443][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.10:443][508]LogEditorTransaction: Undo 選択対象を削除
+[2023.09.30-07.24.13:368][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.13:368][508]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.17:157][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.17:157][508]LogEditorTransaction: Undo 選択対象を削除
+[2023.09.30-07.24.17:158][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.17:158][508]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.21:637][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.21:637][508]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.27:005][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.27:005][508]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.33:325][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.33:325][508]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.40:677][508]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.40:677][508]LogEditorTransaction: Undo 選択対象を削除
+[2023.09.30-07.24.45:538][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.45:538][944]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.46:330][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.46:330][944]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.48:191][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.48:191][944]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.50:676][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.50:676][944]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.53:810][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.53:810][944]LogEditorTransaction: Undo アクタをクリック
+[2023.09.30-07.24.53:842][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.53:842][944]LogEditorTransaction: Undo セクションのサイズ変更
+[2023.09.30-07.24.53:843][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.53:843][944]LogEditorTransaction: Undo セクションを移動
+[2023.09.30-07.24.53:844][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.53:844][944]LogEditorTransaction: Undo 選択なし
+[2023.09.30-07.24.57:757][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.57:757][944]LogEditorTransaction: Undo アクタ/コンポーネントを選択
+[2023.09.30-07.24.57:758][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.57:758][944]LogEditorTransaction: Undo 再生範囲を設定
+[2023.09.30-07.24.57:759][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.57:759][944]LogEditorTransaction: Undo 再生範囲を設定
+[2023.09.30-07.24.57:759][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.57:759][944]LogEditorTransaction: Undo アクタ/コンポーネントを選択
+[2023.09.30-07.24.57:760][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.57:760][944]LogEditorTransaction: Undo シーン固定フレーム間隔を設定
+[2023.09.30-07.24.57:761][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.57:761][944]LogEditorTransaction: Undo アクタ/コンポーネントを選択
+[2023.09.30-07.24.57:788][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.24.57:788][944]LogEditorTransaction: Undo 選択なし
+[2023.09.30-07.25.02:595][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.02:595][944]LogEditorTransaction: Undo アクタ位置を設定
+[2023.09.30-07.25.02:597][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.02:597][944]LogEditorTransaction: Undo アクタ位置を設定
+[2023.09.30-07.25.02:599][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.02:599][944]LogEditorTransaction: Undo 回転をリセット
+[2023.09.30-07.25.02:601][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.02:601][944]LogEditorTransaction: Undo 位置をリセット
+[2023.09.30-07.25.02:602][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.02:602][944]LogEditorTransaction: Undo アクタ/コンポーネントを選択
+[2023.09.30-07.25.02:635][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.02:635][944]LogEditorTransaction: Undo 選択なし
+[2023.09.30-07.25.08:486][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.08:486][944]LogEditorTransaction: Undo アクタ/コンポーネントを選択
+[2023.09.30-07.25.15:386][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.15:386][944]LogEditorTransaction: Undo ここにカメラを作成
+[2023.09.30-07.25.16:054][944]Cmd: TRANSACTION UNDO
+[2023.09.30-07.25.16:054][944]LogEditorTransaction: Undo アクタを作成
+[2023.09.30-07.25.49:490][681]LogEditorActor: Deleted Actor: CineCameraActor
+[2023.09.30-07.25.49:505][681]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2023.09.30-07.29.46:044][601]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor5)
+[2023.09.30-07.30.38:271][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Studio_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.09.30-07.30.38:345][624]LogSavePackage: Save=33.92ms
+[2023.09.30-07.30.38:345][624]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Studio_Auto23966599340C12E1326DC0EA66D795308.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Studio_Auto2.umap'
+[2023.09.30-07.30.38:346][624]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/Studio_Auto2.umap
+[2023.09.30-07.30.40:013][624]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.30-07.30.40:014][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Studio' took 1.760
+[2023.09.30-07.30.40:015][624]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.760
+[2023.09.30-07.30.40:019][624]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequence/S_Opening] ([1] browsable assets)...
+[2023.09.30-07.30.40:019][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequence/S_Opening]
+[2023.09.30-07.30.40:019][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/S_Opening" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Sequence/S_Opening_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.09.30-07.30.40:034][624]LogSavePackage: Save=14.21ms
+[2023.09.30-07.30.40:034][624]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/S_Opening_Auto26CE120C6406700548222C4A84066EF15.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Sequence/S_Opening_Auto2.uasset'
+[2023.09.30-07.30.40:035][624]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Sequence/S_Opening_Auto2.uasset
+[2023.09.30-07.30.40:035][624]LogFileHelpers: Auto-saving content packages took 0.017
+[2023.09.30-07.35.27:913][452]LogEditorActor: Deleted Actor: LevelSequenceActor
+[2023.09.30-07.35.27:934][452]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2023.09.30-07.35.28:837][554]LogEditorActor: Deleted Actor: LevelSequenceActor
+[2023.09.30-07.35.28:854][554]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.09.30-07.36.36:775][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.36.44:359][ 71]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor9)
+[2023.09.30-07.38.03:618][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-07.38.03:618][678]PIE: New page: PIEセッション: Studio (2023/10/01 1:38:03)
+[2023.09.30-07.38.03:636][678]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Studio
+[2023.09.30-07.38.03:648][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011404s)
+[2023.09.30-07.38.03:648][678]LogAIModule: Creating AISystem for world Studio
+[2023.09.30-07.38.03:649][678]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2023.09.30-07.38.03:649][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Studio.Studio to /Game/Map/UEDPIE_0_Studio.Studio (0.012718s)
+[2023.09.30-07.38.03:702][678]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.09.30-07.38.03:717][678]LogInit: FAudioDevice initialized.
+[2023.09.30-07.38.03:754][678]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.09.30-07.38.03:756][678]LogWorld: Bringing World /Game/Map/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2023.09.30-16.38.03
+[2023.09.30-07.38.03:757][678]LogWorld: Bringing up level for play took: 0.001685
+[2023.09.30-07.38.03:758][678]PIE: /Game/Map/UEDPIE_0_Studio -0.743のプレイ イン エディタの開始時間
+[2023.09.30-07.38.22:494][882]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.38.41:427][854]LogTemp: Repeating last play command: 選択ビューポート
+[2023.09.30-07.38.41:439][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-07.38.41:439][854]PIE: New page: PIEセッション: Studio (2023/10/01 1:38:41)
+[2023.09.30-07.38.41:440][854]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Studio
+[2023.09.30-07.38.41:442][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002384s)
+[2023.09.30-07.38.41:443][854]LogAIModule: Creating AISystem for world Studio
+[2023.09.30-07.38.41:443][854]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2023.09.30-07.38.41:443][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Studio.Studio to /Game/Map/UEDPIE_0_Studio.Studio (0.003150s)
+[2023.09.30-07.38.41:495][854]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.09.30-07.38.41:509][854]LogInit: FAudioDevice initialized.
+[2023.09.30-07.38.41:541][854]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.09.30-07.38.41:543][854]LogWorld: Bringing World /Game/Map/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2023.09.30-16.38.41
+[2023.09.30-07.38.41:544][854]LogWorld: Bringing up level for play took: 0.001502
+[2023.09.30-07.38.41:545][854]PIE: /Game/Map/UEDPIE_0_Studio 1.043のプレイ イン エディタの開始時間
+[2023.09.30-07.38.59:150][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-07.38.59:207][561]LogSavePackage: Save=35.28ms
+[2023.09.30-07.38.59:207][561]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/StudioF8F3BE4B499E26ADDB0FE5A47DFBF322.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap'
+[2023.09.30-07.38.59:209][561]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap
+[2023.09.30-07.38.59:229][561]LogFileHelpers: Saving map 'Studio' took 0.149
+[2023.09.30-07.38.59:231][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/S_Opening" FILE="D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset" SILENT=true
+[2023.09.30-07.38.59:246][561]LogSavePackage: Save=13.50ms
+[2023.09.30-07.38.59:246][561]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/S_Opening1A338E8E4A5F3F9FB7C902907EB1CD2F.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset'
+[2023.09.30-07.38.59:247][561]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset
+[2023.09.30-07.38.59:782][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/S_Opening" FILE="D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset" SILENT=true
+[2023.09.30-07.38.59:802][622]LogSavePackage: Save=12.06ms
+[2023.09.30-07.38.59:802][622]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/S_OpeningDD924BFF42EBCBF4A544D9ADF666F131.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset'
+[2023.09.30-07.38.59:802][622]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset
+[2023.09.30-07.41.01:668][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/S_Opening" FILE="D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset" SILENT=true
+[2023.09.30-07.41.01:689][969]LogSavePackage: Save=12.82ms
+[2023.09.30-07.41.01:689][969]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/S_Opening572C15D140796AFC151ACF979E54A6EF.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset'
+[2023.09.30-07.41.01:691][969]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset
+[2023.09.30-07.41.40:287][ 63]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (award)
+[2023.09.30-07.41.41:671][208]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.44.03:313][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.46.07:611][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/S_Opening" FILE="D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset" SILENT=true
+[2023.09.30-07.46.07:638][ 97]LogSavePackage: Save=17.90ms
+[2023.09.30-07.46.07:638][ 97]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/S_Opening4DD6E66A424A1C3EC92116B9BE49EBE6.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset'
+[2023.09.30-07.46.07:640][ 97]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset
+[2023.09.30-07.46.09:627][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-07.46.09:691][321]LogSavePackage: Save=36.42ms
+[2023.09.30-07.46.09:691][321]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/StudioB33777DE418B3AB7DD8ABB986DE62AE4.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap'
+[2023.09.30-07.46.09:693][321]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap
+[2023.09.30-07.46.09:717][321]LogFileHelpers: Saving map 'Studio' took 0.164
+[2023.09.30-07.46.36:910][496]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.47.57:498][697]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (award)
+[2023.09.30-07.48.02:329][232]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2023.09.30-07.48.36:887][209]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.48.47:076][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.48.48:396][539]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2023.09.30-07.49.00:660][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.49.00:731][692]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2023.09.30-07.49.01:989][831]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2023.09.30-07.49.07:481][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.49.08:257][987]LogSlate: Took 0.002840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.09.30-07.49.10:569][260]Cmd: SELECT NONE
+[2023.09.30-07.49.11:144][329]Cmd: SELECT NONE
+[2023.09.30-07.49.13:694][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-07.49.14:323][690]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2023.09.30-07.49.16:002][883]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.49.18:036][125]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.49.19:262][271]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.49.20:212][384]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.30-07.50.49:070][970]Cmd: POLY SELECT ADJACENT COPLANARS
+[2023.09.30-07.51.00:917][900]Cmd: CAMERA ALIGN
+[2023.09.30-07.51.02:785][124]Cmd: POLY SELECT ADJACENT COPLANARS
+[2023.09.30-07.51.02:953][144]Cmd: POLY SELECT ADJACENT COPLANARS
+[2023.09.30-07.51.03:096][161]Cmd: POLY SELECT ADJACENT COPLANARS
+[2023.09.30-07.51.15:021][158]LogEditorViewport: Clicking Background
+[2023.09.30-07.51.22:216][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2023.09.30-07.51.23:453][115]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2023.09.30-07.51.45:165][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2023.09.30-07.51.45:965][225]LogEditorViewport: Clicking Background
+[2023.09.30-07.54.16:641][ 61]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrAward
+[2023.09.30-07.54.16:641][ 61]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.09.30-07.54.16:641][ 61]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2023.09.30-07.54.16:641][ 61]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.09.30-07.54.16:641][ 61]LogTemp: BranchPath = DESKTOP-TGE5S74/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-TGE5S74/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2023.09.30-07.54.16:641][ 61]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sumino\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.09.30-07.54.59:462][131]LogEditorViewport: Clicking on Actor (LMB): LevelSequenceActor (S_Opening)
+[2023.09.30-07.54.59:521][131]LogEditorViewport: Clicking on Component (LMB): SceneComponent (SceneComp)
+[2023.09.30-07.58.01:107][762]LogTemp: Repeating last play command: 選択ビューポート
+[2023.09.30-07.58.01:122][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Studio.Studio:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Studio.Studio:PersistentLevel.Studio' with GeneratedClass '/Game/Map/Studio.Studio_C' with ClassGeneratedBy '/Game/Map/Studio.Studio:PersistentLevel.Studio'
+[2023.09.30-07.58.01:123][762]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.09.30-07.58.01:125][762]LogPlayLevel: [PlayLevel] Compiling Studio before play...
+[2023.09.30-07.58.01:146][762]LogPlayLevel: PlayLevel: Blueprint regeneration took 23 ms (1 blueprints)
+[2023.09.30-07.58.01:147][762]PIE: New page: PIEセッション: Studio (2023/10/01 1:58:01)
+[2023.09.30-07.58.01:147][762]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Studio
+[2023.09.30-07.58.01:150][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002482s)
+[2023.09.30-07.58.01:151][762]LogAIModule: Creating AISystem for world Studio
+[2023.09.30-07.58.01:151][762]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2023.09.30-07.58.01:151][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Studio.Studio to /Game/Map/UEDPIE_0_Studio.Studio (0.003570s)
+[2023.09.30-07.58.01:209][762]LogInit: XAudio2 using 'スピーカー (2- Logitech G733 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2023.09.30-07.58.01:235][762]LogInit: FAudioDevice initialized.
+[2023.09.30-07.58.01:288][762]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.09.30-07.58.01:290][762]LogWorld: Bringing World /Game/Map/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2023.09.30-16.58.01
+[2023.09.30-07.58.01:291][762]LogWorld: Bringing up level for play took: 0.001717
+[2023.09.30-07.58.01:291][762]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.09.30-07.58.01:295][762]PIE: /Game/Map/UEDPIE_0_Studio 0.794のプレイ イン エディタの開始時間
+[2023.09.30-07.58.01:295][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Studio.Studio:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Studio.Studio:PersistentLevel.Studio' with GeneratedClass '/Game/Map/Studio.Studio_C' with ClassGeneratedBy '/Game/Map/Studio.Studio:PersistentLevel.Studio'
+[2023.09.30-07.58.11:117][933]LogNet: Browse: /Game/Map/Start
+[2023.09.30-07.58.11:118][933]LogLoad: LoadMap: /Game/Map/Start
+[2023.09.30-07.58.11:145][933]Cmd: MEM
+[2023.09.30-07.58.11:162][933]LogMemory: Platform Memory Stats for Windows
+[2023.09.30-07.58.11:162][933]LogMemory: Process Physical Memory: 1259.24 MB used, 2074.71 MB peak
+[2023.09.30-07.58.11:162][933]LogMemory: Process Virtual Memory: 3863.26 MB used, 4083.44 MB peak
+[2023.09.30-07.58.11:162][933]LogMemory: Physical Memory: 12480.15 MB used,  3824.21 MB free, 16304.36 MB total
+[2023.09.30-07.58.11:162][933]LogMemory: Virtual Memory: 9805.34 MB used,  3824.21 MB free, 134217728.00 MB total
+[2023.09.30-07.58.11:162][933]LogMemory: 
+[2023.09.30-07.58.11:162][933]Allocator Stats for TBB: (not implemented)
+[2023.09.30-07.58.11:260][933]LogAIModule: Creating AISystem for world Start
+[2023.09.30-07.58.11:261][933]LogLoad: Game class is 'NoPawnGameMode_C'
+[2023.09.30-07.58.11:263][933]LogWorld: Bringing World /Game/Map/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2023.09.30-16.58.11
+[2023.09.30-07.58.11:263][933]LogWorld: Bringing up level for play took: 0.001383
+[2023.09.30-07.58.11:263][933]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.09.30-07.58.11:266][933]LogLoad: Took 0.147857 seconds to LoadMap(/Game/Map/Start)
+[2023.09.30-07.58.11:267][933]LogAudio: Warning: Detected orphaned looping sound 'start'.
+[2023.09.30-07.58.12:059][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Studio.Studio:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Studio.Studio:PersistentLevel.Studio' with GeneratedClass '/Game/Map/Studio.Studio_C' with ClassGeneratedBy '/Game/Map/Studio.Studio:PersistentLevel.Studio'
+[2023.09.30-07.58.12:270][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Studio.Studio:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Studio.Studio:PersistentLevel.Studio' with GeneratedClass '/Game/Map/Studio.Studio_C' with ClassGeneratedBy '/Game/Map/Studio.Studio:PersistentLevel.Studio'
+[2023.09.30-07.58.16:384][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-07.58.16:467][502]LogSavePackage: Save=58.87ms
+[2023.09.30-07.58.16:467][502]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Studio158F47874EA2228A60F1AB82C6EA4B21.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap'
+[2023.09.30-07.58.16:469][502]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap
+[2023.09.30-07.58.16:488][502]LogFileHelpers: Saving map 'Studio' took 0.178
+[2023.09.30-08.00.57:490][568]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrAward
+[2023.09.30-08.00.57:490][568]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.09.30-08.00.57:490][568]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2023.09.30-08.00.57:490][568]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.09.30-08.00.57:490][568]LogTemp: BranchPath = DESKTOP-TGE5S74/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-TGE5S74/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2023.09.30-08.00.57:497][569]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sumino\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.09.30-08.04.00:238][237]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	BPAnim_Award_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.BPAnim_Award_C_5
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:023F
+[2023.09.30-08.04.00:238][237]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BPAnim_Award_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.BPAnim_Award_C_5
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:00B1
+[2023.09.30-08.04.00:238][237]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BPAnim_Award_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.BPAnim_Award_C_5
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0110
+[2023.09.30-08.04.33:355][136]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2023.09.30-08.04.33:509][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-08.04.33:573][136]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.09.30-08.04.40:305][136]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2023.09.30-08.04.40:310][137]LogRenderer: Reallocating scene render targets to support 1292x896 Format 10 NumSamples 1 (Frame:1).
+[2023.09.30-08.04.46:485][759]LogRenderer: Reallocating scene render targets to support 1292x912 Format 10 NumSamples 1 (Frame:1).
+[2023.09.30-08.05.02:097][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Studio" FILE="D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-08.05.02:184][ 77]LogSavePackage: Save=61.53ms
+[2023.09.30-08.05.02:184][ 77]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/Studio2E5C0CF94FBD80FFA833F48103D37531.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap'
+[2023.09.30-08.05.02:186][ 77]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Map/Studio.umap
+[2023.09.30-08.05.02:204][ 77]LogFileHelpers: Saving map 'Studio' took 0.182
+[2023.09.30-08.05.02:206][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/S_Opening" FILE="D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset" SILENT=true
+[2023.09.30-08.05.02:230][ 77]LogSavePackage: Save=15.96ms
+[2023.09.30-08.05.02:230][ 77]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/S_OpeningCCFBBC5F4B5F4D83E8328DA544EEFBEF.tmp' to 'D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset'
+[2023.09.30-08.05.02:232][ 77]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/Sequence/S_Opening.uasset
+[2023.09.30-08.05.02:244][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Skeleton" FILE="D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset" SILENT=true
+[2023.09.30-08.05.02:284][ 77]LogSavePackage: Save=32.37ms
+[2023.09.30-08.05.02:284][ 77]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/BP_SkeletonA5F4C61B4912560FBE2953B34EA1EB51.tmp' to 'D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset'
+[2023.09.30-08.05.02:287][ 77]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/BP/BP_Skeleton.uasset
+[2023.09.30-08.05.03:186][184]BlueprintLog: New page: BP_Skeleton をコンパイル
+[2023.09.30-08.05.38:133][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.09.30-08.10.29:930][612]Cmd: QUIT_EDITOR
+[2023.09.30-08.10.31:010][612]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.09.30-08.10.31:048][612]LogExit: Preparing to exit.
+[2023.09.30-08.10.31:864][612]LogExit: Editor shut down
+[2023.09.30-08.10.31:892][612]LogExit: Transaction tracking system shut down
+[2023.09.30-08.10.32:035][612]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2023.09.30-08.10.32:035][612]LogDirectoryWatcher: A directory notification for 'D:/Udemy/DrAward/DrAward/Content/' was aborted.
+[2023.09.30-08.10.32:035][612]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2023.09.30-08.10.32:035][612]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2023.09.30-08.10.32:294][612]LogExit: Object subsystem successfully closed.
+[2023.09.30-08.10.32:323][612]LogD3D11RHI: Shutdown
+[2023.09.30-08.10.32:323][612]LogD3D11RHI: CleanupD3DDevice
+[2023.09.30-08.10.32:330][612]LogD3D11RHI: ~FD3D11DynamicRHI
+[2023.09.30-08.10.32:361][612]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (548)
+[2023.09.30-08.10.32:361][612]LogModuleManager: Shutting down and abandoning module SkeletonEditor (546)
+[2023.09.30-08.10.32:361][612]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (544)
+[2023.09.30-08.10.32:361][612]LogModuleManager: Shutting down and abandoning module MovieSceneCaptureDialog (542)
+[2023.09.30-08.10.32:361][612]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (540)
+[2023.09.30-08.10.32:362][612]LogModuleManager: Shutting down and abandoning module NewLevelDialog (538)
+[2023.09.30-08.10.32:362][612]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (536)
+[2023.09.30-08.10.32:362][612]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2023.09.30-08.10.32:362][612]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
+[2023.09.30-08.10.32:362][612]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2023.09.30-08.10.32:362][612]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2023.09.30-08.10.32:363][612]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2023.09.30-08.10.32:363][612]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2023.09.30-08.10.32:364][612]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2023.09.30-08.10.32:364][612]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2023.09.30-08.10.32:376][612]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2023.09.30-08.10.32:376][612]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2023.09.30-08.10.32:376][612]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2023.09.30-08.10.32:377][612]LogDirectoryWatcher: A directory notification for 'D:/Udemy/DrAward/DrAward/Content/Collections/' was aborted.
+[2023.09.30-08.10.32:377][612]LogDirectoryWatcher: A directory notification for 'D:/Udemy/DrAward/DrAward/Content/Developers/Sumino/Collections/' was aborted.
+[2023.09.30-08.10.32:377][612]LogDirectoryWatcher: A directory notification for 'D:/Udemy/DrAward/DrAward/Saved/Collections/' was aborted.
+[2023.09.30-08.10.32:377][612]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2023.09.30-08.10.32:378][612]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2023.09.30-08.10.32:378][612]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2023.09.30-08.10.32:379][612]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2023.09.30-08.10.32:379][612]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2023.09.30-08.10.32:379][612]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2023.09.30-08.10.32:379][612]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2023.09.30-08.10.32:379][612]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2023.09.30-08.10.32:379][612]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (496)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module Media (473)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2023.09.30-08.10.32:380][612]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2023.09.30-08.10.32:381][612]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2023.09.30-08.10.32:381][612]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2023.09.30-08.10.32:381][612]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2023.09.30-08.10.32:381][612]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2023.09.30-08.10.32:381][612]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2023.09.30-08.10.32:381][612]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2023.09.30-08.10.32:382][612]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2023.09.30-08.10.32:384][612]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2023.09.30-08.10.32:385][612]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2023.09.30-08.10.32:388][612]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2023.09.30-08.10.32:388][612]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2023.09.30-08.10.32:388][612]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2023.09.30-08.10.32:388][612]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2023.09.30-08.10.33:383][612]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (438)
+[2023.09.30-08.10.33:383][612]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2023.09.30-08.10.33:383][612]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2023.09.30-08.10.33:383][612]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2023.09.30-08.10.33:384][612]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2023.09.30-08.10.33:389][612]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2023.09.30-08.10.33:389][612]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2023.09.30-08.10.33:399][612]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2023.09.30-08.10.33:399][612]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2023.09.30-08.10.33:400][612]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2023.09.30-08.10.33:402][612]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2023.09.30-08.10.33:402][612]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2023.09.30-08.10.33:402][612]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2023.09.30-08.10.33:402][612]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2023.09.30-08.10.33:403][612]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2023.09.30-08.10.33:403][612]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2023.09.30-08.10.33:403][612]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2023.09.30-08.10.33:404][612]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2023.09.30-08.10.33:404][612]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2023.09.30-08.10.33:404][612]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2023.09.30-08.10.33:405][612]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2023.09.30-08.10.33:405][612]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2023.09.30-08.10.33:405][612]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2023.09.30-08.10.33:406][612]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2023.09.30-08.10.33:472][612]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2023.09.30-08.10.33:472][612]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2023.09.30-08.10.33:473][612]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2023.09.30-08.10.33:475][612]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2023.09.30-08.10.33:475][612]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2023.09.30-08.10.33:475][612]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2023.09.30-08.10.33:476][612]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2023.09.30-08.10.33:476][612]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2023.09.30-08.10.33:476][612]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2023.09.30-08.10.33:476][612]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2023.09.30-08.10.33:494][612]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2023.09.30-08.10.33:499][612]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2023.09.30-08.10.33:499][612]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2023.09.30-08.10.33:499][612]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2023.09.30-08.10.33:499][612]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2023.09.30-08.10.33:499][612]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2023.09.30-08.10.33:500][612]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module LauncherPlatform (346)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2023.09.30-08.10.33:501][612]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2023.09.30-08.10.33:502][612]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2023.09.30-08.10.33:502][612]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2023.09.30-08.10.33:665][612]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2023.09.30-08.10.33:665][612]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (326)
+[2023.09.30-08.10.33:665][612]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (324)
+[2023.09.30-08.10.33:666][612]LogModuleManager: Shutting down and abandoning module OculusInput (322)
+[2023.09.30-08.10.33:666][612]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (320)
+[2023.09.30-08.10.33:666][612]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (318)
+[2023.09.30-08.10.33:666][612]LogModuleManager: Shutting down and abandoning module CableComponent (316)
+[2023.09.30-08.10.33:666][612]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (314)
+[2023.09.30-08.10.33:666][612]LogModuleManager: Shutting down and abandoning module AndroidPermission (312)
+[2023.09.30-08.10.33:666][612]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (308)
+[2023.09.30-08.10.33:668][612]LogModuleManager: Shutting down and abandoning module HTML5Networking (306)
+[2023.09.30-08.10.33:668][612]LogModuleManager: Shutting down and abandoning module AlembicImporter (304)
+[2023.09.30-08.10.33:668][612]LogModuleManager: Shutting down and abandoning module AlembicLibrary (303)
+[2023.09.30-08.10.33:668][612]LogModuleManager: Shutting down and abandoning module GeometryCache (302)
+[2023.09.30-08.10.33:668][612]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (301)
+[2023.09.30-08.10.33:668][612]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (296)
+[2023.09.30-08.10.33:668][612]LogModuleManager: Shutting down and abandoning module PluginBrowser (294)
+[2023.09.30-08.10.33:670][612]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (292)
+[2023.09.30-08.10.33:671][612]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (290)
+[2023.09.30-08.10.33:671][612]LogModuleManager: Shutting down and abandoning module DesktopPlatform (289)
+[2023.09.30-08.10.33:671][612]LogModuleManager: Shutting down and abandoning module UObjectPlugin (286)
+[2023.09.30-08.10.33:671][612]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (284)
+[2023.09.30-08.10.33:671][612]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (282)
+[2023.09.30-08.10.33:671][612]LogModuleManager: Shutting down and abandoning module GitSourceControl (280)
+[2023.09.30-08.10.33:672][612]LogModuleManager: Shutting down and abandoning module SourceControl (279)
+[2023.09.30-08.10.33:672][612]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (276)
+[2023.09.30-08.10.33:672][612]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (274)
+[2023.09.30-08.10.33:672][612]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (272)
+[2023.09.30-08.10.33:672][612]LogModuleManager: Shutting down and abandoning module Paper2DEditor (270)
+[2023.09.30-08.10.33:673][612]LogModuleManager: Shutting down and abandoning module MeshPaint (269)
+[2023.09.30-08.10.33:673][612]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2023.09.30-08.10.33:674][612]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (258)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (256)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module PhysXVehicles (254)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module OculusEditor (252)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (250)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (248)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (246)
+[2023.09.30-08.10.33:675][612]LogModuleManager: Shutting down and abandoning module UdpMessaging (244)
+[2023.09.30-08.10.33:776][612]LogModuleManager: Shutting down and abandoning module TcpMessaging (242)
+[2023.09.30-08.10.33:877][612]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (240)
+[2023.09.30-08.10.33:877][612]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (238)
+[2023.09.30-08.10.33:877][612]LogModuleManager: Shutting down and abandoning module FacialAnimation (236)
+[2023.09.30-08.10.33:877][612]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (234)
+[2023.09.30-08.10.33:877][612]LogModuleManager: Shutting down and abandoning module GraphEditor (233)
+[2023.09.30-08.10.33:877][612]LogModuleManager: Shutting down and abandoning module ContentBrowser (231)
+[2023.09.30-08.10.33:879][612]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (228)
+[2023.09.30-08.10.33:879][612]LogModuleManager: Shutting down and abandoning module Paper2D (226)
+[2023.09.30-08.10.33:879][612]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (224)
+[2023.09.30-08.10.33:879][612]LogModuleManager: Shutting down and abandoning module WmfMedia (222)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module PacketHandler (220)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (218)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (216)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module Overlay (214)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module OverlayEditor (213)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module MediaAssets (210)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module VREditor (208)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module StringTableEditor (206)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (204)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (202)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module FunctionalTesting (200)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (198)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (197)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module UMG (194)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module UMGEditor (193)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module Sequencer (192)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module MessageLog (189)
+[2023.09.30-08.10.33:883][612]LogModuleManager: Shutting down and abandoning module SlateReflector (184)
+[2023.09.30-08.10.33:884][612]LogModuleManager: Shutting down and abandoning module Slate (182)
+[2023.09.30-08.10.33:884][612]LogModuleManager: Shutting down and abandoning module EditorStyle (180)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module MRMesh (178)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (176)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (174)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module XAudio2 (172)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module Networking (170)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module Core (166)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module KismetCompiler (162)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module LevelSequence (160)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module MeshUtilities (158)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (157)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (156)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (155)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (153)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (151)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module MaterialBaking (147)
+[2023.09.30-08.10.33:886][612]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (144)
+[2023.09.30-08.10.33:890][612]LogModuleManager: Shutting down and abandoning module DerivedDataCache (142)
+[2023.09.30-08.10.33:929][612]LogDerivedDataCache: Shutdown
+[2023.09.30-08.10.33:929][612]LogModuleManager: Shutting down and abandoning module TargetPlatform (140)
+[2023.09.30-08.10.33:929][612]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (139)
+[2023.09.30-08.10.33:929][612]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (137)
+[2023.09.30-08.10.33:929][612]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2023.09.30-08.10.33:929][612]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2023.09.30-08.10.33:930][612]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2023.09.30-08.10.33:931][612]LogModuleManager: Shutting down and abandoning module PhysXCooking (54)
+[2023.09.30-08.10.33:931][612]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2023.09.30-08.10.33:931][612]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2023.09.30-08.10.33:931][612]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2023.09.30-08.10.33:931][612]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2023.09.30-08.10.33:931][612]LogOnline: Display: Unloading online subsystem: NULL
+[2023.09.30-08.10.33:931][612]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2023.09.30-08.10.33:931][612]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2023.09.30-08.10.33:931][612]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2023.09.30-08.10.33:931][612]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1B39B3ED-4A74-89B4-0BF5-708DD59A9DE4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=52033c1740a4e7ca27960a9344d9c1a7%7C44e971d649b846a8b0dc4e719a8daffb%7C5cbb07df-5b68-467d-bc67-755f73e9c2bc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2023.09.30-08.10.33:935][612]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2023.09.30-08.10.33:937][612]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2023.09.30-08.10.33:937][612]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2023.09.30-08.10.33:937][612]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2023.09.30-08.10.33:937][612]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.09.30-08.10.33:937][612]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2023.09.30-08.10.33:937][612]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.09.30-08.10.33:937][612]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2023.09.30-08.10.33:951][612]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2023.09.30-08.10.33:955][612]LogExit: Exiting.
+[2023.09.30-08.10.33:967][612]Log file closed, 09/30/23 17:10:33
