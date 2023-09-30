@@ -505,3 +505,32 @@ LogInit: Object subsystem initialized
 [2023.09.30-06.58.28:081][460]LogSavePackage: Save=29.46ms
 [2023.09.30-06.58.28:081][460]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/W_Tutorial993D09CF42FCDDAEB75498A89993DE6B.tmp' to 'D:/Udemy/DrAward/DrAward/Content/UI/W_Tutorial.uasset'
 [2023.09.30-06.58.28:083][460]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Content/UI/W_Tutorial.uasset
+[2023.09.30-06.59.36:251][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.09.30-06.59.38:979][829]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrAward
+[2023.09.30-06.59.38:980][829]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.09.30-06.59.38:980][829]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2023.09.30-06.59.38:980][829]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.09.30-06.59.38:980][829]LogTemp: BranchPath = DESKTOP-TGE5S74/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-TGE5S74/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2023.09.30-06.59.38:980][829]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sumino\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.09.30-07.01.54:464][248]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BPAnim_Award_C /Engine/Transient.World_8:PersistentLevel.BP_Award_C_1.CharacterMesh0.BPAnim_Award_C_4
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:00B1
+[2023.09.30-07.01.54:464][248]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BPAnim_Award_C /Engine/Transient.World_8:PersistentLevel.BP_Award_C_1.CharacterMesh0.BPAnim_Award_C_4
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0110
+[2023.09.30-07.02.00:183][896]LogAIModule: Creating AISystem for world Start
+[2023.09.30-07.02.00:212][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2023.09.30-07.02.00:213][896]Cmd: MAP LOAD FILE="D:/Udemy/DrAward/DrAward/Content/Map/Start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.09.30-07.02.00:213][896]LightingResults: New page: ライティングのビルド
+[2023.09.30-07.02.00:214][896]LoadErrors: New page: マップをロード中: Start.umap
+[2023.09.30-07.02.00:216][896]MapCheck: New page: マップをチェック
+[2023.09.30-07.02.00:216][896]LightingResults: New page: <何も選択されていません>
+[2023.09.30-07.02.00:251][896]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-07.02.00:286][896]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-07.02.00:358][896]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 71.943ミリ秒かかりました。
+[2023.09.30-07.02.00:358][896]LogFileHelpers: Loading map 'Start' took 0.148
+[2023.09.30-07.02.21:505][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Start" FILE="D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/UEDPCStart.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2023.09.30-07.02.21:548][410]LogSavePackage: Save=33.71ms
+[2023.09.30-07.02.21:548][410]LogSavePackage: Moving 'D:/Udemy/DrAward/DrAward/Saved/UEDPCStart085CD4684E60DF610B94A4A890B64CE9.tmp' to 'D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/UEDPCStart.umap'
+[2023.09.30-07.02.21:549][410]LogSavePackage: Display: Finished SavePackage D:/Udemy/DrAward/DrAward/Saved/Autosaves/Game/Map/UEDPCStart.umap
+[2023.09.30-07.02.21:555][410]LogEditorTransaction: Undo Spawn Play From Here Start
