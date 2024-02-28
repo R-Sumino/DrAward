@@ -1,0 +1,1 @@
+DrAward/WindowsNoEditor/DrAward.exe を起動するとゲームが起動します。
